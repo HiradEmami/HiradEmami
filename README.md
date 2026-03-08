@@ -1,6 +1,3 @@
-<!-- Profile Views Counter -->
-![Profile views](https://gpvc.arturio.dev/HiradEmami?v=3)
-
 <!-- Title -->
 <h3 align="center">
     <samp>
