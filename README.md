@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=header"/>
+</p>
+
 <!-- Title -->
 <h3 align="center">
     <samp>
