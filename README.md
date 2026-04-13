@@ -139,21 +139,58 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=HiradEmami&label=PROFILE%20VIEWS&color=36BCF7&style=flat-square" alt="Views" />
 </p>
+
 ---
 
 # 🧪 Project Highlights
 
-<p align="center">
+<table>
+<tr>
+<td width="50%">
 
-<a href="https://github.com/HiradEmami/future-iran-ai-think-tank">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=HiradEmami&repo=future-iran-ai-think-tank&theme=radical" />
-</a>
+### 🧠 Future Iran AI Think Tank  
+Exploring AI, geopolitics, and national-scale intelligence systems  
 
-<a href="https://github.com/your-repo-2">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=HiradEmami&repo=your-repo-2&theme=radical" />
-</a>
+🔗 https://github.com/HiradEmami/future-iran-ai-think-tank  
 
-</p>
+</td>
+
+<td width="50%">
+
+### 📝 PaperOps  
+Automating the lifecycle of research and knowledge  
+
+🔗 https://github.com/PLAYERUNKNOWN-Productions/research-paperops  
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🎴 Thirty-One Card Game (Epistemic Logic)  
+Multi-agent reasoning and knowledge modeling using epistemic logic  
+
+<sub>BDI agents • strategy analysis • Java simulation</sub>  
+
+🔗 https://github.com/HiradEmami/ThirtyoneCard  
+
+</td>
+
+<td width="50%">
+
+### 🤖 Multi-Agent RL System (MARL)  
+Multi-objective reinforcement learning with interacting agents  
+
+<sub>coordination • optimization • emergent behavior</sub>  
+
+🔗 https://github.com/HiradEmami/MARL  
+
+</td>
+</tr>
+</table>
+
+---
 
 # 🤝 Collaboration
 
@@ -170,14 +207,19 @@ I’m open to collaborating on:
 
 <p>
 
+<a href="https://hirademami.github.io/">
+<img src="https://img.shields.io/badge/Personal%20Website-hirademami.github.io-36BCF7?style=for-the-badge&logo=google-chrome">
+</a>
+<br>
+
 <a href="mailto:hirad.alagha@outlook.com">
 <img src="https://img.shields.io/badge/email-hirad.alagha@outlook.com-red?style=for-the-badge&logo=gmail">
 </a>
+<br>
 
 <a href="https://www.linkedin.com/in/hirad-alagha/">
 <img src="https://img.shields.io/badge/linkedin-hirad--alagha-blue?style=for-the-badge&logo=linkedin">
 </a>
-
 </p>
 
 ---
@@ -187,5 +229,5 @@ I’m open to collaborating on:
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer&width=100"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&width=100"/>
 </p>
