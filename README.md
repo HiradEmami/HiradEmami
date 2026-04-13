@@ -20,7 +20,7 @@
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1200&color=36BCF7&center=true&vCenter=true&width=900&lines=Lead+Machine+Learning+Engineer;MSc+in+Artificial+Intelligence+and+Robotics;Scalable+ML+Systems+%7C+AI+Infrastructure+%7C+MLOps"
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1200&color=36BCF7&center=true&vCenter=true&width=900&lines=Lead+Machine+Learning+Engineer;Scalable+ML+Platforms+and+AI+Infrastructure;Distributed+Systems+%7C+MLOps+%7C+Production+AI"
     alt="Typing SVG"
   />
 </p>
@@ -31,24 +31,29 @@
 
 ---
 
-# 🔧 What I Work On
+# 🔧 What I Build
 
-- Machine Learning infrastructure and MLOps platforms
-- Reproducible ML pipelines and experiment tracking
-- Distributed AI workloads and GPU compute environments
-- Production-grade machine learning systems
-- ML research engineering and experimentation frameworks
-
+- Scalable ML platforms and end-to-end MLOps systems
+- Distributed training and high-performance compute pipelines
+- Reproducible experimentation frameworks and model lifecycle systems
+- Production-grade ML services with strong reliability and observability
+- Infrastructure for large-scale AI workloads
 ---
 
 # 🧠 Interests
 
-- Generative AI
-- Reinforcement Learning
-- Robotics and autonomous systems
-- Distributed ML systems
-- Scalable AI infrastructure
+- Generative AI systems and foundation models
+- Reinforcement learning in real-world environments
+- Robotics and autonomous agents
+- Distributed and high-performance ML systems
+- Scalable AI infrastructure design
+---
 
+# ⚡ Philosophy
+
+- Systems > models
+- Reproducibility is non-negotiable
+- If it doesn’t scale, it doesn’t exist
 ---
 
 # 🛠 Technologies & Tools
@@ -128,20 +133,27 @@
 </p>
 
 <p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HiradEmami&theme=radical" />
+</p>    
+
+<p align="center">
   <img src="https://komarev.com/ghpvc/?username=HiradEmami&label=PROFILE%20VIEWS&color=36BCF7&style=flat-square" alt="Views" />
 </p>
-
 ---
 
-# 🚀 Areas of Work
+# 🧪 Project Highlights
 
-- MLOps platforms and ML lifecycle systems
-- Distributed training infrastructure
-- Experiment tracking and reproducibility
-- ML platform architecture
-- Production ML deployment pipelines
+<p align="center">
 
----
+<a href="https://github.com/HiradEmami/future-iran-ai-think-tank">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=HiradEmami&repo=future-iran-ai-think-tank&theme=radical" />
+</a>
+
+<a href="https://github.com/your-repo-2">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=HiradEmami&repo=your-repo-2&theme=radical" />
+</a>
+
+</p>
 
 # 🤝 Collaboration
 
