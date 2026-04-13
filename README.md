@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=header&text=Hirad%20Emamialagha&fontSize=70&animation=twinkling" />
 </p>
 
 <!-- Title -->
@@ -106,6 +106,28 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" alt="kotlin" width="40" height="40"/>
   </a>
 
+</p>
+
+---
+
+
+# 🐍 Contribution Journey
+<p align="center">
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
+</p>
+
+---
+
+
+### 📊 Vital Statistics
+
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=HiradEmami&theme=radical" alt="Streak" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=HiradEmami&label=PROFILE%20VIEWS&color=36BCF7&style=flat-square" alt="Views" />
 </p>
 
 ---
