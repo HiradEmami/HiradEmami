@@ -20,7 +20,7 @@
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1200&color=36BCF7&center=true&vCenter=true&width=900&lines=Lead+Machine+Learning+Engineer;Scalable+ML+Platforms+and+AI+Infrastructure;Distributed+Systems+%7C+MLOps+%7C+Production+AI"
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1200&color=36BCF7&center=true&vCenter=true&width=900&lines=Lead+Machine+Learning+Engineer;Designing+Scalable+ML+Platforms;Building+ML+Infrastructure;Distributed+Systems+%7C+MLOps+%7C+Production+AI"
     alt="Typing SVG"
   />
 </p>
@@ -165,6 +165,8 @@ Automating the lifecycle of research and knowledge
 </td>
 </tr>
 
+<tr><td colspan="2"><br></td></tr>
+
 <tr>
 <td width="50%">
 
@@ -197,9 +199,9 @@ Multi-objective reinforcement learning with interacting agents
 I’m open to collaborating on:
 
 - ML infrastructure projects
-- reinforcement learning systems
-- robotics & autonomous systems
-- large-scale AI platforms
+- Reinforcement learning systems
+- Robotics & autonomous systems
+- Large-scale AI platforms
 
 ---
 
