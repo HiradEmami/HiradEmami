@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=header&text=Hirad%20Emamialagha&fontSize=70&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hirad%20Emamialagha&fontSize=70&animation=twinkling" />
 </p>
 
 <!-- Title -->
@@ -14,14 +14,15 @@
 
 <p align="center">
 <samp>
-「 Machine Learning Engineer based in <b>Netherlands</b> 🇳🇱 」  
-<br>
-「 MSc in <b>Artificial Intelligence and Robotics</b> 」  
-<br>
-「 Focused on building <b>scalable ML systems, AI infrastructure, and MLOps platforms</b> 」  
-<br>
-<br>
+「 Machine Learning Engineer based in <b>Netherlands</b>  &#x1f1f3;&#x1f1f1; 」  
 </samp>
+</p>
+
+<p align="center">
+  <img
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1200&color=36BCF7&center=true&vCenter=true&width=900&lines=Lead+Machine+Learning+Engineer;MSc+in+Artificial+Intelligence+and+Robotics;Scalable+ML+Systems+%7C+AI+Infrastructure+%7C+MLOps"
+    alt="Typing SVG"
+  />
 </p>
 
 <p align="center">
