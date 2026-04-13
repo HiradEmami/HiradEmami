@@ -205,6 +205,19 @@ I’m open to collaborating on:
 
 ---
 
+# 🧪 Interactive AI Lab
+<p align="center">
+
+<a href="https://hirademami.github.io/">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:020617,25:0f172a,50:020617,75:0f172a,100:020617&height=140&width=140&section=header&text=CORE%20SYSTEM&desc=Interactive%20AI%20Platform&fontColor=3ddcff&descAlignY=70&fontSize=30&descSize=14&animation=twinkling" />
+</a><a href="https://hirademami.github.io/neural-lab/index.html">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:020617,25:0f172a,50:020617,75:0f172a,100:020617&height=140&width=140&section=header&text=NEURAL%20LAB&desc=Neural%20Visualization%20Environment&fontColor=b794ff&descAlignY=70&fontSize=28&descSize=14&animation=twinkling" />
+</a>
+
+</p>
+
+---
+
 # 📫 Contact
 
 <p>
