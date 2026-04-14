@@ -29,7 +29,14 @@
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2J1a3Q1cTB0MGg2d2p0Z3g2eTJpY3J3a3Rqd3VzdnE1a2l3a3ZrbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/SWoSkN6DxTszqIKEqv/giphy.gif" width="450">
 </p>
 
----
+[![divider_arc_reactor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_arc_reactor.svg)](https://github.com/hiradEmami)
+
+<!-- Title -->
+<h3 align="center">
+    <samp>
+        Core Website (Clickable)
+    </samp>
+</h3>
 
 <p align="center">
 
@@ -42,8 +49,7 @@
 
 </p>
 
-
----
+[![divider_arc_reactor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_arc_reactor.svg)](https://github.com/hiradEmami)
 
 # 🔧 What I Build
 
@@ -52,7 +58,8 @@
 - Reproducible experimentation frameworks and model lifecycle systems
 - Production-grade ML services with strong reliability and observability
 - Infrastructure for large-scale AI workloads
----
+
+[![divider_glitch_lines](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_glitch_lines.svg)](https://github.com/hiradEmami)
 
 # 🧠 Interests
 
@@ -61,14 +68,17 @@
 - Robotics and autonomous agents
 - Distributed and high-performance ML systems
 - Scalable AI infrastructure design
----
+
+[![divider_multi_wave](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_multi_wave.svg)](https://github.com/hiradEmami)
+
 
 # ⚡ Philosophy
 
 - Systems > models
 - Reproducibility is non-negotiable
 - If it doesn’t scale, it doesn’t exist
----
+
+[![divider_cyber_sigil](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_cyber_sigil.svg)](https://github.com/hiradEmami)
 
 # 🛠 Technologies & Tools
 
@@ -128,7 +138,7 @@
 
 </p>
 
----
+[![divider_eclipse](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_eclipse.svg)](https://github.com/hiradEmami)
 
 
 # 🐍 Contribution Journey
@@ -136,7 +146,7 @@
   <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
 </p>
 
----
+[![divider_pulse_node_chain](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_pulse_node_chain.svg)](https://github.com/hiradEmami)
 
 
 ### 📊 Vital Statistics
@@ -154,7 +164,7 @@
   <img src="https://komarev.com/ghpvc/?username=HiradEmami&label=PROFILE%20VIEWS&color=36BCF7&style=flat-square" alt="Views" />
 </p>
 
----
+[![divider_twin_serpant](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_twin_serpant.svg)](https://github.com/hiradEmami)
 
 # 🧪 Project Highlights
 
@@ -206,7 +216,8 @@ Multi-objective reinforcement learning with interacting agents
 </tr>
 </table>
 
----
+[![divider_binary_flicker](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_binary_flicker.svg)](https://github.com/hiradEmami)
+
 
 # 🤝 Collaboration
 
@@ -217,8 +228,7 @@ I’m open to collaborating on:
 - Robotics & autonomous systems
 - Large-scale AI platforms
 
----
-
+[![divider_celestial_gate](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_celestial_gate.svg)](https://github.com/hiradEmami)
 
 # 📫 Contact
 
@@ -239,7 +249,7 @@ I’m open to collaborating on:
 </a>
 </p>
 
----
+[![divider_matrix](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_matrix.svg)](https://github.com/hiradEmami)
 
 <p align="center">
 ⚡ Building scalable AI systems and machine learning infrastructure
