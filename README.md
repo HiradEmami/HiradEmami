@@ -59,8 +59,7 @@
 - Production-grade ML services with strong reliability and observability
 - Infrastructure for large-scale AI workloads
 
-[![divider_glitch_lines](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_glitch_lines.svg)](https://github.com/hiradEmami)
-
+[![divider_breathing_line](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_breathing_line.svg)](https://github.com/hiradEmami)
 # 🧠 Interests
 
 - Generative AI systems and foundation models
@@ -69,8 +68,7 @@
 - Distributed and high-performance ML systems
 - Scalable AI infrastructure design
 
-[![divider_multi_wave](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_multi_wave.svg)](https://github.com/hiradEmami)
-
+[![divider_breathing_line](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_breathing_line.svg)](https://github.com/hiradEmami)
 
 # ⚡ Philosophy
 
@@ -138,7 +136,8 @@
 
 </p>
 
-[![divider_eclipse](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_eclipse.svg)](https://github.com/hiradEmami)
+
+[![divider_cyber_sigil](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_cyber_sigil.svg)](https://github.com/hiradEmami)
 
 
 # 🐍 Contribution Journey
@@ -146,8 +145,7 @@
   <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
 </p>
 
-[![divider_pulse_node_chain](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_pulse_node_chain.svg)](https://github.com/hiradEmami)
-
+[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_moving_neon_gradient.svg)](https://github.com/hiradEmami)
 
 ### 📊 Vital Statistics
 
@@ -216,8 +214,7 @@ Multi-objective reinforcement learning with interacting agents
 </tr>
 </table>
 
-[![divider_binary_flicker](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_binary_flicker.svg)](https://github.com/hiradEmami)
-
+[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_moving_neon_gradient.svg)](https://github.com/hiradEmami)
 
 # 🤝 Collaboration
 
@@ -249,8 +246,7 @@ I’m open to collaborating on:
 </a>
 </p>
 
-[![divider_matrix](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_matrix.svg)](https://github.com/hiradEmami)
-
+[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_moving_neon_gradient.svg)](https://github.com/hiradEmami)
 <p align="center">
 ⚡ Building scalable AI systems and machine learning infrastructure
 </p>
