@@ -77,64 +77,34 @@
 - If it doesn’t scale, it doesn’t exist
 
 [![divider_cyber_sigil](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_cyber_sigil.svg)](https://github.com/hiradEmami)
-
 # 🛠 Technologies & Tools
 
-<p>
-
-  <a href="https://www.python.org/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-  </a>
-  
-  <a href="https://pytorch.org/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" alt="pytorch" width="40" height="40"/>
-  </a>
-  
-  <a href="https://www.tensorflow.org/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" alt="tensorflow" width="40" height="40"/>
-  </a>
-  
-  <a href="https://aws.amazon.com/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="60" height="40"/>
-  </a>
-  
-  <a href="https://www.docker.com/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="docker" width="40" height="40"/>
-  </a>
-  
-  <a href="https://kubernetes.io/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" alt="kubernetes" width="40" height="40"/>
-  </a>
-  
-  <a href="https://www.terraform.io/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg" alt="terraform" width="40" height="40"/>
-  </a>
-  
-  <a href="https://kafka.apache.org/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original.svg" alt="kafka" width="40" height="40"/>
-  </a>
-  
-  <a href="https://spark.apache.org/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachespark/apachespark-original.svg" alt="spark" width="40" height="40"/>
-  </a>
-  
-  <a href="https://git-scm.com/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40"/>
-  </a>
-  
-  <a href="https://www.linux.org/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
-  </a>
-  
-  <a href="https://www.java.com/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
-  </a>
-  
-  <a href="https://kotlinlang.org/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" alt="kotlin" width="40" height="40"/>
-  </a>
-
-</p>
+<table>
+  <tr>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="40"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="40"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="40"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="40"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="40"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg" width="40"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original.svg" width="40"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachespark/apachespark-original.svg" width="40"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" width="40"/></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="40"/></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" width="40"/></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" width="40"/></td>
+  </tr>
+</table>
 
 
 [![divider_cyber_sigil](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_cyber_sigil.svg)](https://github.com/hiradEmami)
