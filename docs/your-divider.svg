@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 70" width="100%" height="70">
+  <defs>
+    <filter id="pinkglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Full-width lines -->
+  <line x1="0" y1="35" x2="420" y2="35" stroke="#334155" stroke-width="2"/>
+  <line x1="580" y1="35" x2="1000" y2="35" stroke="#334155" stroke-width="2"/>
+
+  <!-- Center symbol -->
+  <g transform="translate(500,35)" filter="url(#pinkglow)">
+    <g stroke="#f472b6" fill="none" stroke-width="2">
+      <polygon points="0,-22 19,-11 19,11 0,22 -19,11 -19,-11"/>
+      <polygon points="0,-10 9,-5 9,5 0,10 -9,5 -9,-5"/>
+      <line x1="-32" y1="0" x2="-19" y2="0"/>
+      <line x1="19" y1="0" x2="32" y2="0"/>
+      <line x1="0" y1="-35" x2="0" y2="-22"/>
+      <line x1="0" y1="22" x2="0" y2="35"/>
+
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0"
+        to="360"
+        dur="8s"
+        repeatCount="indefinite"/>
+    </g>
+  </g>
+</svg>
