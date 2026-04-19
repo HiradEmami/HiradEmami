@@ -1,40 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="100%" height="430">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
   <defs>
     <!-- background -->
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#020617"/>
-      <stop offset="100%" stop-color="#0b1220"/>
-    </linearGradient>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
 
-    <!-- glow gradient -->
-    <linearGradient id="coreGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#22d3ee"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#ec4899"/>
-    </linearGradient>
+    <!-- core gradient -->
+    <radialGradient id="coreGrad" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#67e8f9"/>
+      <stop offset="65%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
 
-    <!-- soft glow -->
+    <!-- glow -->
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="10" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feGaussianBlur stdDeviation="8"/>
     </filter>
 
     <style>
       .title {
-        font: 700 42px 'Segoe UI', Arial;
+        font: 700 28px 'Segoe UI', Arial;
         fill: #f8fafc;
         letter-spacing: 2px;
       }
       .subtitle {
-        font: 500 16px 'Segoe UI', Arial;
+        font: 500 13px 'Segoe UI', Arial;
         fill: #94a3b8;
-        letter-spacing: 1px;
       }
       .cta {
-        font: 600 14px 'Segoe UI', Arial;
+        font: 600 12px 'Segoe UI', Arial;
         fill: #22d3ee;
         letter-spacing: 2px;
       }
@@ -42,32 +38,30 @@
   </defs>
 
   <!-- background -->
-  <rect width="1200" height="430" fill="url(#bg)"/>
+  <rect width="500" height="500" fill="url(#bg)"/>
 
-  <!-- glowing core -->
-  <g transform="translate(600,200)" filter="url(#glow)">
-    <circle r="90" fill="url(#coreGrad)" opacity="0.9">
-      <animate attributeName="r" values="85;105;85" dur="4s" repeatCount="indefinite"/>
+  <!-- core -->
+  <g transform="translate(250,200)">
+    <circle r="70" fill="url(#coreGrad)" filter="url(#glow)">
+      <animate attributeName="r" values="65;80;65" dur="4s" repeatCount="indefinite"/>
     </circle>
-    <circle r="40" fill="#ffffff" opacity="0.9"/>
+    <circle r="28" fill="#ffffff" opacity="0.9"/>
   </g>
 
-  <!-- horizontal energy lines -->
-  <line x1="120" y1="200" x2="450" y2="200" stroke="#1e293b" stroke-width="2"/>
-  <line x1="750" y1="200" x2="1080" y2="200" stroke="#1e293b" stroke-width="2"/>
+  <!-- subtle lines -->
+  <line x1="80" y1="200" x2="180" y2="200" stroke="#1e293b" stroke-width="2"/>
+  <line x1="320" y1="200" x2="420" y2="200" stroke="#1e293b" stroke-width="2"/>
 
-  <!-- title -->
-  <text x="600" y="320" text-anchor="middle" class="title">
+  <!-- text -->
+  <text x="250" y="320" text-anchor="middle" class="title">
     PROJECTS
   </text>
 
-  <!-- subtitle -->
-  <text x="600" y="350" text-anchor="middle" class="subtitle">
+  <text x="250" y="350" text-anchor="middle" class="subtitle">
     systems • experiments • research
   </text>
 
-  <!-- call to action -->
-  <text x="600" y="385" text-anchor="middle" class="cta">
+  <text x="250" y="385" text-anchor="middle" class="cta">
     ENTER →
   </text>
 
