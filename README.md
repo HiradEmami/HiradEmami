@@ -60,16 +60,17 @@
 
 # 🛠 Technologies & Projects
 
-<table width="100%">
+<h1 align="left">🛠 Technologies & Projects</h1>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
 
 <!-- LEFT -->
-<td width="50%" valign="top" style="border: none;">
+<td width="50%" valign="top" align="center">
 
-<h3 align="center">🛠 Technologies</h3>
+<h3>🛠 Technologies</h3>
 
-<table align="center">
-  <!-- your table EXACTLY unchanged -->
+<table align="center" cellspacing="0" cellpadding="6">
   <tr>
     <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40"/></td>
     <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="40"/></td>
@@ -98,28 +99,28 @@
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" width="40"/></td>
     <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="40"/></td>
   </tr>
-    <tr>
-      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="40"/></td>
-      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" width="40"/></td>
-      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg" width="40"/></td>
-      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg" width="40"/></td>
-      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="40"/></td>
-    </tr>
+  <tr>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="40"/></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" width="40"/></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg" width="40"/></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg" width="40"/></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="40"/></td>
+  </tr>
 </table>
 
 </td>
 
 <!-- RIGHT -->
-<td width="50%" valign="top" style="border: none;">
+<td width="50%" valign="top" align="center">
 
-<h3 align="center">🧪 Highlighted Projects</h3>
+<h3>🧪 Highlighted Projects</h3>
 
-<table width="100%" cellspacing="0" cellpadding="6">
+<table width="100%" cellspacing="0" cellpadding="10">
 
 <tr>
 <td align="center">
 <a href="https://github.com/HiradEmami/future-iran-ai-think-tank">
-  <img src="/docs/img/projects/future_iran_ai.svg" width="95%" />
+  <img src="/docs/img/projects/future_iran_ai.svg" width="92%" />
 </a>
 </td>
 </tr>
@@ -127,7 +128,7 @@
 <tr>
 <td align="center">
 <a href="https://github.com/PLAYERUNKNOWN-Productions/research-paperops">
-  <img src="/docs/img/projects/paper_ops.svg" width="95%" />
+  <img src="/docs/img/projects/paper_ops.svg" width="92%" />
 </a>
 </td>
 </tr>
@@ -135,7 +136,7 @@
 <tr>
 <td align="center">
 <a href="https://github.com/HiradEmami/ThirtyoneCard">
-  <img src="/docs/img/projects/thirty_one.svg" width="95%" />
+  <img src="/docs/img/projects/thirty_one.svg" width="92%" />
 </a>
 </td>
 </tr>
@@ -143,7 +144,7 @@
 <tr>
 <td align="center">
 <a href="https://github.com/HiradEmami/MARL">
-  <img src="/docs/img/projects/marl.svg" width="95%" />
+  <img src="/docs/img/projects/marl.svg" width="92%" />
 </a>
 </td>
 </tr>
@@ -151,7 +152,7 @@
 <tr>
 <td align="center">
 <a href="https://github.com/HiradEmami/readme-ux-kit">
-  <img src="/docs/img/projects/readme_ux_kit.svg" width="95%" />
+  <img src="/docs/img/projects/readme_ux_kit.svg" width="92%" />
 </a>
 </td>
 </tr>
@@ -159,7 +160,7 @@
 <tr>
 <td align="center">
 <a href="https://github.com/HiradEmami/SpaceInvadersModel">
-  <img src="/docs/img/projects/space_invader.svg" width="95%" />
+  <img src="/docs/img/projects/space_invader.svg" width="92%" />
 </a>
 </td>
 </tr>
