@@ -14,7 +14,7 @@
 
 <p align="center">
 <samp>
-「 Machine Learning Engineer based in <b>Netherlands</b>  &#x1f1f3;&#x1f1f1; 」  
+「 Lead ML Engineer building scalable AI systems, MLOps platforms, and distributed ML infrastructure 」  
 </samp>
 </p>
 
@@ -51,30 +51,69 @@
 
 [![divider_arc_reactor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_arc_reactor.svg)](https://github.com/hiradEmami)
 
-# 🔧 What I Build
+<table>
+<tr>
 
-- Scalable ML platforms and end-to-end MLOps systems
-- Distributed training and high-performance compute pipelines
-- Reproducible experimentation frameworks and model lifecycle systems
-- Production-grade ML services with strong reliability and observability
-- Infrastructure for large-scale AI workloads
+<td width="33%" valign="top">
 
-[![divider_breathing_line](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/lines/divider_breathing_line.svg)](https://github.com/hiradEmami)
-# 🧠 Interests
+<h3 align="center">BUILDS</h3>
+<p align="center"><sub>Platforms • Infrastructure</sub></p>
 
-- Generative AI systems and foundation models
-- Reinforcement learning in real-world environments
-- Robotics and autonomous agents
-- Distributed and high-performance ML systems
-- Scalable AI infrastructure design
+<details open>
+<summary><b>Expand</b></summary>
 
-[![divider_breathing_line](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_breathing_line.svg)](https://github.com/hiradEmami)
+<br>
 
-# ⚡ Philosophy
+- Scalable ML platforms and end-to-end MLOps systems  
+- Distributed training and high-performance compute pipelines  
+- Reproducible experimentation frameworks  
+- Production-grade ML services  
+- Infrastructure for large-scale AI workloads  
 
-- Systems > models
-- Reproducibility is non-negotiable
-- If it doesn’t scale, it doesn’t exist
+</details>
+
+</td>
+
+<td width="33%" valign="top">
+
+<h3 align="center">INTERESTS</h3>
+<p align="center"><sub>AI • RL • Robotics</sub></p>
+
+<details>
+<summary><b>Expand</b></summary>
+
+<br>
+
+- Generative AI & foundation models  
+- Reinforcement learning in real-world environments  
+- Robotics & autonomous agents  
+- Distributed ML systems  
+- Scalable AI infrastructure  
+
+</details>
+
+</td>
+
+<td width="33%" valign="top">
+
+<h3 align="center">PHILOSOPHY</h3>
+<p align="center"><sub>Principles & mindset</sub></p>
+
+<details>
+<summary><b>Expand</b></summary>
+
+<br>
+
+- Systems > models  
+- Reproducibility is non-negotiable  
+- If it doesn’t scale, it doesn’t exist  
+
+</details>
+
+</td>
+
+</tr>
+</table>
 
 [![divider_cyber_sigil](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_sigil.svg)](https://github.com/hiradEmami)
 # 🛠 Technologies & Tools
