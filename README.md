@@ -114,7 +114,7 @@
 <h3>🧪 Highlighted Projects</h3>
 
 <a href="./docs/PROJECTS.md" title="View Projects">
-  <img src="./docs/img/tech_projects_panel.svg" width="100%" alt="Projects Panel"/>
+    <img src="./docs/img/tech_projects_panel.svg" width="100%" style="aspect-ratio:1/1;" />  
 </a>
 
 </td>
