@@ -50,73 +50,10 @@
 </p>
 
 [![divider_arc_reactor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_cycle_mirrored.svg)](https://github.com/hiradEmami)
-<div align="center">
 
-<table width="100%" style="table-layout: fixed;">
-<tr>
-
-<td width="33%" valign="top" style="padding: 40px;">
-
-<h2 align="center">BUILDS</h2>
-<p align="center"><sub>Platforms • Infrastructure</sub></p>
-
-<details open>
-<summary><b>Expand</b></summary>
-
-<br>
-
-- Scalable ML platforms and end-to-end MLOps systems  
-- Distributed training and high-performance compute pipelines  
-- Reproducible experimentation frameworks  
-- Production-grade ML services  
-- Infrastructure for large-scale AI workloads  
-
-</details>
-
-</td>
-
-<td width="33%" valign="top" style="padding: 24px;">
-
-<h2 align="center">INTERESTS</h2>
-<p align="center"><sub>AI • RL • Robotics</sub></p>
-
-<details>
-<summary><b>Expand</b></summary>
-
-<br>
-
-- Generative AI & foundation models  
-- Reinforcement learning in real-world environments  
-- Robotics & autonomous agents  
-- Distributed ML systems  
-- Scalable AI infrastructure  
-
-</details>
-
-</td>
-
-<td width="33%" valign="top" style="padding: 24px;">
-
-<h2 align="center">PHILOSOPHY</h2>
-<p align="center"><sub>Principles & mindset</sub></p>
-
-<details>
-<summary><b>Expand</b></summary>
-
-<br>
-
-- Systems > models  
-- Reproducibility is non-negotiable  
-- If it doesn’t scale, it doesn’t exist  
-
-</details>
-
-</td>
-
-</tr>
-</table>
-
-</div>
+<p align="center">
+  <img src="./docs/img/hirad_core.svg" width="100%" alt="System core panel" />
+</p>
 
 <p align="center">
   <img width="100%" align="center" src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_sigil.svg" />
@@ -185,55 +122,6 @@
 
 [![divider_twin_serpant](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_twin_serpant.svg)](https://github.com/hiradEmami)
 
-# 🧪 Project Highlights
-
-<table>
-<tr>
-<td width="50%">
-
-### 🧠 Future Iran AI Think Tank  
-Exploring AI, geopolitics, and national-scale intelligence systems  
-
-🔗 https://github.com/HiradEmami/future-iran-ai-think-tank  
-
-</td>
-
-<td width="50%">
-
-### 📝 PaperOps  
-Automating the lifecycle of research and knowledge  
-
-🔗 https://github.com/PLAYERUNKNOWN-Productions/research-paperops  
-
-</td>
-</tr>
-
-<tr><td colspan="2"><br></td></tr>
-
-<tr>
-<td width="50%">
-
-### 🎴 Thirty-One Card Game (Epistemic Logic)  
-Multi-agent reasoning and knowledge modeling using epistemic logic  
-
-<sub>BDI agents • strategy analysis • Java simulation</sub>  
-
-🔗 https://github.com/HiradEmami/ThirtyoneCard  
-
-</td>
-
-<td width="50%">
-
-### 🤖 Multi-Agent RL System (MARL)  
-Multi-objective reinforcement learning with interacting agents  
-
-<sub>coordination • optimization • emergent behavior</sub>  
-
-🔗 https://github.com/HiradEmami/MARL  
-
-</td>
-</tr>
-</table>
 
 [![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_ritual_ring.svg)](https://github.com/hiradEmami)
 

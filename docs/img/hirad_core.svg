@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="100%" height="430">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0b1220"/>
+    </linearGradient>
+
+    <linearGradient id="panelStroke" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="50%" stop-color="#475569"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .title {
+        font: 700 22px 'Segoe UI', Arial, sans-serif;
+        fill: #e2e8f0;
+        letter-spacing: 1px;
+      }
+      .subtitle {
+        font: 500 12px 'Segoe UI', Arial, sans-serif;
+        fill: #94a3b8;
+        letter-spacing: 1px;
+      }
+      .section {
+        font: 700 26px 'Segoe UI', Arial, sans-serif;
+        fill: #f8fafc;
+        letter-spacing: 1px;
+      }
+      .sectionSub {
+        font: 500 14px 'Segoe UI', Arial, sans-serif;
+        fill: #94a3b8;
+      }
+      .item {
+        font: 500 15px 'Segoe UI', Arial, sans-serif;
+        fill: #dbeafe;
+      }
+      .bullet {
+        fill: #22d3ee;
+      }
+      .frame {
+        fill: rgba(2,6,23,0.55);
+        stroke: url(#panelStroke);
+        stroke-width: 2;
+        rx: 18;
+      }
+      .innerLine {
+        stroke: #1e293b;
+        stroke-width: 1.5;
+      }
+      .accent {
+        stroke: url(#titleGrad);
+        stroke-width: 3;
+        fill: none;
+      }
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="1200" height="430" fill="url(#bg)"/>
+
+  <!-- top label -->
+  <line x1="70" y1="52" x2="455" y2="52" class="innerLine"/>
+  <line x1="745" y1="52" x2="1130" y2="52" class="innerLine"/>
+
+  <g transform="translate(600,52)" filter="url(#glowCyan)">
+    <circle r="18" fill="none" stroke="#22d3ee" stroke-width="3"/>
+    <circle r="9" fill="#22d3ee"/>
+    <line x1="-26" y1="0" x2="-18" y2="0" stroke="#22d3ee" stroke-width="3"/>
+    <line x1="18" y1="0" x2="26" y2="0" stroke="#22d3ee" stroke-width="3"/>
+    <line x1="0" y1="-26" x2="0" y2="-18" stroke="#22d3ee" stroke-width="3"/>
+    <line x1="0" y1="18" x2="0" y2="26" stroke="#22d3ee" stroke-width="3"/>
+  </g>
+
+  <text x="600" y="103" text-anchor="middle" class="title">SYSTEM CORE</text>
+  <text x="600" y="126" text-anchor="middle" class="subtitle">runtime capabilities • cognitive stack • engineering doctrine</text>
+
+  <!-- panels -->
+  <rect x="60" y="160" width="340" height="220" class="frame"/>
+  <rect x="430" y="160" width="340" height="220" class="frame"/>
+  <rect x="800" y="160" width="340" height="220" class="frame"/>
+
+  <!-- accents -->
+  <path d="M85 178 H180" class="accent"/>
+  <path d="M455 178 H550" class="accent"/>
+  <path d="M825 178 H920" class="accent"/>
+
+  <!-- panel 1 -->
+  <text x="95" y="210" class="section">BUILD SYSTEMS</text>
+  <text x="95" y="233" class="sectionSub">Platforms • MLOps • Infrastructure</text>
+
+  <circle cx="102" cy="267" r="3.5" class="bullet"/>
+  <text x="118" y="272" class="item">Scalable ML platforms</text>
+
+  <circle cx="102" cy="297" r="3.5" class="bullet"/>
+  <text x="118" y="302" class="item">Distributed training pipelines</text>
+
+  <circle cx="102" cy="327" r="3.5" class="bullet"/>
+  <text x="118" y="332" class="item">Reproducible experimentation</text>
+
+  <circle cx="102" cy="357" r="3.5" class="bullet"/>
+  <text x="118" y="362" class="item">Production-grade ML services</text>
+
+  <!-- panel 2 -->
+  <text x="465" y="210" class="section">INTERESTS</text>
+  <text x="465" y="233" class="sectionSub">AI • RL • Robotics</text>
+
+  <circle cx="472" cy="267" r="3.5" class="bullet"/>
+  <text x="488" y="272" class="item">Generative AI &amp; foundation models</text>
+
+  <circle cx="472" cy="297" r="3.5" class="bullet"/>
+  <text x="488" y="302" class="item">Reinforcement learning systems</text>
+
+  <circle cx="472" cy="327" r="3.5" class="bullet"/>
+  <text x="488" y="332" class="item">Robotics &amp; autonomous agents</text>
+
+  <circle cx="472" cy="357" r="3.5" class="bullet"/>
+  <text x="488" y="362" class="item">Scalable AI infrastructure</text>
+
+  <!-- panel 3 -->
+  <text x="835" y="210" class="section">PHILOSOPHY</text>
+  <text x="835" y="233" class="sectionSub">Principles &amp; mindset</text>
+
+  <circle cx="842" cy="267" r="3.5" class="bullet"/>
+  <text x="858" y="272" class="item">Systems &gt; models</text>
+
+  <circle cx="842" cy="307" r="3.5" class="bullet"/>
+  <text x="858" y="312" class="item">Reproducibility is non-negotiable</text>
+
+  <circle cx="842" cy="347" r="3.5" class="bullet"/>
+  <text x="858" y="352" class="item">If it doesn’t scale, it doesn’t exist</text>
+</svg>
