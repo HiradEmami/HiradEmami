@@ -117,7 +117,7 @@
 <tr>
 <td align="center">
 <a href="https://github.com/HiradEmami/future-iran-ai-think-tank">
-  <img src="/docs/img/projects/future_iran_ai.svg"  width="100%" />
+  <img src="./docs/img/projects/future_iran_ai.svg"  width="100%" />
 </a>
 </td>
 </tr>
