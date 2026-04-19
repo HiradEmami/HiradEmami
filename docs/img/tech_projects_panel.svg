@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="100%" height="430">
+  <defs>
+    <!-- background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0b1220"/>
+    </linearGradient>
+
+    <!-- glow gradient -->
+    <linearGradient id="coreGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <!-- soft glow -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .title {
+        font: 700 42px 'Segoe UI', Arial;
+        fill: #f8fafc;
+        letter-spacing: 2px;
+      }
+      .subtitle {
+        font: 500 16px 'Segoe UI', Arial;
+        fill: #94a3b8;
+        letter-spacing: 1px;
+      }
+      .cta {
+        font: 600 14px 'Segoe UI', Arial;
+        fill: #22d3ee;
+        letter-spacing: 2px;
+      }
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="430" fill="url(#bg)"/>
+
+  <!-- glowing core -->
+  <g transform="translate(600,200)" filter="url(#glow)">
+    <circle r="90" fill="url(#coreGrad)" opacity="0.9">
+      <animate attributeName="r" values="85;105;85" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="40" fill="#ffffff" opacity="0.9"/>
+  </g>
+
+  <!-- horizontal energy lines -->
+  <line x1="120" y1="200" x2="450" y2="200" stroke="#1e293b" stroke-width="2"/>
+  <line x1="750" y1="200" x2="1080" y2="200" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- title -->
+  <text x="600" y="320" text-anchor="middle" class="title">
+    PROJECTS
+  </text>
+
+  <!-- subtitle -->
+  <text x="600" y="350" text-anchor="middle" class="subtitle">
+    systems • experiments • research
+  </text>
+
+  <!-- call to action -->
+  <text x="600" y="385" text-anchor="middle" class="cta">
+    ENTER →
+  </text>
+
+</svg>
