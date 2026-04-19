@@ -50,8 +50,9 @@
 </p>
 
 [![divider_arc_reactor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_arc_reactor.svg)](https://github.com/hiradEmami)
+<div align="center">
 
-<table>
+<table width="100%" style="table-layout: fixed;">
 <tr>
 
 <td width="33%" valign="top">
@@ -115,7 +116,10 @@
 </tr>
 </table>
 
+</div>
+
 [![divider_cyber_sigil](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_sigil.svg)](https://github.com/hiradEmami)
+
 # 🛠 Technologies & Tools
 
 <table>
