@@ -122,7 +122,7 @@
   <img 
     src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_sigil.svg"
     width="120%"
-    style="margin-left: -10%;"
+    style="display: block; margin-left: -10%;"
   />
 </p>
 
