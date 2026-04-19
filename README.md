@@ -32,11 +32,9 @@
 [![divider_arc_reactor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_cycle.svg)](https://github.com/hiradEmami)
 
 <!-- Title -->
-<h3 align="center">
-    <samp>
-        Core Website (Clickable)
-    </samp>
-</h3>
+<p align="center">
+  <img src="./docs/img/system_access_title.svg" width="100%" />
+</p>
 
 <p align="center">
 
