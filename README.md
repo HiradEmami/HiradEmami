@@ -99,7 +99,7 @@
     <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="40"/></td>
   </tr>
     <tr>
-          <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django/django-plain.svg" width="40"/></td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="40"/></td>
       <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" width="40"/></td>
       <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg" width="40"/></td>
       <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg" width="40"/></td>
