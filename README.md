@@ -51,63 +51,84 @@
 
 <div align="center">
 
-<a href="https://github.com/hiradEmami">
-  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_arc_reactor.svg" width="100%" style="display: block; margin: 0 auto;" />
-</a>
+<img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_arc_reactor.svg" width="100%" style="max-width: 100%; display: block; margin: 0 auto;" />
 
 <br />
 
-<table width="100%" style="table-layout: fixed; border-collapse: collapse; border: none;">
-  <tr>
-    <td width="33.3%" valign="top" style="padding: 20px;">
-      <h2 align="center">BUILDS</h2>
-      <p align="center"><sub>Platforms • Infrastructure</sub></p>
-      <details open>
-        <summary><b>Expand</b></summary>
-        <br>
-        <ul align="left">
-          <li>Scalable ML platforms</li>
-          <li>Distributed training</li>
-          <li>Production AI infra</li>
-        </ul>
-      </details>
-    </td>
-    <td width="33.3%" valign="top" style="padding: 20px;">
-      <h2 align="center">INTERESTS</h2>
-      <p align="center"><sub>AI • RL • Robotics</sub></p>
-      <details>
-        <summary><b>Expand</b></summary>
-        <br>
-        <ul align="left">
-          <li>GenAI Foundations</li>
-          <li>Real-world RL</li>
-          <li>Autonomous agents</li>
-        </ul>
-      </details>
-    </td>
-    <td width="33.3%" valign="top" style="padding: 20px;">
-      <h2 align="center">PHILOSOPHY</h2>
-      <p align="center"><sub>Principles & mindset</sub></p>
-      <details>
-        <summary><b>Expand</b></summary>
-        <br>
-        <ul align="left">
-          <li>Systems > models</li>
-          <li>Reproducibility</li>
-          <li>Scale or bust</li>
-        </ul>
-      </details>
-    </td>
-  </tr>
+<div align="center">
+
+<table width="100%" style="table-layout: fixed;">
+<tr>
+
+<td width="33%" valign="top" style="padding: 40px;">
+
+<h2 align="center">BUILDS</h2>
+<p align="center"><sub>Platforms • Infrastructure</sub></p>
+
+<details open>
+<summary><b>Expand</b></summary>
+
+<br>
+
+- Scalable ML platforms and end-to-end MLOps systems  
+- Distributed training and high-performance compute pipelines  
+- Reproducible experimentation frameworks  
+- Production-grade ML services  
+- Infrastructure for large-scale AI workloads  
+
+</details>
+
+</td>
+
+<td width="33%" valign="top" style="padding: 24px;">
+
+<h2 align="center">INTERESTS</h2>
+<p align="center"><sub>AI • RL • Robotics</sub></p>
+
+<details>
+<summary><b>Expand</b></summary>
+
+<br>
+
+- Generative AI & foundation models  
+- Reinforcement learning in real-world environments  
+- Robotics & autonomous agents  
+- Distributed ML systems  
+- Scalable AI infrastructure  
+
+</details>
+
+</td>
+
+<td width="33%" valign="top" style="padding: 24px;">
+
+<h2 align="center">PHILOSOPHY</h2>
+<p align="center"><sub>Principles & mindset</sub></p>
+
+<details>
+<summary><b>Expand</b></summary>
+
+<br>
+
+- Systems > models  
+- Reproducibility is non-negotiable  
+- If it doesn’t scale, it doesn’t exist  
+
+</details>
+
+</td>
+
+</tr>
 </table>
 
-<br />
-
-<a href="https://github.com/hiradEmami">
-  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_sigil.svg" width="100%" style="display: block; margin: 0 auto;" />
-</a>
-
 </div>
+
+<p align="center">
+  <img 
+    src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_sigil.svg"
+    style="width: 100%; max-width: 100%; display: block; margin: 0 auto;"
+  />
+</p>
 
 # 🛠 Technologies & Tools
 
