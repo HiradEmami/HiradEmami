@@ -164,8 +164,12 @@
 </table>
 
 
-[![divider_cyber_sigil](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_sigil.svg)](https://github.com/hiradEmami)
-
+<p align="center">
+  <img 
+    src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_sigil.svg"
+    width="1000"
+  />
+</p>
 
 # 🐍 Contribution Journey
 <p align="center">
