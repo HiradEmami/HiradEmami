@@ -49,12 +49,7 @@
 
 </p>
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_arc_reactor.svg" width="100%" style="max-width: 100%; display: block; margin: 0 auto;" />
-
-<br />
-
+[![divider_arc_reactor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_arc_reactor.svg)](https://github.com/hiradEmami)
 <div align="center">
 
 <table width="100%" style="table-layout: fixed;">
@@ -124,11 +119,10 @@
 </div>
 
 <p align="center">
-  <img 
-    src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_sigil.svg"
-    style="width: 100%; max-width: 100%; display: block; margin: 0 auto;"
-  />
+  <img width="100%" align="center" src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_sigil.svg" />
 </p>
+
+
 
 # 🛠 Technologies & Tools
 
@@ -164,7 +158,8 @@
 </table>
 
 
-<img src="docs/your-divider.svg" width="100%" />
+[![divider_cyber_sigil](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_sigil.svg)](https://github.com/hiradEmami)
+
 
 # 🐍 Contribution Journey
 <p align="center">
