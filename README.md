@@ -29,7 +29,7 @@
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2J1a3Q1cTB0MGg2d2p0Z3g2eTJpY3J3a3Rqd3VzdnE1a2l3a3ZrbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/SWoSkN6DxTszqIKEqv/giphy.gif" width="450">
 </p>
 
-[![divider_arc_reactor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_arc_reactor.svg)](https://github.com/hiradEmami)
+[![divider_arc_reactor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_cycle.svg)](https://github.com/hiradEmami)
 
 <!-- Title -->
 <h3 align="center">
@@ -49,7 +49,7 @@
 
 </p>
 
-[![divider_arc_reactor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_arc_reactor.svg)](https://github.com/hiradEmami)
+[![divider_arc_reactor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_cycle_mirrored.svg)](https://github.com/hiradEmami)
 <div align="center">
 
 <table width="100%" style="table-layout: fixed;">
@@ -166,7 +166,7 @@
   <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
 </p>
 
-[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/lines/divider_moving_neon_gradient.svg)](https://github.com/hiradEmami)
+[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_data_capsul.svg)](https://github.com/hiradEmami)
 
 ### 📊 Vital Statistics
 
@@ -235,7 +235,7 @@ Multi-objective reinforcement learning with interacting agents
 </tr>
 </table>
 
-[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/lines/divider_moving_neon_gradient.svg)](https://github.com/hiradEmami)
+[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_ritual_ring.svg)](https://github.com/hiradEmami)
 
 # 🤝 Collaboration
 
@@ -268,6 +268,7 @@ I’m open to collaborating on:
 </p>
 
 [![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/lines/divider_moving_neon_gradient.svg)](https://github.com/hiradEmami)
+[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/mlp_space.svg)](https://github.com/hiradEmami)
 <p align="center">
 ⚡ Building scalable AI systems and machine learning infrastructure
 </p>
