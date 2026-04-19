@@ -59,7 +59,18 @@
 
 
 
-# 🛠 Technologies & Tools
+# 🛠 Technologies & Projects
+
+<div align="center">
+
+<div style="display: flex; justify-content: space-between; gap: 32px; align-items: flex-start;">
+
+<!-- LEFT -->
+<div style="width: 48%;">
+
+<h3 align="center">🛠 Technologies</h3>
+
+<div align="center">
 
 <table>
   <tr>
@@ -92,8 +103,53 @@
   </tr>
 </table>
 
+</div>
+</div>
 
-[![divider_cyber_sigil](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_sigil.svg)](https://github.com/hiradEmami)
+<!-- RIGHT -->
+<div style="width: 48%;">
+
+<h3 align="center">🧪 Highlighted Projects</h3>
+
+<div align="center">
+
+<a href="https://github.com/HiradEmami/future-iran-ai-think-tank">
+  <img src="/docs/img/projects/future_iran_ai.svg" width="100%" />
+</a>
+
+<br>
+
+<a href="https://github.com/PLAYERUNKNOWN-Productions/research-paperops">
+  <img src="/docs/img/projects/paper_ops.svg" width="100%" />
+</a>
+
+<br>
+
+<a href="https://github.com/HiradEmami/ThirtyoneCard">
+  <img src="/docs/img/projects/thirty_one.svg" width="100%" />
+</a>
+
+<br>
+
+<a href="https://github.com/HiradEmami/MARL">
+  <img src="/docs/img/projects/marl.svg" width="100%" />
+</a>
+
+<a href="https://github.com/HiradEmami/readme-ux-kit">
+  <img src="/docs/img/projects/readme_ux_kit.svg" width="100%" />
+</a>
+
+<br>
+
+<a href="https://github.com/HiradEmami/SpaceInvadersModel">
+  <img src="/docs/img/projects/space_invader.svg" width="100%" />
+</a>
+
+</div>
+</div>
+
+</div>
+</div>
 
 
 # 🐍 Contribution Journey
@@ -157,6 +213,9 @@ I’m open to collaborating on:
 [![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/mlp_space.svg)](https://github.com/hiradEmami)
 <p align="center">
 ⚡ Building scalable AI systems and machine learning infrastructure
+</p>
+<p align="center">
+Star ⭐ the repos if they helped you!
 </p>
 
 <p align="center">
