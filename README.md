@@ -49,7 +49,12 @@
 
 </p>
 
-[![divider_arc_reactor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_arc_reactor.svg)](https://github.com/hiradEmami)
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_arc_reactor.svg" width="100%" style="max-width: 100%; display: block; margin: 0 auto;" />
+
+<br />
+
 <div align="center">
 
 <table width="100%" style="table-layout: fixed;">
@@ -119,13 +124,8 @@
 </div>
 
 <p align="center">
-  <img 
-    src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_sigil.svg"
-    width="120%"
-    style="display: block; margin-left: -10%;"
-  />
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_sigil.svg" width="200%" />
 </p>
-
 
 
 # 🛠 Technologies & Tools
