@@ -58,21 +58,18 @@
 </p>
 
 
-
 # 🛠 Technologies & Projects
 
-<div align="center">
-
-<div style="display: flex; justify-content: space-between; gap: 32px; align-items: flex-start;">
+<table width="100%">
+<tr>
 
 <!-- LEFT -->
-<div style="width: 48%;">
+<td width="50%" valign="top" style="border: none;">
 
 <h3 align="center">🛠 Technologies</h3>
 
-<div align="center">
-
-<table>
+<table align="center">
+  <!-- your table EXACTLY unchanged -->
   <tr>
     <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40"/></td>
     <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="40"/></td>
@@ -101,13 +98,19 @@
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" width="40"/></td>
     <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="40"/></td>
   </tr>
+    <tr>
+          <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django/django-plain.svg" width="40"/></td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" width="40"/></td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg" width="40"/></td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg" width="40"/></td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="40"/></td>
+    </tr>
 </table>
 
-</div>
-</div>
+</td>
 
 <!-- RIGHT -->
-<div style="width: 48%;">
+<td width="50%" valign="top" style="border: none;">
 
 <h3 align="center">🧪 Highlighted Projects</h3>
 
@@ -135,6 +138,8 @@
   <img src="/docs/img/projects/marl.svg" width="100%" />
 </a>
 
+<br>
+
 <a href="https://github.com/HiradEmami/readme-ux-kit">
   <img src="/docs/img/projects/readme_ux_kit.svg" width="100%" />
 </a>
@@ -146,11 +151,11 @@
 </a>
 
 </div>
-</div>
 
-</div>
-</div>
+</td>
 
+</tr>
+</table>
 
 # 🐍 Contribution Journey
 <p align="center">
