@@ -110,13 +110,13 @@
 
 <!-- RIGHT -->
 <td width="50%" valign="top" align="center">
+  <h3>🧪 Highlighted Projects</h3>
 
-<h3>🧪 Highlighted Projects</h3>
-
-<a href="./docs/PROJECTS.md" title="View Projects">
-    <img src="./docs/img/tech_projects_panel.svg" width="100%" style="aspect-ratio:1/1;" />  
-</a>
-
+  <div style="height:100%;">
+    <a href="./docs/PROJECTS.md">
+      <img src="./docs/img/tech_projects_panel.svg" width="100%" height="100%" style="object-fit: cover;" />
+    </a>
+  </div>
 </td>
 
 </tr>
