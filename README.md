@@ -55,7 +55,7 @@
 <table width="100%" style="table-layout: fixed;">
 <tr>
 
-<td width="33%" valign="top">
+<td width="33%" valign="top" style="padding: 10px;">
 
 <h3 align="center">BUILDS</h3>
 <p align="center"><sub>Platforms • Infrastructure</sub></p>
@@ -75,7 +75,7 @@
 
 </td>
 
-<td width="33%" valign="top">
+<td width="33%" valign="top" style="padding: 10px;">
 
 <h3 align="center">INTERESTS</h3>
 <p align="center"><sub>AI • RL • Robotics</sub></p>
@@ -95,7 +95,7 @@
 
 </td>
 
-<td width="33%" valign="top">
+<td width="33%" valign="top" style="padding: 10px;">
 
 <h3 align="center">PHILOSOPHY</h3>
 <p align="center"><sub>Principles & mindset</sub></p>
@@ -118,7 +118,11 @@
 
 </div>
 
-[![divider_cyber_sigil](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_sigil.svg)](https://github.com/hiradEmami)
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_sigil.svg" />
+</p>
+
+
 
 # 🛠 Technologies & Tools
 
