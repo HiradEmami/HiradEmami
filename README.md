@@ -29,7 +29,7 @@
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2J1a3Q1cTB0MGg2d2p0Z3g2eTJpY3J3a3Rqd3VzdnE1a2l3a3ZrbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/SWoSkN6DxTszqIKEqv/giphy.gif" width="450">
 </p>
 
-[![divider_arc_reactor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_arc_reactor.svg)](https://github.com/hiradEmami)
+[![divider_arc_reactor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_arc_reactor.svg)](https://github.com/hiradEmami)
 
 <!-- Title -->
 <h3 align="center">
@@ -49,7 +49,7 @@
 
 </p>
 
-[![divider_arc_reactor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_arc_reactor.svg)](https://github.com/hiradEmami)
+[![divider_arc_reactor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_arc_reactor.svg)](https://github.com/hiradEmami)
 
 # 🔧 What I Build
 
@@ -59,7 +59,7 @@
 - Production-grade ML services with strong reliability and observability
 - Infrastructure for large-scale AI workloads
 
-[![divider_breathing_line](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_breathing_line.svg)](https://github.com/hiradEmami)
+[![divider_breathing_line](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/lines/divider_breathing_line.svg)](https://github.com/hiradEmami)
 # 🧠 Interests
 
 - Generative AI systems and foundation models
@@ -68,7 +68,7 @@
 - Distributed and high-performance ML systems
 - Scalable AI infrastructure design
 
-[![divider_breathing_line](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_breathing_line.svg)](https://github.com/hiradEmami)
+[![divider_breathing_line](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_breathing_line.svg)](https://github.com/hiradEmami)
 
 # ⚡ Philosophy
 
@@ -76,7 +76,7 @@
 - Reproducibility is non-negotiable
 - If it doesn’t scale, it doesn’t exist
 
-[![divider_cyber_sigil](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_cyber_sigil.svg)](https://github.com/hiradEmami)
+[![divider_cyber_sigil](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_sigil.svg)](https://github.com/hiradEmami)
 # 🛠 Technologies & Tools
 
 <table>
@@ -111,7 +111,7 @@
 </table>
 
 
-[![divider_cyber_sigil](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_cyber_sigil.svg)](https://github.com/hiradEmami)
+[![divider_cyber_sigil](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_sigil.svg)](https://github.com/hiradEmami)
 
 
 # 🐍 Contribution Journey
@@ -119,7 +119,7 @@
   <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
 </p>
 
-[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_moving_neon_gradient.svg)](https://github.com/hiradEmami)
+[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/lines/divider_moving_neon_gradient.svg)](https://github.com/hiradEmami)
 
 ### 📊 Vital Statistics
 
@@ -136,7 +136,7 @@
   <img src="https://komarev.com/ghpvc/?username=HiradEmami&label=PROFILE%20VIEWS&color=36BCF7&style=flat-square" alt="Views" />
 </p>
 
-[![divider_twin_serpant](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_twin_serpant.svg)](https://github.com/hiradEmami)
+[![divider_twin_serpant](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_twin_serpant.svg)](https://github.com/hiradEmami)
 
 # 🧪 Project Highlights
 
@@ -188,7 +188,7 @@ Multi-objective reinforcement learning with interacting agents
 </tr>
 </table>
 
-[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_moving_neon_gradient.svg)](https://github.com/hiradEmami)
+[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/lines/divider_moving_neon_gradient.svg)](https://github.com/hiradEmami)
 
 # 🤝 Collaboration
 
@@ -199,7 +199,7 @@ I’m open to collaborating on:
 - Robotics & autonomous systems
 - Large-scale AI platforms
 
-[![divider_celestial_gate](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_celestial_gate.svg)](https://github.com/hiradEmami)
+[![divider_celestial_gate](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_celestial_gate.svg)](https://github.com/hiradEmami)
 
 # 📫 Contact
 
@@ -220,7 +220,7 @@ I’m open to collaborating on:
 </a>
 </p>
 
-[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_moving_neon_gradient.svg)](https://github.com/hiradEmami)
+[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/lines/divider_moving_neon_gradient.svg)](https://github.com/hiradEmami)
 <p align="center">
 ⚡ Building scalable AI systems and machine learning infrastructure
 </p>
