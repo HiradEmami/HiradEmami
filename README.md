@@ -55,9 +55,9 @@
 <table width="100%" style="table-layout: fixed;">
 <tr>
 
-<td width="33%" valign="top" style="padding: 10px;">
+<td width="33%" valign="top" style="padding: 40px;">
 
-<h3 align="center">BUILDS</h3>
+<h2 align="center">BUILDS</h2>
 <p align="center"><sub>Platforms • Infrastructure</sub></p>
 
 <details open>
@@ -75,9 +75,9 @@
 
 </td>
 
-<td width="33%" valign="top" style="padding: 10px;">
+<td width="33%" valign="top" style="padding: 24px;">
 
-<h3 align="center">INTERESTS</h3>
+<h2 align="center">INTERESTS</h2>
 <p align="center"><sub>AI • RL • Robotics</sub></p>
 
 <details>
@@ -95,9 +95,9 @@
 
 </td>
 
-<td width="33%" valign="top" style="padding: 10px;">
+<td width="33%" valign="top" style="padding: 24px;">
 
-<h3 align="center">PHILOSOPHY</h3>
+<h2 align="center">PHILOSOPHY</h2>
 <p align="center"><sub>Principles & mindset</sub></p>
 
 <details>
@@ -119,7 +119,7 @@
 </div>
 
 <p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_sigil.svg" />
+  <img width="140%" src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_sigil.svg" />
 </p>
 
 
