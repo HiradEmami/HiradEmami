@@ -1,36 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
   <defs>
-    <!-- background -->
-    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+    <radialGradient id="bg" cx="50%" cy="50%" r="75%">
       <stop offset="0%" stop-color="#0b1220"/>
       <stop offset="100%" stop-color="#020617"/>
     </radialGradient>
 
-    <!-- core gradient -->
-    <radialGradient id="coreGrad" cx="50%" cy="45%" r="55%">
+    <radialGradient id="coreGrad" cx="50%" cy="45%" r="60%">
       <stop offset="0%" stop-color="#ffffff"/>
       <stop offset="30%" stop-color="#67e8f9"/>
       <stop offset="65%" stop-color="#8b5cf6"/>
       <stop offset="100%" stop-color="#020617"/>
     </radialGradient>
 
-    <!-- glow -->
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8"/>
+      <feGaussianBlur stdDeviation="10"/>
     </filter>
 
     <style>
       .title {
-        font: 700 28px 'Segoe UI', Arial;
+        font: 700 34px 'Segoe UI', Arial;
         fill: #f8fafc;
         letter-spacing: 2px;
       }
       .subtitle {
-        font: 500 13px 'Segoe UI', Arial;
+        font: 500 15px 'Segoe UI', Arial;
         fill: #94a3b8;
       }
       .cta {
-        font: 600 12px 'Segoe UI', Arial;
+        font: 600 14px 'Segoe UI', Arial;
         fill: #22d3ee;
         letter-spacing: 2px;
       }
@@ -40,28 +37,28 @@
   <!-- background -->
   <rect width="500" height="500" fill="url(#bg)"/>
 
-  <!-- core -->
-  <g transform="translate(250,200)">
-    <circle r="70" fill="url(#coreGrad)" filter="url(#glow)">
-      <animate attributeName="r" values="65;80;65" dur="4s" repeatCount="indefinite"/>
+  <!-- core (bigger + centered better) -->
+  <g transform="translate(250,210)">
+    <circle r="95" fill="url(#coreGrad)" filter="url(#glow)">
+      <animate attributeName="r" values="90;110;90" dur="4s" repeatCount="indefinite"/>
     </circle>
-    <circle r="28" fill="#ffffff" opacity="0.9"/>
+    <circle r="38" fill="#ffffff" opacity="0.95"/>
   </g>
 
-  <!-- subtle lines -->
-  <line x1="80" y1="200" x2="180" y2="200" stroke="#1e293b" stroke-width="2"/>
-  <line x1="320" y1="200" x2="420" y2="200" stroke="#1e293b" stroke-width="2"/>
+  <!-- longer lines -->
+  <line x1="40" y1="210" x2="180" y2="210" stroke="#1e293b" stroke-width="2"/>
+  <line x1="320" y1="210" x2="460" y2="210" stroke="#1e293b" stroke-width="2"/>
 
-  <!-- text -->
-  <text x="250" y="320" text-anchor="middle" class="title">
+  <!-- text moved down + scaled -->
+  <text x="250" y="340" text-anchor="middle" class="title">
     PROJECTS
   </text>
 
-  <text x="250" y="350" text-anchor="middle" class="subtitle">
+  <text x="250" y="375" text-anchor="middle" class="subtitle">
     systems • experiments • research
   </text>
 
-  <text x="250" y="385" text-anchor="middle" class="cta">
+  <text x="250" y="415" text-anchor="middle" class="cta">
     ENTER →
   </text>
 
