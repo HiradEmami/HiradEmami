@@ -60,11 +60,11 @@
 
 # 🛠 Technologies & Projects
 
-<table width="100%" border="0" cellspacing="10" cellpadding="0">
+<table border="0" cellspacing="10" cellpadding="0">
 <tr>
 
 <!-- LEFT: TOOLS -->
-<td width="40%" valign="top" align="center">
+<td width="420" valign="top" align="center">
 
 <h3>🛠 Technologies</h3>
 <br>
@@ -109,25 +109,29 @@
 
 </td>
 
-<!-- MIDDLE: PROJECTS -->
-<td width="30%" valign="top" align="center">
+<!-- PROJECTS -->
+<td width="260" valign="top" align="center">
 
 <h3>🧪 Projects</h3>
 <br>
 
-<a href="docs/PROJECTS.md">
-  <img src="./docs/img/tech_projects_panel.svg" width="100%" />
-</a>
+<div style="width:220px;">
+  <a href="docs/PROJECTS.md">
+    <img src="docs/img/tech_projects_panel.svg" width="220">
+  </a>
+</div>
 
 </td>
 
-<!-- RIGHT: AI DOMAINS -->
-<td width="30%" valign="top" align="center">
+<!-- AI DOMAINS -->
+<td width="260" valign="top" align="center">
 
 <h3>🧠 AI Domains</h3>
 <br>
 
-<img src="./docs/img/ai_domains.svg" width="100%" />
+<div style="width:220px;">
+  <img src="docs/img/ai_domains.svg" width="220">
+</div>
 
 </td>
 
