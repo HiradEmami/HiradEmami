@@ -355,4 +355,113 @@
       <animate attributeName="opacity" values="0.1;0.7;0.1" dur="6.2s" repeatCount="indefinite"/>
     </circle>
   </g>
+     <!-- ========================= -->
+    <!-- ML LAB PORTAL (BOX SYSTEM) -->
+    <!-- ========================= -->
+
+    <defs>
+
+      <!-- animated border gradient -->
+      <linearGradient id="mlBorderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#22d3ee"/>
+        <stop offset="50%" stop-color="#67e8f9"/>
+        <stop offset="100%" stop-color="#8b5cf6"/>
+        <animateTransform attributeName="gradientTransform"
+          type="translate"
+          values="-400 0;400 0;-400 0"
+          dur="5s"
+          repeatCount="indefinite"/>
+      </linearGradient>
+
+      <!-- text gradient -->
+      <linearGradient id="mlTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#22d3ee"/>
+        <stop offset="50%" stop-color="#67e8f9"/>
+        <stop offset="100%" stop-color="#8b5cf6"/>
+      </linearGradient>
+
+      <!-- glow -->
+      <filter id="mlGlow">
+        <feGaussianBlur stdDeviation="6" result="b"/>
+        <feMerge>
+          <feMergeNode in="b"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+
+    </defs>
+
+    <g transform="translate(730 760)" text-anchor="middle">
+
+      <!-- main box -->
+      <rect x="-260" y="-70" width="520" height="140" rx="18"
+            fill="none"
+            stroke="url(#mlBorderGrad)"
+            stroke-width="2"
+            stroke-dasharray="1200"
+            stroke-dashoffset="1200"
+            filter="url(#mlGlow)">
+        <animate attributeName="stroke-dashoffset"
+          values="1200;0"
+          dur="4s"
+          repeatCount="indefinite"/>
+      </rect>
+
+      <!-- inner scan line -->
+      <rect x="-240" y="-60" width="480" height="4" fill="#22d3ee" opacity="0.15">
+        <animate attributeName="y"
+          values="-60;60;-60"
+          dur="4.5s"
+          repeatCount="indefinite"/>
+      </rect>
+
+      <!-- corner pulse dots -->
+      <circle cx="-240" cy="-60" r="3" fill="#22d3ee">
+        <animate attributeName="r" values="2;5;2" dur="2s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="240" cy="60" r="3" fill="#8b5cf6">
+        <animate attributeName="r" values="2;5;2" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- background glow plate -->
+      <rect x="-200" y="-40" width="400" height="80"
+            fill="#22d3ee"
+            opacity="0.04">
+        <animate attributeName="opacity"
+          values="0.03;0.08;0.03"
+          dur="5s"
+          repeatCount="indefinite"/>
+      </rect>
+
+      <!-- glitch layer -->
+      <text y="6"
+            font-size="44"
+            font-weight="700"
+            letter-spacing="5"
+            fill="#22d3ee"
+            opacity="0.12">
+        ENTER ML LAB
+        <animate attributeName="y"
+          values="6;8;6;4;6"
+          dur="0.35s"
+          repeatCount="indefinite"/>
+      </text>
+
+      <!-- main text -->
+      <text y="0"
+            font-size="44"
+            font-weight="800"
+            letter-spacing="5"
+            fill="url(#mlTextGrad)"
+            filter="url(#mlGlow)">
+        ENTER ML LAB
+
+        <animate attributeName="opacity"
+          values="0.8;1;0.8"
+          dur="3s"
+          repeatCount="indefinite"/>
+      </text>
+
+    </g>
 </svg>

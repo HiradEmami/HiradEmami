@@ -1,0 +1,110 @@
+<svg width="1600" height="320" viewBox="0 0 1600 320" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Background -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1600" y2="320">
+      <stop offset="0%" stop-color="#050B16"/>
+      <stop offset="50%" stop-color="#07111F"/>
+      <stop offset="100%" stop-color="#050B16"/>
+    </linearGradient>
+
+    <!-- Grid -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" stroke="#38BDF8" stroke-opacity="0.06">
+        <animateTransform attributeName="transform"
+          type="translate"
+          values="0 0;40 40;0 0"
+          dur="18s"
+          repeatCount="indefinite"/>
+      </path>
+    </pattern>
+
+    <!-- Flow gradient -->
+    <linearGradient id="flowGrad">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform"
+        type="translate"
+        values="-300 0;300 0;-300 0"
+        dur="6s"
+        repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Text -->
+    <linearGradient id="textGrad">
+      <stop offset="0%" stop-color="#E0F2FE"/>
+      <stop offset="50%" stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+
+    <!-- Glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="320" rx="28" fill="url(#bgGrad)"/>
+  <rect width="1600" height="320" rx="28" fill="url(#grid)"/>
+
+  <!-- Flow lines -->
+  <path d="M100 120 Q800 60 1500 120" stroke="url(#flowGrad)" stroke-width="2" filter="url(#glow)"/>
+  <path d="M100 200 Q800 260 1500 200" stroke="url(#flowGrad)" stroke-width="2" filter="url(#glow)"/>
+
+  <!-- Central latent core -->
+  <g transform="translate(800,160)" filter="url(#glow)">
+    <circle r="20" fill="#22D3EE" opacity="0.7"/>
+    <circle r="40" stroke="#8B5CF6" fill="none" stroke-width="2" opacity="0.6"/>
+
+    <!-- rotation -->
+    <animateTransform attributeName="transform"
+      type="rotate"
+      from="0"
+      to="360"
+      dur="12s"
+      repeatCount="indefinite"/>
+  </g>
+
+  <!-- Pulsing nodes -->
+  <circle cx="300" cy="120" r="4" fill="#22D3EE">
+    <animate attributeName="r" values="3;6;3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1300" cy="200" r="4" fill="#A78BFA">
+    <animate attributeName="r" values="3;6;3" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Scanning line -->
+  <rect x="0" y="0" width="1600" height="4" fill="#22D3EE" opacity="0.15">
+    <animate attributeName="y" values="0;320;0" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Subtitle -->
+  <text x="800" y="120"
+        text-anchor="middle"
+        font-size="24"
+        letter-spacing="6"
+        fill="#67E8F9"
+        opacity="0.9">
+    SYSTEMS • LEARNING • INTELLIGENCE
+  </text>
+
+  <!-- Title -->
+  <text x="800" y="200"
+        text-anchor="middle"
+        font-size="64"
+        font-weight="800"
+        letter-spacing="5"
+        fill="url(#textGrad)">
+    AI DOMAINS
+
+    <animate attributeName="opacity"
+      values="0.85;1;0.85"
+      dur="4s"
+      repeatCount="indefinite"/>
+  </text>
+
+</svg>
