@@ -9,7 +9,7 @@
   <a href="./PROJECTS.md">
     <img src="../docs/img/navbar/projects.svg" width="15%" />
   </a>
-  <a href="./AI_DOMAINS.md">
+  <a href="./AI_DOMAIN.md">
     <img src="../docs/img/navbar/ai_domain.svg" width="15%" />
   </a>
   <a href="https://hirademami.github.io/">
