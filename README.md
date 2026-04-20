@@ -47,18 +47,18 @@
 
 </p>
 
-[![divider_arc_reactor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_cycle_mirrored.svg)](https://github.com/hiradEmami)
+
+[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_data_capsul.svg)](https://github.com/hiradEmami)
 
 <p align="center">
   <img src="./docs/img/hirad_core.svg" width="100%" alt="System core panel" />
 </p>
 
-<p align="center">
-  <img width="100%" align="center" src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_sigil.svg" />
-</p>
+
+[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_data_capsul.svg)](https://github.com/hiradEmami)
 
 
-# 🛠 Technologies & Projects
+# 🛠 Technologies, Projects, and Domains
 
 <table border="0" cellspacing="10" cellpadding="0">
 <tr>
@@ -138,12 +138,6 @@
 </tr>
 </table>
 
-# 🐍 Contribution Journey
-<p align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
-</p>
-
-[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_data_capsul.svg)](https://github.com/hiradEmami)
 
 ### 📊 Vital Statistics
 
