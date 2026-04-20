@@ -196,7 +196,12 @@ I’m open to collaborating on:
 </p>
 
 [![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/lines/divider_moving_neon_gradient.svg)](https://github.com/hiradEmami)
-[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/mlp_space.svg)](https://github.com/hiradEmami)
+
+<p align="center">
+  <img src="./docs/img/mlp_space.svg"/>
+</p>
+
+
 <p align="center">
 ⚡ Building scalable AI systems and machine learning infrastructure
 </p>
