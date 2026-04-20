@@ -48,7 +48,7 @@
 </p>
 
 
-[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_data_capsul.svg)](https://github.com/hiradEmami)
+[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_cycle_mirrored.svg)](https://github.com/hiradEmami)
 
 <p align="center">
   <img src="./docs/img/hirad_core.svg" width="100%" alt="System core panel" />
@@ -138,6 +138,7 @@
 </tr>
 </table>
 
+[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg)](https://github.com/hiradEmami)
 
 ### 📊 Vital Statistics
 
