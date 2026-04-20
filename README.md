@@ -155,42 +155,54 @@
   <img src="https://komarev.com/ghpvc/?username=HiradEmami&label=PROFILE%20VIEWS&color=36BCF7&style=flat-square" alt="Views" />
 </p>
 
-[![divider_twin_serpant](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_twin_serpant.svg)](https://github.com/hiradEmami)
+[![divider_twin_serpant](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/hiradEmami)
 
-# 🤝 Collaboration
+<table width="100%" border="0" cellspacing="10" cellpadding="0">
+<tr>
+
+<!-- LEFT: COLLAB -->
+<td width="50%" valign="top">
+
+<h2>🤝 Collaboration</h2>
 
 I’m open to collaborating on:
 
-- ML infrastructure projects
-- Reinforcement learning systems
-- Robotics & autonomous systems
-- Large-scale AI platforms
+<ul>
+  <li>ML infrastructure projects</li>
+  <li>Reinforcement learning systems</li>
+  <li>Robotics & autonomous systems</li>
+  <li>Large-scale AI platforms</li>
+</ul>
 
-[![divider_celestial_gate](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_celestial_gate.svg)](https://github.com/hiradEmami)
+</td>
 
-# 📫 Contact
+<!-- RIGHT: CONTACT -->
+<td width="50%" valign="top" align="center">
 
-<p>
+<h2>📫 Contact</h2>
+
+<br>
 
 <a href="https://hirademami.github.io/">
-<img src="https://img.shields.io/badge/Personal%20Website-hirademami.github.io-36BCF7?style=for-the-badge&logo=google-chrome">
+  <img src="https://img.shields.io/badge/Personal%20Website-hirademami.github.io-36BCF7?style=for-the-badge&logo=google-chrome">
 </a>
-<br>
+<br><br>
 
 <a href="mailto:hirad.alagha@outlook.com">
-<img src="https://img.shields.io/badge/email-hirad.alagha@outlook.com-red?style=for-the-badge&logo=gmail">
+  <img src="https://img.shields.io/badge/email-hirad.alagha@outlook.com-red?style=for-the-badge&logo=gmail">
 </a>
-<br>
+<br><br>
 
 <a href="https://www.linkedin.com/in/hirad-alagha/">
-<img src="https://img.shields.io/badge/linkedin-hirad--alagha-blue?style=for-the-badge&logo=linkedin">
+  <img src="https://img.shields.io/badge/linkedin-hirad--alagha-blue?style=for-the-badge&logo=linkedin">
 </a>
-</p>
 
-[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/lines/divider_moving_neon_gradient.svg)](https://github.com/hiradEmami)
+</td>
 
+</tr>
+</table>
 
-
+[![divider_twin_serpant](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/hiradEmami)
 
 <p align="center">
 ⚡ Building scalable AI systems and machine learning infrastructure
