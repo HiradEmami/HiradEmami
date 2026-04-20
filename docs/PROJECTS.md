@@ -1,48 +1,26 @@
 <p align="center">
   <img src="../docs/img/projects_system_header.svg" width="100%" />
 </p>
-
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-<tr>
-
-<td align="center">
+<p align="center">
   <a href="../README.md">
-    <img src="../docs/img/navbar/home.svg" width="95%" />
+    <img src="../docs/img/navbar/home.svg" width="15%" />
   </a>
-</td>
-
-<td align="center">
   <a href="./PROJECTS.md">
-    <img src="../docs/img/navbar/projects.svg" width="95%" />
+    <img src="../docs/img/navbar/projects.svg" width="15%" />
   </a>
-</td>
-
-<td align="center">
   <a href="./AI_DOMAINS.md">
-    <img src="../docs/img/navbar/ai_domain.svg" width="95%" />
+    <img src="../docs/img/navbar/ai_domain.svg" width="15%" />
   </a>
-</td>
-
-<td align="center">
   <a href="https://hirademami.github.io/">
-    <img src="../docs/img/navbar/website.svg" width="95%" />
+    <img src="../docs/img/navbar/website.svg" width="15%" />
   </a>
-</td>
-
-<td align="center">
   <a href="./BLOGS.md">
-    <img src="../docs/img/navbar/blogs.svg" width="95%" />
+    <img src="../docs/img/navbar/blogs.svg" width="15%" />
   </a>
-</td>
-
-<td align="center">
   <a href="./COLLAB.md">
-    <img src="../docs/img/navbar/collaboration.svg" width="95%" />
+    <img src="../docs/img/navbar/collaboration.svg" width="15%" />
   </a>
-</td>
-
-</tr>
-</table>
+</p>
 
 <h2 align="center">🧪 Project Systems</h2>
 
