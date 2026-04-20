@@ -1,0 +1,194 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Subtle grid animation -->
+    <pattern id="gridAnim" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" stroke="#38BDF8" stroke-opacity="0.06">
+        <animateTransform attributeName="transform"
+          type="translate"
+          values="0 0;40 40;0 0"
+          dur="20s"
+          repeatCount="indefinite"/>
+      </path>
+    </pattern>
+
+    <!-- Soft radial glow -->
+    <radialGradient id="pulseGlow">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900">
+      <stop offset="0%" stop-color="#050B16"/>
+      <stop offset="100%" stop-color="#07111F"/>
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+
+    <!-- Glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)" rx="30"/>
+  <!-- Animated grid overlay -->
+    <rect width="1600" height="900" fill="url(#gridAnim)" rx="30"/>
+
+    <!-- Soft breathing glow -->
+    <circle cx="800" cy="450" r="300" fill="url(#pulseGlow)">
+      <animate attributeName="r" values="280;340;280" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="8s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Floating particles -->
+    <g opacity="0.4">
+      <circle cx="200" cy="200" r="2" fill="#22D3EE">
+        <animate attributeName="cy" values="200;150;200" dur="6s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="1400" cy="300" r="2" fill="#A78BFA">
+        <animate attributeName="cy" values="300;360;300" dur="7s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="600" cy="700" r="2" fill="#22D3EE">
+        <animate attributeName="cy" values="700;650;700" dur="5.5s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="1200" cy="750" r="2" fill="#A78BFA">
+        <animate attributeName="cy" values="750;800;750" dur="6.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Subtle horizontal energy sweep -->
+    <rect x="0" y="0" width="1600" height="900" fill="#22D3EE" opacity="0">
+      <animate attributeName="opacity" values="0;0.03;0" dur="10s" repeatCount="indefinite"/>
+    </rect>
+  <!-- PANEL TEMPLATE -->
+  <!-- Panel 1 -->
+  <g transform="translate(100,120)">
+
+    <!-- animated border flow -->
+    <rect width="600" height="220" rx="16"
+          fill="none"
+          stroke="url(#borderGrad)"
+          stroke-width="2"
+          stroke-dasharray="1000"
+          stroke-dashoffset="1000"
+          filter="url(#glow)">
+      <animate attributeName="stroke-dashoffset"
+               values="1000;0"
+               dur="4s"
+               repeatCount="indefinite"/>
+    </rect>
+
+
+
+    <!-- title -->
+    <text x="30" y="50" fill="#67E8F9" font-size="28" font-weight="700">
+      🤝 Collaboration Areas
+    </text>
+
+    <text x="30" y="90" fill="#E0F2FE">AI / ML Systems &amp; Infrastructure</text>
+    <text x="30" y="120" fill="#E0F2FE">Robotics &amp; Autonomous Systems</text>
+    <text x="30" y="150" fill="#E0F2FE">MLOps Platforms &amp; Tooling</text>
+    <text x="30" y="180" fill="#E0F2FE">Research &amp; Open Source</text>
+
+  </g>
+
+  <!-- Panel 2 -->
+  <g transform="translate(900,120)">
+
+    <rect width="600" height="220" rx="16"
+          fill="none"
+          stroke="url(#borderGrad)"
+          stroke-width="2"
+          stroke-dasharray="1000"
+          stroke-dashoffset="1000"
+          filter="url(#glow)">
+      <animate attributeName="stroke-dashoffset"
+               values="1000;0"
+               dur="4.5s"
+               repeatCount="indefinite"/>
+    </rect>
+
+
+
+    <text x="30" y="50" fill="#A78BFA" font-size="28" font-weight="700">
+      🔍 What I'm Looking For
+    </text>
+
+    <text x="30" y="90" fill="#E0F2FE">Engineers building real systems</text>
+    <text x="30" y="120" fill="#E0F2FE">Reproducible AI workflows</text>
+    <text x="30" y="150" fill="#E0F2FE">Scalable system thinkers</text>
+    <text x="30" y="180" fill="#E0F2FE">Long-term collaborators</text>
+
+  </g>
+
+  <!-- Panel 3 -->
+  <g transform="translate(100,420)">
+
+    <rect width="600" height="220" rx="16"
+          fill="none"
+          stroke="url(#borderGrad)"
+          stroke-width="2"
+          stroke-dasharray="1000"
+          stroke-dashoffset="1000"
+          filter="url(#glow)">
+      <animate attributeName="stroke-dashoffset"
+               values="1000;0"
+               dur="3.8s"
+               repeatCount="indefinite"/>
+    </rect>
+
+
+
+    <text x="30" y="50" fill="#67E8F9" font-size="28" font-weight="700">
+      🚀 Open Collaboration
+    </text>
+
+    <text x="30" y="90" fill="#E0F2FE">Research PaperOps Expansion</text>
+    <text x="30" y="120" fill="#E0F2FE">Future Iran AI Think Tank</text>
+    <text x="30" y="150" fill="#E0F2FE">MARL / RL Experiments</text>
+
+  </g>
+
+  <!-- Panel 4 (Philosophy) -->
+  <g transform="translate(900,420)">
+
+    <rect width="600" height="220" rx="16"
+          fill="none"
+          stroke="url(#borderGrad)"
+          stroke-width="2"
+          stroke-dasharray="1000"
+          stroke-dashoffset="1000"
+          filter="url(#glow)">
+      <animate attributeName="stroke-dashoffset"
+               values="1000;0"
+               dur="5s"
+               repeatCount="indefinite"/>
+    </rect>
+
+    <text x="30" y="50" fill="#A78BFA" font-size="28" font-weight="700">
+      🧠 Collaboration Philosophy
+    </text>
+
+    <text x="30" y="90" fill="#E0F2FE">Shared vision over quick contributions</text>
+    <text x="30" y="120" fill="#E0F2FE">Aligned standards and clean systems</text>
+    <text x="30" y="150" fill="#E0F2FE">Build things that outlive individuals</text>
+
+  </g>
+
+</svg>

@@ -23,14 +23,15 @@
   </a>
 </p>
 
+---
 
+<p align="center">
+  <img src="../docs/img/collaboration_content.svg"/>
+</p>
+
+---
 
 # 🐍 Contribution Journey
 <p align="center">
   <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
-</p>
-
-
-<p align="center">
-  <img src="./docs/img/mlp_space.svg"/>
 </p>
