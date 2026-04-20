@@ -1,6 +1,7 @@
 <p align="center">
   <img src="./img/projects_system_header.svg" width="100%" />
 </p>
+
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
 
@@ -50,29 +51,29 @@
 
 <td width="50%" align="center">
   <a href="https://github.com/HiradEmami/future-iran-ai-think-tank">
-    <img src="/docs/img/projects/future_iran_ai.svg" width="100%" />
+    <img src="./img/projects/future_iran_ai.svg" width="100%" />
   </a>
   <br><br>
   <a href="https://github.com/HiradEmami/ThirtyoneCard">
-    <img src="/docs/img/projects/thirty_one.svg" width="100%" />
+    <img src="./img/projects/thirty_one.svg" width="100%" />
   </a>
   <br><br>
   <a href="https://github.com/HiradEmami/readme-ux-kit">
-    <img src="/docs/img/projects/readme_ux_kit.svg" width="100%" />
+    <img src="./img/projects/readme_ux_kit.svg" width="100%" />
   </a>
 </td>
 
 <td width="50%" align="center">
   <a href="https://github.com/PLAYERUNKNOWN-Productions/research-paperops">
-    <img src="/docs/img/projects/paper_ops.svg" width="100%" />
+    <img src="./img/projects/paper_ops.svg" width="100%" />
   </a>
   <br><br>
   <a href="https://github.com/HiradEmami/MARL">
-    <img src="/docs/img/projects/marl.svg" width="100%" />
+    <img src="./img/projects/marl.svg" width="100%" />
   </a>
   <br><br>
   <a href="https://github.com/HiradEmami/SpaceInvadersModel">
-    <img src="/docs/img/projects/space_invader.svg" width="100%" />
+    <img src="./img/projects/space_invader.svg" width="100%" />
   </a>
 </td>
 
