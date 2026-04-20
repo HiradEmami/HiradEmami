@@ -1,0 +1,161 @@
+<svg width="1600" height="320" viewBox="0 0 1600 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1600" y2="320">
+      <stop offset="0%" stop-color="#07111F"/>
+      <stop offset="50%" stop-color="#0B1F35"/>
+      <stop offset="100%" stop-color="#07111F"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="160" y1="0" x2="1440" y2="0">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="80%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+
+      <!-- flowing energy -->
+      <animateTransform attributeName="gradientTransform"
+                        type="translate"
+                        values="-200 0;200 0;-200 0"
+                        dur="6s"
+                        repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="500" y1="90" x2="1100" y2="230">
+      <stop offset="0%" stop-color="#E0F2FE"/>
+      <stop offset="50%" stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur">
+        <animate attributeName="stdDeviation" values="5;7;5" dur="3s" repeatCount="indefinite"/>
+      </feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="12" result="blur">
+        <animate attributeName="stdDeviation" values="10;14;10" dur="4s" repeatCount="indefinite"/>
+      </feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" stroke="#38BDF8" stroke-opacity="0.08" stroke-width="1">
+        <animateTransform attributeName="transform"
+                          type="translate"
+                          values="0 0;40 40;0 0"
+                          dur="20s"
+                          repeatCount="indefinite"/>
+      </path>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="320" rx="28" fill="url(#bgGrad)"/>
+  <rect width="1600" height="320" rx="28" fill="url(#grid)"/>
+
+  <!-- Pulsing nodes -->
+  <circle cx="220" cy="78" r="3" fill="#22D3EE" filter="url(#glow)">
+    <animate attributeName="r" values="2.5;4;2.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1320" cy="84" r="3" fill="#A78BFA" filter="url(#glow)">
+    <animate attributeName="r" values="2.5;4;2.5" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1420" cy="242" r="2.5" fill="#22D3EE" filter="url(#glow)">
+    <animate attributeName="r" values="2;3.5;2" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="280" cy="252" r="2.5" fill="#A78BFA" filter="url(#glow)">
+    <animate attributeName="r" values="2;3.5;2" dur="2.7s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Lines (now animated via gradient) -->
+  <path d="M180 92H540" stroke="url(#lineGrad)" stroke-width="2" filter="url(#glow)"/>
+  <path d="M1060 92H1420" stroke="url(#lineGrad)" stroke-width="2" filter="url(#glow)"/>
+  <path d="M220 230H520" stroke="url(#lineGrad)" stroke-width="2" filter="url(#glow)"/>
+  <path d="M1080 230H1380" stroke="url(#lineGrad)" stroke-width="2" filter="url(#glow)"/>
+
+  <!-- Breathing boxes -->
+  <g filter="url(#softGlow)">
+    <rect x="130" y="70" width="84" height="84" rx="16" stroke="#22D3EE" stroke-width="2">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="1386" y="166" width="84" height="84" rx="16" stroke="#A78BFA" stroke-width="2">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="1370" y="50" width="42" height="42" rx="10" stroke="#22D3EE" stroke-width="1.5">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="188" y="210" width="42" height="42" rx="10" stroke="#A78BFA" stroke-width="1.5">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="4.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Subtle network pulse -->
+  <g opacity="0.85" filter="url(#glow)">
+    <circle cx="172" cy="112" r="6" fill="#22D3EE"/>
+    <circle cx="138" cy="146" r="6" fill="#22D3EE"/>
+    <circle cx="206" cy="146" r="6" fill="#22D3EE"/>
+
+    <animateTransform attributeName="transform"
+                      type="scale"
+                      values="1;1.05;1"
+                      dur="3s"
+                      repeatCount="indefinite"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#glow)">
+    <circle cx="1428" cy="208" r="6" fill="#A78BFA"/>
+    <circle cx="1394" cy="242" r="6" fill="#A78BFA"/>
+    <circle cx="1462" cy="242" r="6" fill="#A78BFA"/>
+
+    <animateTransform attributeName="transform"
+                      type="scale"
+                      values="1;1.05;1"
+                      dur="3.5s"
+                      repeatCount="indefinite"/>
+  </g>
+
+  <!-- Subtitle -->
+  <text x="800" y="138"
+        text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="26"
+        font-weight="600"
+        letter-spacing="7"
+        fill="#67E8F9">
+    OPEN • BUILD • CONNECT
+  </text>
+
+  <!-- Title shimmer -->
+  <text x="800" y="208"
+        text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="72"
+        font-weight="800"
+        letter-spacing="5"
+        fill="url(#textGrad)"
+        filter="url(#softGlow)">
+    COLLABORATION
+
+    <animate attributeName="opacity"
+             values="0.85;1;0.85"
+             dur="4s"
+             repeatCount="indefinite"/>
+  </text>
+
+  <rect x="540" y="228" width="520" height="2" rx="1" fill="url(#lineGrad)" filter="url(#glow)"/>
+
+</svg>
