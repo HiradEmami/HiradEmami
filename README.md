@@ -64,7 +64,7 @@
 <tr>
 
 <!-- LEFT: TOOLS -->
-<td width="33%" valign="top" align="center">
+<td width="40%" valign="top" align="center">
 
 <h3>🛠 Technologies</h3>
 <br>
@@ -110,7 +110,7 @@
 </td>
 
 <!-- MIDDLE: PROJECTS -->
-<td width="33%" valign="top" align="center">
+<td width="30%" valign="top" align="center">
 
 <h3>🧪 Projects</h3>
 <br>
@@ -122,7 +122,7 @@
 </td>
 
 <!-- RIGHT: AI DOMAINS -->
-<td width="33%" valign="top" align="center">
+<td width="30%" valign="top" align="center">
 
 <h3>🧠 AI Domains</h3>
 <br>
