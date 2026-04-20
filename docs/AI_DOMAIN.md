@@ -26,5 +26,7 @@
 ---
 
 <p align="center">
-  <img src="./docs/img/mlp_space.svg"/>
+    <a href="https://hirademami.github.io/neural-lab">
+        <img src="./docs/img/mlp_space.svg"/>
+    </a>
 </p>

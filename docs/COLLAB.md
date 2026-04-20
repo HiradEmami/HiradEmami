@@ -15,7 +15,7 @@
   <a href="https://hirademami.github.io/">
     <img src="../docs/img/navbar/website.svg" width="15%" />
   </a>
-  <a href="./BLOGS.md">
+  <a href="https://hirademami.github.io/pages/blog.html">
     <img src="../docs/img/navbar/blogs.svg" width="15%" />
   </a>
   <a href="./COLLAB.md">
