@@ -4,7 +4,13 @@
       <stop offset="0%" stop-color="#22d3ee"/>
       <stop offset="100%" stop-color="#67e8f9"/>
     </linearGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
     <style>
       .t{font:600 12px 'Segoe UI'; fill:#e2e8f0; letter-spacing:2px;}
     </style>

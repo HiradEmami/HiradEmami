@@ -6,7 +6,11 @@
     </linearGradient>
 
     <filter id="glow">
-      <feGaussianBlur stdDeviation="3"/>
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
 
     <style>

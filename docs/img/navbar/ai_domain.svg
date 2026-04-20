@@ -8,7 +8,11 @@
     </radialGradient>
 
     <filter id="glow">
-      <feGaussianBlur stdDeviation="5"/>
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
 
     <style>
