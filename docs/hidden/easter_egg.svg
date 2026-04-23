@@ -194,4 +194,42 @@
   <text x="512" y="100" text-anchor="middle" class="hidden-text">
     you noticed it
   </text>
+
+  <g transform="translate(512, 920)" filter="url(#neonGlow)">
+
+      <!-- echo -->
+      <text text-anchor="middle"
+            font-family="monospace"
+            font-size="14"
+            fill="#22d3ee"
+            opacity="0.15"
+            transform="translate(2,2)">
+        <tspan x="0" dy="0">H eavens  I ntersect</tspan>
+        <tspan x="0" dy="25">R ealities  A lign  D ivine</tspan>
+      </text>
+
+      <!-- main -->
+      <text text-anchor="middle"
+            font-family="monospace"
+            font-size="14"
+            fill="#e2e8f0">
+
+        <tspan x="0" dy="0">
+          <animate attributeName="opacity"
+                   values="0.5;0.8;0.5"
+                   dur="6s"
+                   repeatCount="indefinite"/>
+          H eavens  I ntersect
+        </tspan>
+
+        <tspan x="0" dy="25">
+          <animate attributeName="opacity"
+                   values="0.4;0.7;0.4"
+                   dur="7s"
+                   repeatCount="indefinite"/>
+          R ealities  A lign  D ivine
+        </tspan>
+
+      </text>
+    </g>
 </svg>
