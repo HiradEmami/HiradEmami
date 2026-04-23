@@ -181,7 +181,7 @@ I’m open to collaborating on:
 <!-- MIDDLE: PANEL -->
 <td width="34%" align="center" valign="middle">
     <a href="docs/COLLAB.md">
-        <img src="docs/img/collaboration_panel.svg" width="100%" />
+        <img src="docs/img/collaboration_panel.svg" width="200px" />
     </a>
 </td>
 
