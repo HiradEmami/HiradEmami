@@ -130,7 +130,9 @@
 <br>
 
 <div style="width:220px;">
-  <img src="docs/img/ai_domains.svg" width="220">
+    <a href="docs/AI_DOMAIN.md">
+        <img src="docs/img/ai_domains.svg" width="220">
+    </a>
 </div>
 
 </td>
@@ -161,7 +163,7 @@
 <tr>
 
 <!-- LEFT: COLLAB -->
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 <h2>🤝 Collaboration</h2>
 
@@ -176,8 +178,15 @@ I’m open to collaborating on:
 
 </td>
 
+<!-- MIDDLE: PANEL -->
+<td width="34%" align="center" valign="middle">
+    <a href="docs/COLLAB.md">
+        <img src="docs/img/collaboration_panel.svg" width="100%" />
+    </a>
+</td>
+
 <!-- RIGHT: CONTACT -->
-<td width="50%" valign="top" align="center">
+<td width="33%" valign="top" align="center">
 
 <h2>📫 Contact</h2>
 
