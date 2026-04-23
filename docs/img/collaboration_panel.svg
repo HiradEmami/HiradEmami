@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+
+    <radialGradient id="energy">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#67e8f9"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </radialGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+
+    <style>
+      .title { font:700 36px 'Segoe UI'; fill:#f8fafc; letter-spacing:2px; }
+      .subtitle { font:500 16px 'Segoe UI'; fill:#94a3b8; }
+      .cta { font:600 14px 'Segoe UI'; fill:#22d3ee; letter-spacing:2px; }
+    </style>
+  </defs>
+
+  <rect width="500" height="650" fill="url(#bg)"/>
+
+  <!-- energy sources -->
+  <circle cx="120" cy="260" r="30" fill="#22d3ee" opacity="0.7" filter="url(#glow)">
+    <animate attributeName="r" values="28;34;28" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.9;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="380" cy="260" r="30" fill="#8b5cf6" opacity="0.7" filter="url(#glow)">
+    <animate attributeName="r" values="28;34;28" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.9;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- flowing energy paths -->
+  <path d="M120 260 Q250 180 250 260"
+        stroke="#22d3ee"
+        stroke-opacity="0.4"
+        stroke-width="2"
+        stroke-dasharray="6 10"
+        fill="none">
+    <animate attributeName="stroke-dashoffset"
+             values="0;60"
+             dur="2.5s"
+             repeatCount="indefinite"/>
+  </path>
+
+  <path d="M380 260 Q250 340 250 260"
+        stroke="#8b5cf6"
+        stroke-opacity="0.4"
+        stroke-width="2"
+        stroke-dasharray="6 10"
+        fill="none">
+    <animate attributeName="stroke-dashoffset"
+             values="0;60"
+             dur="2.5s"
+             repeatCount="indefinite"/>
+  </path>
+
+  <!-- forming core -->
+  <g transform="translate(250,260)">
+    <circle r="70" fill="url(#energy)" opacity="0.25" filter="url(#glow)">
+      <animate attributeName="r" values="60;85;60" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.35;0.2" dur="4s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- rotating rings -->
+    <g>
+      <circle r="90"
+              fill="none"
+              stroke="#67e8f9"
+              stroke-opacity="0.25"
+              stroke-dasharray="40 20"/>
+      <animateTransform attributeName="transform"
+                        type="rotate"
+                        from="0"
+                        to="360"
+                        dur="12s"
+                        repeatCount="indefinite"/>
+    </g>
+
+    <g>
+      <circle r="110"
+              fill="none"
+              stroke="#8b5cf6"
+              stroke-opacity="0.2"
+              stroke-dasharray="60 30"/>
+      <animateTransform attributeName="transform"
+                        type="rotate"
+                        from="360"
+                        to="0"
+                        dur="18s"
+                        repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- text -->
+  <text x="250" y="430" text-anchor="middle" class="title">
+    COLLABORATION
+  </text>
+
+  <text x="250" y="470" text-anchor="middle" class="subtitle">
+    convergence • shared systems • building together
+  </text>
+
+  <text x="250" y="520" text-anchor="middle" class="cta">
+    CONNECT →
+  </text>
+</svg>
