@@ -220,6 +220,15 @@ I’m open to collaborating on:
 Star ⭐ the repos if they helped you!
 </p>
 
+
+
+<p align="center">
+    <a href="docs/hidden/easter_egg.md">
+        <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_heartbeat_node.svg" width="20px">
+    </a>
+</p>
+
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&width=100"/>
 </p>
