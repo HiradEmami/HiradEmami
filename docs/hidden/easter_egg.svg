@@ -1,0 +1,197 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="voidGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="60%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+
+    <radialGradient id="nebulaBlue">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+
+    <radialGradient id="nebulaPink">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+
+    <linearGradient id="violetBackbone" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#c4b5fd" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <linearGradient id="jetGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#c4b5fd" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="trailYellow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="trailViolet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="trailCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .hidden-text {
+        font: 500 12px monospace;
+        fill: #67e8f9;
+        opacity: 0;
+        transition: opacity 0.4s ease;
+      }
+      svg:hover .hidden-text {
+        opacity: 0.6;
+      }
+    </style>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#voidGrad)"/>
+
+  <circle cx="300" cy="300" r="350" fill="url(#nebulaBlue)"/>
+  <circle cx="750" cy="700" r="400" fill="url(#nebulaPink)"/>
+
+  <text x="20" y="1000" font-size="10" fill="#94a3b8" opacity="0.15">
+    51.5074°N 0.1278°W
+  </text>
+
+  <g filter="url(#neonGlow)">
+    <circle cx="210" cy="200" r="3" fill="#ffffff" opacity="0.8">
+      <animate attributeName="opacity" values="0.1;1;0.1" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="850" cy="250" r="4" fill="#67e8f9" opacity="0.8">
+      <animate attributeName="opacity" values="0.1;1;0.1" dur="5.7s" repeatCount="indefinite"/>
+    </circle>
+
+    <g fill="#ffffff">
+      <circle cx="100" cy="100" r="1.5">
+        <animate attributeName="opacity" values="0;1;0" dur="3.1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="900" cy="100" r="2">
+        <animate attributeName="opacity" values="0;1;0" dur="4.9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="100" cy="900" r="1.8">
+        <animate attributeName="opacity" values="0;1;0" dur="3.7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="512" cy="150" r="2.5">
+        <animate attributeName="opacity" values="0;1;0" dur="5.3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="150" cy="512" r="1.5">
+        <animate attributeName="opacity" values="0;1;0" dur="4.1s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g fill="#22d3ee">
+      <circle cx="800" cy="150" r="2">
+        <animate attributeName="opacity" values="0;1;0" dur="6.1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="200" cy="800" r="1.5">
+        <animate attributeName="opacity" values="0;1;0" dur="3.9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="900" cy="800" r="2.2">
+        <animate attributeName="opacity" values="0;1;0" dur="5.1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="600" cy="900" r="1.8">
+        <animate attributeName="opacity" values="0;1;0" dur="4.7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="50" cy="400" r="2">
+        <animate attributeName="opacity" values="0;1;0" dur="6.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g fill="#a78bfa">
+      <circle cx="350" cy="100" r="1.2">
+        <animate attributeName="opacity" values="0;0.6;0" dur="7.1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="700" cy="200" r="1.5">
+        <animate attributeName="opacity" values="0;0.7;0" dur="8.3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="150" cy="700" r="1.2">
+        <animate attributeName="opacity" values="0;0.6;0" dur="9.1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="850" cy="600" r="1.5">
+        <animate attributeName="opacity" values="0;0.7;0" dur="7.7s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <g transform="translate(512 512) scale(0.8) rotate(15)">
+    <ellipse cx="0" cy="0" rx="45" ry="400" fill="none" stroke="url(#violetBackbone)" stroke-width="6" filter="url(#neonGlow)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <ellipse cx="0" cy="0" rx="35" ry="380" fill="none" stroke="#22d3ee" stroke-width="3" stroke-dasharray="10 30" opacity="0.6">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="15s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <g filter="url(#neonGlow)">
+      <g>
+        <ellipse cx="0" cy="0" rx="6" ry="480" fill="url(#jetGrad)" opacity="0.6" filter="url(#neonGlow)">
+          <animate attributeName="ry" values="460;500;460" dur="3s" repeatCount="indefinite"/>
+        </ellipse>
+        <circle cx="0" cy="0" r="22" fill="#ffffff" filter="url(#neonGlow)"/>
+        <circle cx="0" cy="0" r="10" fill="#67e8f9"/>
+        <circle cx="0" cy="0" r="5" fill="#ffffff"/>
+      </g>
+
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
+        <path d="M 0,-280 Q 80,-270 0,-260" stroke="url(#trailYellow)" stroke-width="1.5" stroke-dasharray="10 10" fill="none" opacity="0.4"/>
+        <circle cx="0" cy="-280" r="14" fill="#fbbf24"/>
+        <circle cx="0" cy="-280" r="4" fill="#ffffff"/>
+      </g>
+
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+        <path d="M 0,-140 Q -70,-130 0,-120" stroke="url(#trailViolet)" stroke-width="2" stroke-dasharray="8 12" fill="none" opacity="0.4"/>
+        <circle cx="0" cy="-140" r="12" fill="#8b5cf6"/>
+        <circle cx="0" cy="-140" r="4" fill="#ffffff"/>
+      </g>
+
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="10s" repeatCount="indefinite"/>
+        <path d="M 0,-200 Q 50,-195 0,-190" stroke="url(#trailCyan)" stroke-width="1.2" stroke-dasharray="12 8" fill="none" opacity="0.5"/>
+        <circle cx="0" cy="-200" r="8" fill="#22d3ee"/>
+      </g>
+
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite"/>
+        <path d="M 0,220 Q 60,230 0,240" stroke="url(#trailViolet)" stroke-width="2.2" stroke-dasharray="10 10" fill="none" opacity="0.4"/>
+        <circle cx="0" cy="220" r="10" fill="#a78bfa"/>
+      </g>
+
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="8s" repeatCount="indefinite"/>
+        <path d="M 0,80 Q -40,85 0,90" stroke="#ffffff" stroke-width="1" stroke-dasharray="10 10" fill="none" opacity="0.5"/>
+        <circle cx="0" cy="80" r="6" fill="#ffffff"/>
+      </g>
+
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+        <path d="M 0,280 Q -80,270 0,260" stroke="url(#trailYellow)" stroke-width="2.5" stroke-dasharray="8 12" fill="none" opacity="0.4"/>
+        <circle cx="0" cy="280" r="14" fill="#fde047"/>
+        <circle cx="0" cy="280" r="4" fill="#ffffff"/>
+      </g>
+    </g>
+  </g>
+
+  <text x="512" y="100" text-anchor="middle" class="hidden-text">
+    you noticed it
+  </text>
+</svg>
