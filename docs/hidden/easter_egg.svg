@@ -200,7 +200,7 @@
       <!-- echo -->
       <text text-anchor="middle"
             font-family="monospace"
-            font-size="14"
+            font-size="17"
             fill="#22d3ee"
             opacity="0.15"
             transform="translate(2,2)">
