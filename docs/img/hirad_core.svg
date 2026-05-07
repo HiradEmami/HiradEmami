@@ -7,7 +7,8 @@
 
     <linearGradient id="panelStroke" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#334155"/>
-      <stop offset="50%" stop-color="#475569"/>
+      <stop offset="48%" stop-color="#22d3ee"/>
+      <stop offset="72%" stop-color="#8b5cf6"/>
       <stop offset="100%" stop-color="#334155"/>
     </linearGradient>
 
@@ -17,12 +18,39 @@
       <stop offset="100%" stop-color="#ec4899"/>
     </linearGradient>
 
+    <linearGradient id="lineFlow" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="22%" stop-color="#22d3ee" stop-opacity="0.85"/>
+      <stop offset="52%" stop-color="#8b5cf6" stop-opacity="0.9"/>
+      <stop offset="82%" stop-color="#22d3ee" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-120 0;120 0;-120 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.24"/>
+      <stop offset="52%" stop-color="#8b5cf6" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#38bdf8" stroke-opacity="0.045" stroke-width="1">
+        <animateTransform attributeName="transform" type="translate" values="0 0;34 34;0 0" dur="26s" repeatCount="indefinite"/>
+      </path>
+    </pattern>
+
     <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feGaussianBlur stdDeviation="4" result="b">
+        <animate attributeName="stdDeviation" values="3.5;5;3.5" dur="4s" repeatCount="indefinite"/>
+      </feGaussianBlur>
       <feMerge>
         <feMergeNode in="b"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
+    </filter>
+
+    <filter id="panelShadow" x="-15%" y="-20%" width="130%" height="145%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#020617" flood-opacity="0.55"/>
     </filter>
 
     <style>
@@ -53,51 +81,69 @@
         fill: #22d3ee;
       }
       .frame {
-        fill: rgba(2,6,23,0.55);
+        fill: rgba(2,6,23,0.68);
         stroke: url(#panelStroke);
         stroke-width: 2;
         rx: 18;
       }
       .innerLine {
-        stroke: #1e293b;
-        stroke-width: 1.5;
+        stroke: url(#lineFlow);
+        stroke-width: 1.8;
       }
       .accent {
         stroke: url(#titleGrad);
         stroke-width: 3;
         fill: none;
+        stroke-linecap: round;
       }
     </style>
   </defs>
 
   <!-- background -->
   <rect x="0" y="0" width="1200" height="430" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="430" fill="url(#grid)"/>
+  <circle cx="600" cy="74" r="140" fill="url(#coreGlow)">
+    <animate attributeName="r" values="120;155;120" dur="7s" repeatCount="indefinite"/>
+  </circle>
 
   <!-- top label -->
   <line x1="70" y1="52" x2="455" y2="52" class="innerLine"/>
   <line x1="745" y1="52" x2="1130" y2="52" class="innerLine"/>
 
   <g transform="translate(600,52)" filter="url(#glowCyan)">
-    <circle r="18" fill="none" stroke="#22d3ee" stroke-width="3"/>
-    <circle r="9" fill="#22d3ee"/>
-    <line x1="-26" y1="0" x2="-18" y2="0" stroke="#22d3ee" stroke-width="3"/>
-    <line x1="18" y1="0" x2="26" y2="0" stroke="#22d3ee" stroke-width="3"/>
-    <line x1="0" y1="-26" x2="0" y2="-18" stroke="#22d3ee" stroke-width="3"/>
-    <line x1="0" y1="18" x2="0" y2="26" stroke="#22d3ee" stroke-width="3"/>
+    <circle r="25" fill="none" stroke="#1e293b" stroke-width="2"/>
+    <circle r="18" fill="none" stroke="#22d3ee" stroke-width="3" stroke-dasharray="22 10">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="9" fill="#22d3ee">
+      <animate attributeName="r" values="8;10;8" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="-32" y1="0" x2="-22" y2="0" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/>
+    <line x1="22" y1="0" x2="32" y2="0" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="-32" x2="0" y2="-22" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="22" x2="0" y2="32" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/>
   </g>
 
   <text x="600" y="103" text-anchor="middle" class="title">SYSTEM CORE</text>
   <text x="600" y="126" text-anchor="middle" class="subtitle">runtime capabilities • cognitive stack • engineering doctrine</text>
 
   <!-- panels -->
-  <rect x="60" y="160" width="340" height="220" class="frame"/>
-  <rect x="430" y="160" width="340" height="220" class="frame"/>
-  <rect x="800" y="160" width="340" height="220" class="frame"/>
+  <g filter="url(#panelShadow)">
+    <rect x="60" y="160" width="340" height="220" class="frame"/>
+    <rect x="430" y="160" width="340" height="220" class="frame"/>
+    <rect x="800" y="160" width="340" height="220" class="frame"/>
+  </g>
 
   <!-- accents -->
-  <path d="M85 178 H180" class="accent"/>
-  <path d="M455 178 H550" class="accent"/>
-  <path d="M825 178 H920" class="accent"/>
+  <path d="M85 178 H180" class="accent" stroke-dasharray="95 24">
+    <animate attributeName="stroke-dashoffset" from="0" to="-119" dur="7s" repeatCount="indefinite"/>
+  </path>
+  <path d="M455 178 H550" class="accent" stroke-dasharray="95 24">
+    <animate attributeName="stroke-dashoffset" from="0" to="-119" dur="7.5s" repeatCount="indefinite"/>
+  </path>
+  <path d="M825 178 H920" class="accent" stroke-dasharray="95 24">
+    <animate attributeName="stroke-dashoffset" from="0" to="-119" dur="8s" repeatCount="indefinite"/>
+  </path>
 
   <!-- panel 1 -->
   <text x="95" y="210" class="section">BUILD SYSTEMS</text>
