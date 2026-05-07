@@ -1,0 +1,21 @@
+<svg width="760" height="250" viewBox="0 0 760 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="760" y2="250"><stop offset="0%" stop-color="#020617"/><stop offset="100%" stop-color="#12112c"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="760" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#22d3ee"/><stop offset="55%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#ec4899"/><animateTransform attributeName="gradientTransform" type="translate" values="-120 0;120 0;-120 0" dur="5s" repeatCount="indefinite"/></linearGradient>
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>.meta{font:800 13px 'Segoe UI',Arial,sans-serif;letter-spacing:4px;fill:#67e8f9}.title{font:900 42px 'Segoe UI',Arial,sans-serif;fill:#f8fafc}.desc{font:600 18px 'Segoe UI',Arial,sans-serif;fill:#94a3b8}.tag{font:800 12px 'Segoe UI',Arial,sans-serif;letter-spacing:2px;fill:#dbeafe}</style>
+  </defs>
+  <rect width="760" height="250" rx="24" fill="url(#bg)"/>
+  <rect x="6" y="6" width="748" height="238" rx="20" fill="none" stroke="url(#edge)" stroke-width="2" stroke-opacity="0.7" stroke-dasharray="340 86" stroke-linecap="round"><animate attributeName="stroke-dashoffset" from="0" to="-426" dur="16s" repeatCount="indefinite"/></rect>
+  <g transform="translate(78 72)" filter="url(#glow)">
+    <path d="M0 42C42-20 112-20 154 42C112 104 42 104 0 42Z" fill="none" stroke="#22d3ee" stroke-width="3"/>
+    <circle cx="77" cy="42" r="28" fill="none" stroke="#8b5cf6" stroke-width="3"/>
+    <circle cx="77" cy="42" r="7" fill="#22d3ee"><animate attributeName="r" values="6;10;6" dur="2.4s" repeatCount="indefinite"/></circle>
+    <path d="M26 42H54M100 42H128M77 14V-8M77 92V70" stroke="#67e8f9" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <text x="280" y="74" class="meta">VISUALIZATION ENVIRONMENT</text>
+  <text x="280" y="126" class="title">NEURAL LAB</text>
+  <text x="280" y="161" class="desc">Explore neural systems through interactive visual experiments.</text>
+  <g transform="translate(280 190)"><rect width="96" height="26" rx="13" fill="#0f172a" stroke="#22d3ee" stroke-opacity=".45"/><text x="48" y="18" text-anchor="middle" class="tag">NEURAL</text></g>
+  <g transform="translate(390 190)"><rect width="98" height="26" rx="13" fill="#0f172a" stroke="#8b5cf6" stroke-opacity=".45"/><text x="49" y="18" text-anchor="middle" class="tag">VISUAL</text></g>
+</svg>

@@ -1,0 +1,22 @@
+<svg width="760" height="250" viewBox="0 0 760 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="760" y2="250"><stop offset="0%" stop-color="#020617"/><stop offset="100%" stop-color="#052e2b"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="760" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#2dd4bf"/><stop offset="45%" stop-color="#22c55e"/><stop offset="75%" stop-color="#67e8f9"/><stop offset="100%" stop-color="#2dd4bf"/><animateTransform attributeName="gradientTransform" type="translate" values="-120 0;120 0;-120 0" dur="5s" repeatCount="indefinite"/></linearGradient>
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>.meta{font:800 13px 'Segoe UI',Arial,sans-serif;letter-spacing:4px;fill:#99f6e4}.title{font:900 40px 'Segoe UI',Arial,sans-serif;fill:#f8fafc}.desc{font:600 18px 'Segoe UI',Arial,sans-serif;fill:#a7f3d0}.tag{font:800 12px 'Segoe UI',Arial,sans-serif;letter-spacing:2px;fill:#d1fae5}</style>
+  </defs>
+  <rect width="760" height="250" rx="24" fill="url(#bg)"/>
+  <rect x="6" y="6" width="748" height="238" rx="20" fill="none" stroke="url(#edge)" stroke-width="2" stroke-opacity="0.7" stroke-dasharray="340 86" stroke-linecap="round"><animate attributeName="stroke-dashoffset" from="0" to="-426" dur="16s" repeatCount="indefinite"/></rect>
+  <g transform="translate(82 60)" filter="url(#glow)">
+    <path d="M54 42L118 78M54 42L52 112M118 78L52 112M118 78L152 30" stroke="#5eead4" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="54" cy="42" r="22" fill="#0f766e" stroke="#99f6e4" stroke-width="3"><animate attributeName="r" values="20;24;20" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="118" cy="78" r="27" fill="#14532d" stroke="#86efac" stroke-width="3"><animate attributeName="r" values="25;29;25" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="52" cy="112" r="18" fill="#164e63" stroke="#67e8f9" stroke-width="3"><animate attributeName="r" values="17;21;17" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="152" cy="30" r="15" fill="#052e16" stroke="#bbf7d0" stroke-width="3"/>
+  </g>
+  <text x="280" y="74" class="meta">ATOMIC BUILDER SANDBOX</text>
+  <text x="280" y="126" class="title">MOLECULE LAB</text>
+  <text x="280" y="161" class="desc">Build molecules directly from atoms, bonds, and structures.</text>
+  <g transform="translate(280 190)"><rect width="86" height="26" rx="13" fill="#052e2b" stroke="#2dd4bf" stroke-opacity=".55"/><text x="43" y="18" text-anchor="middle" class="tag">ATOMS</text></g>
+  <g transform="translate(380 190)"><rect width="86" height="26" rx="13" fill="#052e2b" stroke="#22c55e" stroke-opacity=".55"/><text x="43" y="18" text-anchor="middle" class="tag">BONDS</text></g>
+</svg>

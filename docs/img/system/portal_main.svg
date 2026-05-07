@@ -1,0 +1,83 @@
+<svg width="1200" height="330" viewBox="0 0 1200 330" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="48%" stop-color="#07111f"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="38%" stop-color="#3b82f6"/>
+      <stop offset="68%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-180 0;180 0;-180 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#38bdf8" stroke-opacity="0.07">
+        <animateTransform attributeName="transform" type="translate" values="0 0;36 36;0 0" dur="22s" repeatCount="indefinite"/>
+      </path>
+    </pattern>
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .kicker { font: 800 15px 'Segoe UI', Arial, sans-serif; letter-spacing: 5px; fill: #67e8f9; }
+      .title { font: 900 64px 'Segoe UI', Arial, sans-serif; letter-spacing: 2px; fill: #f8fafc; }
+      .desc { font: 600 23px 'Segoe UI', Arial, sans-serif; fill: #94a3b8; }
+      .chip { font: 800 15px 'Segoe UI', Arial, sans-serif; letter-spacing: 2px; fill: #dbeafe; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="330" rx="30" fill="url(#bg)"/>
+  <rect width="1200" height="330" rx="30" fill="url(#grid)"/>
+  <circle cx="600" cy="165" r="240" fill="url(#core)">
+    <animate attributeName="r" values="220;260;220" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="8" y="8" width="1184" height="314" rx="26" fill="none" stroke="url(#flow)" stroke-width="2" stroke-opacity="0.72" stroke-dasharray="520 96" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="0" to="-616" dur="18s" repeatCount="indefinite"/>
+  </rect>
+
+  <g filter="url(#glow)">
+    <path d="M110 72H390" stroke="url(#flow)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M810 72H1090" stroke="url(#flow)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M120 258H468" stroke="url(#flow)" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
+    <path d="M732 258H1080" stroke="url(#flow)" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
+  </g>
+
+  <g transform="translate(600 84)" filter="url(#glow)">
+    <circle r="27" fill="none" stroke="#22d3ee" stroke-width="3"/>
+    <circle r="12" fill="#22d3ee"/>
+    <path d="M-46 0H-28M28 0H46M0 -46V-28M0 28V46" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 600 84" to="360 600 84" dur="18s" repeatCount="indefinite"/>
+  </g>
+
+  <text x="600" y="90" text-anchor="middle" class="kicker">PRIMARY SYSTEM PORTAL</text>
+  <text x="600" y="170" text-anchor="middle" class="title">HIRAD MAIN SYSTEM</text>
+  <text x="600" y="220" text-anchor="middle" class="desc">Projects | Blogs | Labs | Info | Research Notes</text>
+
+  <g transform="translate(330 282)">
+    <rect width="130" height="28" rx="14" fill="#0f172a" stroke="#22d3ee" stroke-opacity="0.45"/>
+    <text x="65" y="19" text-anchor="middle" class="chip">PROJECTS</text>
+  </g>
+  <g transform="translate(485 282)">
+    <rect width="100" height="28" rx="14" fill="#0f172a" stroke="#8b5cf6" stroke-opacity="0.45"/>
+    <text x="50" y="19" text-anchor="middle" class="chip">BLOGS</text>
+  </g>
+  <g transform="translate(610 282)">
+    <rect width="90" height="28" rx="14" fill="#0f172a" stroke="#22d3ee" stroke-opacity="0.45"/>
+    <text x="45" y="19" text-anchor="middle" class="chip">LABS</text>
+  </g>
+  <g transform="translate(725 282)">
+    <rect width="145" height="28" rx="14" fill="#0f172a" stroke="#8b5cf6" stroke-opacity="0.45"/>
+    <text x="72" y="19" text-anchor="middle" class="chip">ABOUT ME</text>
+  </g>
+</svg>
