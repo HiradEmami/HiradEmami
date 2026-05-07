@@ -39,10 +39,21 @@
 <p align="center">
 
 <a href="https://hirademami.github.io/">
-  <img width="48%" src="https://capsule-render.vercel.app/api?type=rect&color=0:020617,25:0f172a,50:020617,75:0f172a,100:020617&height=400&section=header&text=Hirad%20System&desc=Projects%20|%20Blogs%20|%20Labs%20|%20Info&fontColor=3ddcff&descAlignY=70&fontSize=60&descSize=30&animation=twinkling" />
+  <img width="82%" src="./docs/img/system/portal_main.svg" alt="Hirad System portal" />
 </a>
+
+</p>
+
+<p align="center">
+
 <a href="https://hirademami.github.io/neural-lab/index.html">
-  <img width="48%" src="https://capsule-render.vercel.app/api?type=rect&color=0:020617,25:0f172a,50:020617,75:0f172a,100:020617&height=400&section=header&text=NEURAL%20LAB&desc=Neural%20Visualization%20Environment&fontColor=b794ff&descAlignY=70&fontSize=60&descSize=30&animation=twinkling" />
+  <img width="32%" src="./docs/img/system/neural_lab.svg" alt="Neural Lab" />
+</a>
+<a href="https://hirademami.github.io/molecule-lab/index.html">
+  <img width="32%" src="./docs/img/system/molecule_lab.svg" alt="Molecule Lab" />
+</a>
+<a href="https://hirademami.github.io/model-forge/index.html">
+  <img width="32%" src="./docs/img/system/model_forge.svg" alt="Model Forge" />
 </a>
 
 </p>
