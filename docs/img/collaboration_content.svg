@@ -1,194 +1,257 @@
 <svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
-
   <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="48%" stop-color="#07111f"/>
+      <stop offset="100%" stop-color="#0b1024"/>
+    </linearGradient>
 
-    <!-- Subtle grid animation -->
-    <pattern id="gridAnim" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0 L0 0 0 40" stroke="#38BDF8" stroke-opacity="0.06">
-        <animateTransform attributeName="transform"
-          type="translate"
-          values="0 0;40 40;0 0"
-          dur="20s"
-          repeatCount="indefinite"/>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.34"/>
+      <stop offset="45%" stop-color="#8b5cf6" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="edgeFlow" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="45%" stop-color="#8b5cf6"/>
+      <stop offset="70%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-260 0;260 0;-260 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="cyanPurple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="52%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+
+    <linearGradient id="greenFlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="50%" stop-color="#67e8f9"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#38bdf8" stroke-opacity="0.055" stroke-width="1">
+        <animateTransform attributeName="transform" type="translate" values="0 0;44 44;0 0" dur="24s" repeatCount="indefinite"/>
       </path>
     </pattern>
 
-    <!-- Soft radial glow -->
-    <radialGradient id="pulseGlow">
-      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Background -->
-    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900">
-      <stop offset="0%" stop-color="#050B16"/>
-      <stop offset="100%" stop-color="#07111F"/>
-    </linearGradient>
-
-    <!-- Border Gradient -->
-    <linearGradient id="borderGrad">
-      <stop offset="0%" stop-color="#22D3EE"/>
-      <stop offset="50%" stop-color="#8B5CF6"/>
-      <stop offset="100%" stop-color="#22D3EE"/>
-    </linearGradient>
-
-    <!-- Glow -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="6" result="b"/>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
       <feMerge>
-        <feMergeNode in="b"/>
+        <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .eyebrow {
+        font: 700 16px 'Segoe UI', Arial, sans-serif;
+        letter-spacing: 5px;
+        fill: #67e8f9;
+      }
+      .headline {
+        font: 800 58px 'Segoe UI', Arial, sans-serif;
+        letter-spacing: 3px;
+        fill: #f8fafc;
+      }
+      .subhead {
+        font: 500 20px 'Segoe UI', Arial, sans-serif;
+        fill: #94a3b8;
+      }
+      .panelTitle {
+        font: 800 27px 'Segoe UI', Arial, sans-serif;
+        fill: #e0f2fe;
+      }
+      .panelMeta {
+        font: 700 13px 'Segoe UI', Arial, sans-serif;
+        letter-spacing: 3px;
+        fill: #67e8f9;
+      }
+      .item {
+        font: 600 18px 'Segoe UI', Arial, sans-serif;
+        fill: #dbeafe;
+      }
+      .small {
+        font: 600 15px 'Segoe UI', Arial, sans-serif;
+        fill: #94a3b8;
+      }
+      .terminal {
+        font: 700 17px 'Cascadia Mono', Consolas, monospace;
+        fill: #bbf7d0;
+      }
+      .panel {
+        fill: rgba(2, 6, 23, 0.76);
+        stroke: url(#cyanPurple);
+        stroke-width: 2;
+      }
+      .panelBack {
+        fill: rgba(15, 23, 42, 0.62);
+        stroke: #1e293b;
+        stroke-width: 1.5;
+      }
+      .route {
+        fill: none;
+        stroke: url(#edgeFlow);
+        stroke-width: 3;
+        stroke-linecap: round;
+        stroke-dasharray: 18 18;
+        filter: url(#glow);
+      }
+      .minorRoute {
+        fill: none;
+        stroke: #334155;
+        stroke-width: 1.5;
+        stroke-dasharray: 8 14;
+      }
+    </style>
   </defs>
 
-  <rect width="1600" height="900" fill="url(#bg)" rx="30"/>
-  <!-- Animated grid overlay -->
-    <rect width="1600" height="900" fill="url(#gridAnim)" rx="30"/>
+  <rect width="1600" height="900" rx="34" fill="url(#bg)"/>
+  <rect width="1600" height="900" rx="34" fill="url(#grid)"/>
+  <circle cx="800" cy="440" r="330" fill="url(#coreGlow)">
+    <animate attributeName="r" values="300;360;300" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="8s" repeatCount="indefinite"/>
+  </circle>
 
-    <!-- Soft breathing glow -->
-    <circle cx="800" cy="450" r="300" fill="url(#pulseGlow)">
-      <animate attributeName="r" values="280;340;280" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="8s" repeatCount="indefinite"/>
+  <rect x="28" y="28" width="1544" height="844" rx="30" fill="none" stroke="url(#edgeFlow)" stroke-width="3" stroke-dasharray="190 42" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="0" to="-464" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <g opacity="0.75">
+    <circle cx="180" cy="130" r="3" fill="#22d3ee" filter="url(#glow)">
+      <animate attributeName="r" values="2;5;2" dur="2.4s" repeatCount="indefinite"/>
     </circle>
-
-    <!-- Floating particles -->
-    <g opacity="0.4">
-      <circle cx="200" cy="200" r="2" fill="#22D3EE">
-        <animate attributeName="cy" values="200;150;200" dur="6s" repeatCount="indefinite"/>
-      </circle>
-
-      <circle cx="1400" cy="300" r="2" fill="#A78BFA">
-        <animate attributeName="cy" values="300;360;300" dur="7s" repeatCount="indefinite"/>
-      </circle>
-
-      <circle cx="600" cy="700" r="2" fill="#22D3EE">
-        <animate attributeName="cy" values="700;650;700" dur="5.5s" repeatCount="indefinite"/>
-      </circle>
-
-      <circle cx="1200" cy="750" r="2" fill="#A78BFA">
-        <animate attributeName="cy" values="750;800;750" dur="6.5s" repeatCount="indefinite"/>
-      </circle>
-    </g>
-
-    <!-- Subtle horizontal energy sweep -->
-    <rect x="0" y="0" width="1600" height="900" fill="#22D3EE" opacity="0">
-      <animate attributeName="opacity" values="0;0.03;0" dur="10s" repeatCount="indefinite"/>
-    </rect>
-  <!-- PANEL TEMPLATE -->
-  <!-- Panel 1 -->
-  <g transform="translate(100,120)">
-
-    <!-- animated border flow -->
-    <rect width="600" height="220" rx="16"
-          fill="none"
-          stroke="url(#borderGrad)"
-          stroke-width="2"
-          stroke-dasharray="1000"
-          stroke-dashoffset="1000"
-          filter="url(#glow)">
-      <animate attributeName="stroke-dashoffset"
-               values="1000;0"
-               dur="4s"
-               repeatCount="indefinite"/>
-    </rect>
-
-
-
-    <!-- title -->
-    <text x="30" y="50" fill="#67E8F9" font-size="28" font-weight="700">
-      🤝 Collaboration Areas
-    </text>
-
-    <text x="30" y="90" fill="#E0F2FE">AI / ML Systems &amp; Infrastructure</text>
-    <text x="30" y="120" fill="#E0F2FE">Robotics &amp; Autonomous Systems</text>
-    <text x="30" y="150" fill="#E0F2FE">MLOps Platforms &amp; Tooling</text>
-    <text x="30" y="180" fill="#E0F2FE">Research &amp; Open Source</text>
-
+    <circle cx="1410" cy="146" r="3" fill="#a78bfa" filter="url(#glow)">
+      <animate attributeName="r" values="2;5;2" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" cy="748" r="3" fill="#f472b6" filter="url(#glow)">
+      <animate attributeName="r" values="2;5;2" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1355" cy="760" r="3" fill="#22d3ee" filter="url(#glow)">
+      <animate attributeName="r" values="2;5;2" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
   </g>
 
-  <!-- Panel 2 -->
-  <g transform="translate(900,120)">
+  <text x="800" y="92" text-anchor="middle" class="eyebrow">COLLABORATION MATRIX</text>
+  <text x="800" y="158" text-anchor="middle" class="headline">BUILDING REAL AI SYSTEMS</text>
+  <text x="800" y="195" text-anchor="middle" class="subhead">MLOps platforms • research tooling • RL systems • robotics infrastructure</text>
 
-    <rect width="600" height="220" rx="16"
-          fill="none"
-          stroke="url(#borderGrad)"
-          stroke-width="2"
-          stroke-dasharray="1000"
-          stroke-dashoffset="1000"
-          filter="url(#glow)">
-      <animate attributeName="stroke-dashoffset"
-               values="1000;0"
-               dur="4.5s"
-               repeatCount="indefinite"/>
-    </rect>
+  <path class="minorRoute" d="M350 330C495 255 620 255 724 382"/>
+  <path class="minorRoute" d="M1250 330C1105 255 980 255 876 382"/>
+  <path class="minorRoute" d="M350 575C500 666 630 648 727 504"/>
+  <path class="minorRoute" d="M1250 575C1100 666 970 648 873 504"/>
 
+  <path class="route" d="M377 345C510 285 632 300 726 399">
+    <animate attributeName="stroke-dashoffset" from="0" to="-144" dur="4.8s" repeatCount="indefinite"/>
+  </path>
+  <path class="route" d="M1223 345C1090 285 968 300 874 399">
+    <animate attributeName="stroke-dashoffset" from="0" to="-144" dur="5.2s" repeatCount="indefinite"/>
+  </path>
+  <path class="route" d="M377 572C518 650 641 620 728 494">
+    <animate attributeName="stroke-dashoffset" from="0" to="-144" dur="5.6s" repeatCount="indefinite"/>
+  </path>
+  <path class="route" d="M1223 572C1082 650 959 620 872 494">
+    <animate attributeName="stroke-dashoffset" from="0" to="-144" dur="4.6s" repeatCount="indefinite"/>
+  </path>
 
-
-    <text x="30" y="50" fill="#A78BFA" font-size="28" font-weight="700">
-      🔍 What I'm Looking For
-    </text>
-
-    <text x="30" y="90" fill="#E0F2FE">Engineers building real systems</text>
-    <text x="30" y="120" fill="#E0F2FE">Reproducible AI workflows</text>
-    <text x="30" y="150" fill="#E0F2FE">Scalable system thinkers</text>
-    <text x="30" y="180" fill="#E0F2FE">Long-term collaborators</text>
-
+  <g transform="translate(638 292)" filter="url(#softGlow)">
+    <circle cx="162" cy="162" r="142" fill="rgba(2, 6, 23, 0.72)" stroke="url(#edgeFlow)" stroke-width="3"/>
+    <circle cx="162" cy="162" r="104" fill="none" stroke="#1e293b" stroke-width="2" stroke-dasharray="10 14">
+      <animateTransform attributeName="transform" type="rotate" from="0 162 162" to="360 162 162" dur="22s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="162" cy="162" r="72" fill="none" stroke="#22d3ee" stroke-opacity="0.72" stroke-width="2" stroke-dasharray="28 16">
+      <animateTransform attributeName="transform" type="rotate" from="360 162 162" to="0 162 162" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="162" cy="162" r="38" fill="url(#cyanPurple)" opacity="0.95">
+      <animate attributeName="r" values="34;42;34" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="162" y="151" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="800" fill="#020617">OPEN</text>
+    <text x="162" y="177" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="800" fill="#020617">BUILD</text>
   </g>
 
-  <!-- Panel 3 -->
-  <g transform="translate(100,420)">
-
-    <rect width="600" height="220" rx="16"
-          fill="none"
-          stroke="url(#borderGrad)"
-          stroke-width="2"
-          stroke-dasharray="1000"
-          stroke-dashoffset="1000"
-          filter="url(#glow)">
-      <animate attributeName="stroke-dashoffset"
-               values="1000;0"
-               dur="3.8s"
-               repeatCount="indefinite"/>
+  <g transform="translate(95 250)">
+    <rect x="10" y="12" width="440" height="210" rx="20" class="panelBack"/>
+    <rect x="0" y="0" width="440" height="210" rx="20" class="panel" stroke-dasharray="128 32" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" from="0" to="-320" dur="5s" repeatCount="indefinite"/>
     </rect>
-
-
-
-    <text x="30" y="50" fill="#67E8F9" font-size="28" font-weight="700">
-      🚀 Open Collaboration
-    </text>
-
-    <text x="30" y="90" fill="#E0F2FE">Research PaperOps Expansion</text>
-    <text x="30" y="120" fill="#E0F2FE">Future Iran AI Think Tank</text>
-    <text x="30" y="150" fill="#E0F2FE">MARL / RL Experiments</text>
-
+    <text x="32" y="45" class="panelMeta">DOMAIN 01</text>
+    <text x="32" y="86" class="panelTitle">ML INFRASTRUCTURE</text>
+    <circle cx="38" cy="125" r="5" fill="#22d3ee"/>
+    <text x="58" y="131" class="item">Model serving and deployment</text>
+    <circle cx="38" cy="160" r="5" fill="#8b5cf6"/>
+    <text x="58" y="166" class="item">Experimentation platforms</text>
+    <circle cx="38" cy="195" r="5" fill="#f472b6"/>
+    <text x="58" y="201" class="item">Production MLOps pipelines</text>
   </g>
 
-  <!-- Panel 4 (Philosophy) -->
-  <g transform="translate(900,420)">
-
-    <rect width="600" height="220" rx="16"
-          fill="none"
-          stroke="url(#borderGrad)"
-          stroke-width="2"
-          stroke-dasharray="1000"
-          stroke-dashoffset="1000"
-          filter="url(#glow)">
-      <animate attributeName="stroke-dashoffset"
-               values="1000;0"
-               dur="5s"
-               repeatCount="indefinite"/>
+  <g transform="translate(1065 250)">
+    <rect x="-10" y="12" width="440" height="210" rx="20" class="panelBack"/>
+    <rect x="0" y="0" width="440" height="210" rx="20" class="panel" stroke-dasharray="128 32" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" from="0" to="-320" dur="5.4s" repeatCount="indefinite"/>
     </rect>
-
-    <text x="30" y="50" fill="#A78BFA" font-size="28" font-weight="700">
-      🧠 Collaboration Philosophy
-    </text>
-
-    <text x="30" y="90" fill="#E0F2FE">Shared vision over quick contributions</text>
-    <text x="30" y="120" fill="#E0F2FE">Aligned standards and clean systems</text>
-    <text x="30" y="150" fill="#E0F2FE">Build things that outlive individuals</text>
-
+    <text x="32" y="45" class="panelMeta">DOMAIN 02</text>
+    <text x="32" y="86" class="panelTitle">RESEARCH SYSTEMS</text>
+    <circle cx="38" cy="125" r="5" fill="#22d3ee"/>
+    <text x="58" y="131" class="item">PaperOps and reproducibility</text>
+    <circle cx="38" cy="160" r="5" fill="#8b5cf6"/>
+    <text x="58" y="166" class="item">RL and multi-agent labs</text>
+    <circle cx="38" cy="195" r="5" fill="#f472b6"/>
+    <text x="58" y="201" class="item">Evaluation and benchmark flows</text>
   </g>
 
+  <g transform="translate(95 535)">
+    <rect x="10" y="12" width="440" height="210" rx="20" class="panelBack"/>
+    <rect x="0" y="0" width="440" height="210" rx="20" class="panel" stroke-dasharray="128 32" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" from="0" to="-320" dur="4.6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="32" y="45" class="panelMeta">SIGNAL 03</text>
+    <text x="32" y="86" class="panelTitle">WHO FITS</text>
+    <circle cx="38" cy="125" r="5" fill="#22d3ee"/>
+    <text x="58" y="131" class="item">Engineers building real systems</text>
+    <circle cx="38" cy="160" r="5" fill="#8b5cf6"/>
+    <text x="58" y="166" class="item">Researchers who ship tooling</text>
+    <circle cx="38" cy="195" r="5" fill="#f472b6"/>
+    <text x="58" y="201" class="item">Long-term collaborators</text>
+  </g>
+
+  <g transform="translate(1065 535)">
+    <rect x="-10" y="12" width="440" height="210" rx="20" class="panelBack"/>
+    <rect x="0" y="0" width="440" height="210" rx="20" class="panel" stroke-dasharray="128 32" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" from="0" to="-320" dur="5.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="32" y="45" class="panelMeta">PROTOCOL 04</text>
+    <text x="32" y="86" class="panelTitle">HOW I WORK</text>
+    <circle cx="38" cy="125" r="5" fill="#22d3ee"/>
+    <text x="58" y="131" class="item">Clear scope and ownership</text>
+    <circle cx="38" cy="160" r="5" fill="#8b5cf6"/>
+    <text x="58" y="166" class="item">High standards, low ego</text>
+    <circle cx="38" cy="195" r="5" fill="#f472b6"/>
+    <text x="58" y="201" class="item">Systems that outlive demos</text>
+  </g>
+
+  <g transform="translate(470 765)">
+    <rect width="660" height="78" rx="18" fill="rgba(2, 6, 23, 0.82)" stroke="url(#greenFlow)" stroke-width="2" stroke-dasharray="90 28">
+      <animate attributeName="stroke-dashoffset" from="0" to="-236" dur="4.2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="34" y="33" class="terminal">&gt; handshake --mode focused --standard production</text>
+    <text x="34" y="59" class="small">Open to aligned work in AI platforms, MLOps, RL, robotics, and research infrastructure.</text>
+  </g>
+
+  <g opacity="0.62" filter="url(#glow)">
+    <path d="M180 820H430" stroke="url(#edgeFlow)" stroke-width="2"/>
+    <path d="M1170 820H1420" stroke="url(#edgeFlow)" stroke-width="2"/>
+    <circle cx="430" cy="820" r="4" fill="#22d3ee"/>
+    <circle cx="1170" cy="820" r="4" fill="#a78bfa"/>
+  </g>
 </svg>
