@@ -158,7 +158,7 @@
 </p>
 
 <p align="center">
-  <img src="http://img.shields.io/badge/Code%20Time-3817%20hrs%2020%20mins-blue?style=flat" alt="Views" />
+  <img src="https://img.shields.io/badge/Code%20Time-3817%20hrs%2020%20mins-blue?style=flat" alt="Views" />
 </p>
 
 [![divider_twin_serpant](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/hiradEmami)
@@ -222,6 +222,12 @@ I’m open to collaborating on:
 </p>
 <p align="center">
 Star ⭐ the repos if they helped you!
+</p>
+
+<p align="center">
+  <a href="./CODE_OF_CONDUCT.md">Code of Conduct</a> ·
+  <a href="./CONTRIBUTING.md">Collaboration</a> ·
+  <a href="./SECURITY.md">Security</a>
 </p>
 
 
