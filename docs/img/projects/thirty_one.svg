@@ -6,7 +6,9 @@
       <stop offset="100%" stop-color="#f43f5e"/>
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="898" height="88" rx="14" fill="#020617" stroke="url(#g3)" stroke-width="2"/>
+  <rect x="1" y="1" width="898" height="88" rx="14" fill="#020617" stroke="url(#g3)" stroke-width="2" stroke-dasharray="140 36" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="0" to="-352" dur="4s" repeatCount="indefinite"/>
+  </rect>
   <text x="20" y="32" fill="#e2e8f0" font-size="20" font-family="monospace">🎴 Thirty-One Game</text>
   <text x="20" y="55" fill="#94a3b8" font-size="14" font-family="monospace">Epistemic logic • multi-agent reasoning</text>
   <circle cx="820" cy="30" r="6" fill="#f43f5e"/>

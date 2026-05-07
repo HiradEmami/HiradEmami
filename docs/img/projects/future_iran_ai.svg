@@ -9,7 +9,10 @@
 
   <!-- Card background -->
   <rect x="1" y="1" width="898" height="88" rx="14"
-        fill="#020617" stroke="url(#borderGlow)" stroke-width="2"/>
+        fill="#020617" stroke="url(#borderGlow)" stroke-width="2"
+        stroke-dasharray="140 36" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="0" to="-352" dur="4s" repeatCount="indefinite"/>
+  </rect>
 
   <!-- Title -->
   <text x="20" y="32" fill="#e2e8f0" font-size="20" font-family="monospace">
