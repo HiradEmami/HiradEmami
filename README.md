@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hirad%20Emamialagha&fontSize=70&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hirad%20Emamialagha&fontSize=70&animation=twinkling" alt="Hirad Emamialagha profile header" />
 </p>
 
 <!-- Title -->
@@ -26,14 +26,14 @@
 </p>
 
 <p align="center">
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2J1a3Q1cTB0MGg2d2p0Z3g2eTJpY3J3a3Rqd3VzdnE1a2l3a3ZrbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/SWoSkN6DxTszqIKEqv/giphy.gif" width="450">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2J1a3Q1cTB0MGg2d2p0Z3g2eTJpY3J3a3Rqd3VzdnE1a2l3a3ZrbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/SWoSkN6DxTszqIKEqv/giphy.gif" width="450" alt="Animated machine learning visual">
 </p>
 
 [![divider_arc_reactor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_cycle.svg)](https://github.com/hiradEmami)
 
 <!-- Title -->
 <p align="center">
-  <img src="./docs/img/system_access_title.svg" width="100%" />
+  <img src="./docs/img/system_access_title.svg" width="100%" alt="System access section title" />
 </p>
 
 <p align="center">
@@ -128,7 +128,7 @@
 
 <div style="width:220px;">
   <a href="docs/PROJECTS.md">
-    <img src="docs/img/tech_projects_panel.svg" width="220">
+    <img src="docs/img/tech_projects_panel.svg" width="220" alt="Projects navigation panel">
   </a>
 </div>
 
@@ -142,7 +142,7 @@
 
 <div style="width:220px;">
     <a href="docs/AI_DOMAIN.md">
-        <img src="docs/img/ai_domains.svg" width="220">
+        <img src="docs/img/ai_domains.svg" width="220" alt="AI domains navigation panel">
     </a>
 </div>
 
@@ -161,7 +161,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HiradEmami&theme=radical" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HiradEmami&theme=radical" alt="GitHub profile contribution summary" />
 </p>    
 
 <p align="center">
@@ -196,7 +196,7 @@ I’m open to collaborating on:
 <!-- MIDDLE: PANEL -->
 <td width="34%" align="center" valign="middle">
     <a href="docs/COLLAB.md">
-        <img src="docs/img/collaboration_panel.svg" width="200px" />
+        <img src="docs/img/collaboration_panel.svg" width="200px" alt="Collaboration navigation panel" />
     </a>
 </td>
 
@@ -208,17 +208,17 @@ I’m open to collaborating on:
 <br>
 
 <a href="https://hirademami.github.io/">
-  <img src="https://img.shields.io/badge/Personal%20Website-hirademami.github.io-36BCF7?style=for-the-badge&logo=google-chrome">
+  <img src="https://img.shields.io/badge/Personal%20Website-hirademami.github.io-36BCF7?style=for-the-badge&logo=google-chrome" alt="Personal website link">
 </a>
 <br><br>
 
 <a href="mailto:hirad.alagha@outlook.com">
-  <img src="https://img.shields.io/badge/email-hirad.alagha@outlook.com-red?style=for-the-badge&logo=gmail">
+  <img src="https://img.shields.io/badge/email-hirad.alagha@outlook.com-red?style=for-the-badge&logo=gmail" alt="Email contact link">
 </a>
 <br><br>
 
 <a href="https://www.linkedin.com/in/hirad-alagha/">
-  <img src="https://img.shields.io/badge/linkedin-hirad--alagha-blue?style=for-the-badge&logo=linkedin">
+  <img src="https://img.shields.io/badge/linkedin-hirad--alagha-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn profile link">
 </a>
 
 </td>
@@ -245,11 +245,11 @@ Star ⭐ the repos if they helped you!
 
 <p align="center">
     <a href="docs/hidden/easter_egg.md">
-        <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_heartbeat_node.svg" width="20px">
+        <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_heartbeat_node.svg" width="20px" alt="Hidden easter egg link">
     </a>
 </p>
 
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&width=100"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&width=100" alt="Profile footer wave"/>
 </p>
