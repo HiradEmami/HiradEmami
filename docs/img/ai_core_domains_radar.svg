@@ -1,0 +1,189 @@
+<svg width="1500" height="900" viewBox="0 0 1500 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1500" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#07111f"/>
+      <stop offset="100%" stop-color="#0b1024"/>
+    </linearGradient>
+
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#67e8f9" stop-opacity="0.34"/>
+      <stop offset="42%" stop-color="#8b5cf6" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="orbitFlow" x1="0" y1="0" x2="1500" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.1"/>
+      <stop offset="25%" stop-color="#22d3ee" stop-opacity="0.92"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.9"/>
+      <stop offset="75%" stop-color="#22c55e" stop-opacity="0.86"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.4"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-180 0;180 0;-180 0" dur="14s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="domainEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="45%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+
+    <pattern id="starGrid" width="70" height="70" patternUnits="userSpaceOnUse">
+      <circle cx="8" cy="10" r="1.2" fill="#67e8f9" opacity="0.18"/>
+      <circle cx="52" cy="42" r="1" fill="#a78bfa" opacity="0.16"/>
+      <path d="M70 0H0V70" fill="none" stroke="#38bdf8" stroke-opacity="0.03"/>
+    </pattern>
+
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#020617" flood-opacity="0.62"/>
+    </filter>
+
+    <style>
+      .kicker {
+        font: 800 14px 'Segoe UI', Arial, sans-serif;
+        letter-spacing: 5px;
+        fill: #67e8f9;
+      }
+      .title {
+        font: 900 46px 'Segoe UI', Arial, sans-serif;
+        letter-spacing: 2px;
+        fill: #f8fafc;
+      }
+      .subtitle {
+        font: 600 17px 'Segoe UI', Arial, sans-serif;
+        fill: #94a3b8;
+      }
+      .coreTitle {
+        font: 900 28px 'Segoe UI', Arial, sans-serif;
+        fill: #f8fafc;
+      }
+      .coreSub {
+        font: 700 14px 'Segoe UI', Arial, sans-serif;
+        letter-spacing: 3px;
+        fill: #67e8f9;
+      }
+      .domainTitle {
+        font: 900 21px 'Segoe UI', Arial, sans-serif;
+        fill: #f8fafc;
+      }
+      .domainText {
+        font: 650 14px 'Segoe UI', Arial, sans-serif;
+        fill: #cbd5e1;
+      }
+      .domainMeta {
+        font: 800 11px 'Segoe UI', Arial, sans-serif;
+        letter-spacing: 3px;
+        fill: #67e8f9;
+      }
+      .terminal {
+        font: 800 15px 'Cascadia Mono', Consolas, monospace;
+        fill: #bbf7d0;
+      }
+    </style>
+  </defs>
+
+  <rect width="1500" height="900" rx="34" fill="url(#bg)"/>
+  <rect width="1500" height="900" rx="34" fill="url(#starGrid)"/>
+  <circle cx="750" cy="470" r="360" fill="url(#coreGlow)">
+    <animate attributeName="r" values="330;385;330" dur="11s" repeatCount="indefinite"/>
+  </circle>
+
+  <rect x="24" y="24" width="1452" height="852" rx="30" fill="none" stroke="url(#orbitFlow)" stroke-width="2.5" stroke-opacity="0.68" stroke-dasharray="520 150" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="0" to="-670" dur="24s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="750" y="72" text-anchor="middle" class="kicker">AI DOMAIN MAP</text>
+  <text x="750" y="128" text-anchor="middle" class="title">CORE TECHNICAL ORBITS</text>
+  <text x="750" y="162" text-anchor="middle" class="subtitle">A systems map of the areas where my AI work, projects, and labs converge.</text>
+
+  <g transform="translate(750 470)" opacity="0.72" filter="url(#glow)">
+    <ellipse rx="360" ry="210" fill="none" stroke="url(#orbitFlow)" stroke-width="2" stroke-dasharray="16 18">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="42s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse rx="275" ry="155" fill="none" stroke="#334155" stroke-width="1.5" stroke-dasharray="9 14">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="38s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse rx="170" ry="96" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+  </g>
+
+  <g stroke="url(#orbitFlow)" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="18 16" opacity="0.75" filter="url(#glow)">
+    <path d="M750 470C610 350 475 300 325 282"/>
+    <path d="M750 470C875 330 1030 280 1185 286"/>
+    <path d="M750 470C590 440 430 450 252 474"/>
+    <path d="M750 470C920 440 1080 452 1252 478"/>
+    <path d="M750 470C625 610 500 675 355 715"/>
+    <path d="M750 470C890 620 1020 680 1162 715"/>
+    <animate attributeName="stroke-dashoffset" from="0" to="-136" dur="9s" repeatCount="indefinite"/>
+  </g>
+
+  <g transform="translate(625 370)" filter="url(#softShadow)">
+    <circle cx="125" cy="100" r="112" fill="rgba(2, 6, 23, 0.84)" stroke="url(#domainEdge)" stroke-width="3"/>
+    <circle cx="125" cy="100" r="74" fill="none" stroke="#22d3ee" stroke-opacity="0.68" stroke-width="2" stroke-dasharray="22 14">
+      <animateTransform attributeName="transform" type="rotate" from="0 125 100" to="360 125 100" dur="24s" repeatCount="indefinite"/>
+    </circle>
+    <text x="125" y="82" text-anchor="middle" class="coreSub">SYSTEMS CORE</text>
+    <text x="125" y="118" text-anchor="middle" class="coreTitle">AI ENGINEERING</text>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <g transform="translate(100 215)">
+      <path d="M20 0H250L300 48V130L276 154H0V20Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#domainEdge)" stroke-width="2"/>
+      <text x="26" y="36" class="domainMeta">ORBIT 01</text>
+      <text x="26" y="72" class="domainTitle">ML INFRASTRUCTURE</text>
+      <text x="26" y="104" class="domainText">Training pipelines, model serving,</text>
+      <text x="26" y="127" class="domainText">reproducibility, experiment systems.</text>
+    </g>
+
+    <g transform="translate(1090 215)">
+      <path d="M50 0H300V134L276 154H0V48Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#domainEdge)" stroke-width="2"/>
+      <text x="32" y="36" class="domainMeta">ORBIT 02</text>
+      <text x="32" y="72" class="domainTitle">MLOPS</text>
+      <text x="32" y="104" class="domainText">Deployment workflows, monitoring,</text>
+      <text x="32" y="127" class="domainText">versioning, evaluation, automation.</text>
+    </g>
+
+    <g transform="translate(70 405)">
+      <path d="M0 0H300V154H24L0 130Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#domainEdge)" stroke-width="2"/>
+      <text x="26" y="36" class="domainMeta">ORBIT 03</text>
+      <text x="26" y="72" class="domainTitle">REINFORCEMENT LEARNING</text>
+      <text x="26" y="104" class="domainText">Multi-agent systems, coordination,</text>
+      <text x="26" y="127" class="domainText">decision-making, simulation.</text>
+    </g>
+
+    <g transform="translate(1130 405)">
+      <path d="M0 0H276L300 24V154H0Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#domainEdge)" stroke-width="2"/>
+      <text x="30" y="36" class="domainMeta">ORBIT 04</text>
+      <text x="30" y="72" class="domainTitle">ROBOTICS &amp; AUTONOMY</text>
+      <text x="30" y="104" class="domainText">Perception, planning, interaction</text>
+      <text x="30" y="127" class="domainText">loops, embodied AI.</text>
+    </g>
+
+    <g transform="translate(140 650)">
+      <path d="M0 0H300V134L276 154H28L0 126Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#domainEdge)" stroke-width="2"/>
+      <text x="26" y="36" class="domainMeta">ORBIT 05</text>
+      <text x="26" y="72" class="domainTitle">DISTRIBUTED SYSTEMS</text>
+      <text x="26" y="104" class="domainText">Scalable compute, data movement,</text>
+      <text x="26" y="127" class="domainText">orchestration, observability.</text>
+    </g>
+
+    <g transform="translate(1035 650)">
+      <path d="M28 0H300V126L272 154H0V20Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#domainEdge)" stroke-width="2"/>
+      <text x="30" y="36" class="domainMeta">ORBIT 06</text>
+      <text x="30" y="72" class="domainTitle">INTERACTIVE LABS</text>
+      <text x="30" y="104" class="domainText">Visual tools for AI and science:</text>
+      <text x="30" y="127" class="domainText">Neural Lab, Molecule Lab, Model Forge.</text>
+    </g>
+  </g>
+
+  <g transform="translate(480 818)">
+    <rect width="540" height="40" rx="20" fill="rgba(2, 6, 23, 0.82)" stroke="url(#orbitFlow)" stroke-width="1.5" stroke-opacity="0.58"/>
+    <text x="28" y="26" class="terminal">&gt; domain focus: models + infrastructure + interaction</text>
+  </g>
+</svg>
