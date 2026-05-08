@@ -16,7 +16,7 @@
   </g>
   <text x="280" y="74" class="meta">ATOMIC BUILDER SANDBOX</text>
   <text x="280" y="126" class="title">MOLECULE LAB</text>
-  <text x="280" y="161" class="desc">Build molecules directly from atoms, bonds, and structures.</text>
+  <text x="280" y="161" class="desc">Build molecules directly from atoms and bonds.</text>
   <g transform="translate(280 190)"><rect width="86" height="26" rx="13" fill="#052e2b" stroke="#2dd4bf" stroke-opacity=".55"/><text x="43" y="18" text-anchor="middle" class="tag">ATOMS</text></g>
   <g transform="translate(380 190)"><rect width="86" height="26" rx="13" fill="#052e2b" stroke="#22c55e" stroke-opacity=".55"/><text x="43" y="18" text-anchor="middle" class="tag">BONDS</text></g>
 </svg>

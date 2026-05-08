@@ -15,7 +15,7 @@
   </g>
   <text x="280" y="74" class="meta">VISUALIZATION ENVIRONMENT</text>
   <text x="280" y="126" class="title">NEURAL LAB</text>
-  <text x="280" y="161" class="desc">Explore neural systems through interactive visual experiments.</text>
+  <text x="280" y="161" class="desc">Explore neural systems with interactive visual system.</text>
   <g transform="translate(280 190)"><rect width="96" height="26" rx="13" fill="#0f172a" stroke="#22d3ee" stroke-opacity=".45"/><text x="48" y="18" text-anchor="middle" class="tag">NEURAL</text></g>
   <g transform="translate(390 190)"><rect width="98" height="26" rx="13" fill="#0f172a" stroke="#8b5cf6" stroke-opacity=".45"/><text x="49" y="18" text-anchor="middle" class="tag">VISUAL</text></g>
 </svg>

@@ -17,7 +17,7 @@
   </g>
   <text x="280" y="74" class="meta">ML FOUNDATIONS WORKSHOP</text>
   <text x="280" y="126" class="title">MODEL FORGE</text>
-  <text x="280" y="161" class="desc">Learn core machine learning concepts through guided systems.</text>
+  <text x="280" y="161" class="desc">Learn core machine learning concepts.</text>
   <g transform="translate(280 190)"><rect width="118" height="26" rx="13" fill="#1e1b4b" stroke="#f59e0b" stroke-opacity=".55"/><text x="59" y="18" text-anchor="middle" class="tag">CONCEPTS</text></g>
   <g transform="translate(412 190)"><rect width="104" height="26" rx="13" fill="#1e1b4b" stroke="#22d3ee" stroke-opacity=".55"/><text x="52" y="18" text-anchor="middle" class="tag">MODELS</text></g>
 </svg>
