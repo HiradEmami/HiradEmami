@@ -81,17 +81,15 @@
 
 ## Current Direction
 
-- Building stronger public demos around interactive AI and learning systems.
-- Improving project documentation so each repository explains the problem, approach, and next steps clearly.
-- Connecting these projects into a coherent profile ecosystem through the main website and lab pages.
-- Keeping the visual style expressive while making the technical substance easy to inspect.
+<p align="center">
+  <img src="../docs/img/projects/current_direction.svg" alt="Current project direction visual panel" />
+</p>
 
 ## What To Look At First
 
-- For AI infrastructure and research automation: start with `PaperOps`.
-- For strategic AI systems and long-term research direction: start with `Future Iran AI`.
-- For RL and agent behavior: start with `MARL` and `Thirty-One Game`.
-- For profile and documentation design: start with `README UX Kit`.
+<p align="center">
+  <img src="../docs/img/projects/first_look.svg" alt="Project first look guide visual panel" />
+</p>
 
 
 ---
