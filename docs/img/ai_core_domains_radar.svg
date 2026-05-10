@@ -70,7 +70,7 @@
         fill: #67e8f9;
       }
       .domainTitle {
-        font: 900 21px 'Segoe UI', Arial, sans-serif;
+        font: 900 19px 'Segoe UI', Arial, sans-serif;
         fill: #f8fafc;
       }
       .domainText {
@@ -133,56 +133,58 @@
   </g>
 
   <g filter="url(#softShadow)">
-    <g transform="translate(100 215)">
-      <path d="M20 0H250L300 48V130L276 154H0V20Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#domainEdge)" stroke-width="2"/>
+    <g transform="translate(70 215)">
+      <path d="M20 0H310L350 42V132L326 158H0V20Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#domainEdge)" stroke-width="2"/>
       <text x="26" y="36" class="domainMeta">ORBIT 01</text>
       <text x="26" y="72" class="domainTitle">ML INFRASTRUCTURE</text>
       <text x="26" y="104" class="domainText">Training pipelines, model serving,</text>
       <text x="26" y="127" class="domainText">reproducibility, experiment systems.</text>
     </g>
 
-    <g transform="translate(1090 215)">
-      <path d="M50 0H300V134L276 154H0V48Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#domainEdge)" stroke-width="2"/>
+    <g transform="translate(1080 215)">
+      <path d="M48 0H350V134L326 158H0V44Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#domainEdge)" stroke-width="2"/>
       <text x="32" y="36" class="domainMeta">ORBIT 02</text>
       <text x="32" y="72" class="domainTitle">MLOPS</text>
       <text x="32" y="104" class="domainText">Deployment workflows, monitoring,</text>
       <text x="32" y="127" class="domainText">versioning, evaluation, automation.</text>
     </g>
 
-    <g transform="translate(70 405)">
-      <path d="M0 0H300V154H24L0 130Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#domainEdge)" stroke-width="2"/>
+    <g transform="translate(45 405)">
+      <path d="M0 0H350V158H26L0 132Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#domainEdge)" stroke-width="2"/>
       <text x="26" y="36" class="domainMeta">ORBIT 03</text>
-      <text x="26" y="72" class="domainTitle">REINFORCEMENT LEARNING</text>
-      <text x="26" y="104" class="domainText">Multi-agent systems, coordination,</text>
-      <text x="26" y="127" class="domainText">decision-making, simulation.</text>
+      <text x="26" y="70" class="domainTitle">REINFORCEMENT</text>
+      <text x="26" y="96" class="domainTitle">LEARNING</text>
+      <text x="26" y="124" class="domainText">Multi-agent coordination,</text>
+      <text x="26" y="146" class="domainText">decision-making, simulation.</text>
     </g>
 
-    <g transform="translate(1130 405)">
-      <path d="M0 0H276L300 24V154H0Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#domainEdge)" stroke-width="2"/>
+    <g transform="translate(1110 405)">
+      <path d="M0 0H326L350 24V158H0Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#domainEdge)" stroke-width="2"/>
       <text x="30" y="36" class="domainMeta">ORBIT 04</text>
-      <text x="30" y="72" class="domainTitle">ROBOTICS &amp; AUTONOMY</text>
-      <text x="30" y="104" class="domainText">Perception, planning, interaction</text>
-      <text x="30" y="127" class="domainText">loops, embodied AI.</text>
+      <text x="30" y="70" class="domainTitle">ROBOTICS &amp;</text>
+      <text x="30" y="96" class="domainTitle">AUTONOMY</text>
+      <text x="30" y="124" class="domainText">Perception, planning, interaction</text>
+      <text x="30" y="146" class="domainText">loops, embodied AI.</text>
     </g>
 
-    <g transform="translate(140 650)">
-      <path d="M0 0H300V134L276 154H28L0 126Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#domainEdge)" stroke-width="2"/>
+    <g transform="translate(95 628)">
+      <path d="M0 0H350V134L326 158H30L0 128Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#domainEdge)" stroke-width="2"/>
       <text x="26" y="36" class="domainMeta">ORBIT 05</text>
       <text x="26" y="72" class="domainTitle">DISTRIBUTED SYSTEMS</text>
       <text x="26" y="104" class="domainText">Scalable compute, data movement,</text>
       <text x="26" y="127" class="domainText">orchestration, observability.</text>
     </g>
 
-    <g transform="translate(1035 650)">
-      <path d="M28 0H300V126L272 154H0V20Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#domainEdge)" stroke-width="2"/>
+    <g transform="translate(1010 628)">
+      <path d="M28 0H350V130L322 158H0V20Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#domainEdge)" stroke-width="2"/>
       <text x="30" y="36" class="domainMeta">ORBIT 06</text>
       <text x="30" y="72" class="domainTitle">INTERACTIVE LABS</text>
       <text x="30" y="104" class="domainText">Visual tools for AI and science:</text>
-      <text x="30" y="127" class="domainText">Neural Lab, Molecule Lab, Model Forge.</text>
+      <text x="30" y="127" class="domainText">Neural, Molecule, and Model Forge.</text>
     </g>
   </g>
 
-  <g transform="translate(480 818)">
+  <g transform="translate(480 815)">
     <rect width="540" height="40" rx="20" fill="rgba(2, 6, 23, 0.82)" stroke="url(#orbitFlow)" stroke-width="1.5" stroke-opacity="0.58"/>
     <text x="28" y="26" class="terminal">&gt; domain focus: models + infrastructure + interaction</text>
   </g>
