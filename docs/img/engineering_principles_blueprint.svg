@@ -1,0 +1,192 @@
+<svg width="1500" height="820" viewBox="0 0 1500 820" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1500" y2="820" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="52%" stop-color="#07111f"/>
+      <stop offset="100%" stop-color="#0b1024"/>
+    </linearGradient>
+
+    <linearGradient id="trace" x1="0" y1="0" x2="1500" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#22d3ee" stop-opacity="0.9"/>
+      <stop offset="48%" stop-color="#8b5cf6" stop-opacity="0.9"/>
+      <stop offset="75%" stop-color="#22c55e" stop-opacity="0.86"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.35"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-180 0;180 0;-180 0" dur="13s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="layerEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="45%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+
+    <radialGradient id="glowCore" cx="62%" cy="54%" r="55%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.18"/>
+      <stop offset="48%" stop-color="#8b5cf6" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="blueprintGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#38bdf8" stroke-opacity="0.045"/>
+      <path d="M16 0V32M0 16H32" fill="none" stroke="#38bdf8" stroke-opacity="0.018"/>
+    </pattern>
+
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="shadow" x="-16%" y="-18%" width="132%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#020617" flood-opacity="0.6"/>
+    </filter>
+
+    <style>
+      .kicker {
+        font: 800 14px 'Segoe UI', Arial, sans-serif;
+        letter-spacing: 5px;
+        fill: #67e8f9;
+      }
+      .title {
+        font: 900 44px 'Segoe UI', Arial, sans-serif;
+        letter-spacing: 2px;
+        fill: #f8fafc;
+      }
+      .subtitle {
+        font: 600 17px 'Segoe UI', Arial, sans-serif;
+        fill: #94a3b8;
+      }
+      .layerNum {
+        font: 900 18px 'Cascadia Mono', Consolas, monospace;
+        fill: #67e8f9;
+      }
+      .layerTitle {
+        font: 900 21px 'Segoe UI', Arial, sans-serif;
+        fill: #f8fafc;
+      }
+      .layerText {
+        font: 650 15px 'Segoe UI', Arial, sans-serif;
+        fill: #cbd5e1;
+      }
+      .railText {
+        font: 900 18px 'Segoe UI', Arial, sans-serif;
+        letter-spacing: 3px;
+        fill: #020617;
+      }
+      .terminal {
+        font: 800 15px 'Cascadia Mono', Consolas, monospace;
+        fill: #bbf7d0;
+      }
+      .moduleLabel {
+        font: 800 12px 'Segoe UI', Arial, sans-serif;
+        letter-spacing: 4px;
+        fill: #67e8f9;
+      }
+    </style>
+  </defs>
+
+  <rect width="1500" height="820" rx="34" fill="url(#bg)"/>
+  <rect width="1500" height="820" rx="34" fill="url(#blueprintGrid)"/>
+  <circle cx="910" cy="440" r="380" fill="url(#glowCore)">
+    <animate attributeName="r" values="350;405;350" dur="11s" repeatCount="indefinite"/>
+  </circle>
+
+  <rect x="24" y="24" width="1452" height="772" rx="30" fill="none" stroke="url(#trace)" stroke-width="2.5" stroke-opacity="0.68" stroke-dasharray="520 150" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="0" to="-670" dur="24s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="750" y="72" text-anchor="middle" class="kicker">ENGINEERING DOCTRINE</text>
+  <text x="750" y="126" text-anchor="middle" class="title">PRINCIPLES THAT SURVIVE IMPLEMENTATION</text>
+  <text x="750" y="160" text-anchor="middle" class="subtitle">A blueprint for AI systems that can be inspected, repeated, tested, and maintained.</text>
+
+  <g filter="url(#glow)">
+    <path d="M900 235V650" stroke="url(#trace)" stroke-width="4" stroke-linecap="round" stroke-dasharray="26 18">
+      <animate attributeName="stroke-dashoffset" from="0" to="-176" dur="10s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="900" cy="245" r="8" fill="#22d3ee"/>
+    <circle cx="900" cy="345" r="8" fill="#8b5cf6"/>
+    <circle cx="900" cy="445" r="8" fill="#22c55e"/>
+    <circle cx="900" cy="545" r="8" fill="#22d3ee"/>
+    <circle cx="900" cy="645" r="8" fill="#8b5cf6"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(95 205)">
+      <path d="M0 0H650L695 40V80L650 120H0Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#layerEdge)" stroke-width="2"/>
+      <text x="30" y="43" class="layerNum">01</text>
+      <text x="86" y="43" class="layerTitle">REPRODUCIBILITY BEFORE IMPRESSIVENESS</text>
+      <text x="86" y="76" class="layerText">A system should be repeatable before it tries to be spectacular.</text>
+    </g>
+
+    <g transform="translate(95 305)">
+      <path d="M0 0H650L695 40V80L650 120H0Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#layerEdge)" stroke-width="2"/>
+      <text x="30" y="43" class="layerNum">02</text>
+      <text x="86" y="43" class="layerTitle">INFRASTRUCTURE IS MODEL QUALITY</text>
+      <text x="86" y="76" class="layerText">Training, serving, evaluation, and observability shape real model value.</text>
+    </g>
+
+    <g transform="translate(95 405)">
+      <path d="M0 0H650L695 40V80L650 120H0Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#layerEdge)" stroke-width="2"/>
+      <text x="30" y="43" class="layerNum">03</text>
+      <text x="86" y="43" class="layerTitle">INTERACTION MUST CLARIFY</text>
+      <text x="86" y="76" class="layerText">Visual tools matter when they improve intuition, not just aesthetics.</text>
+    </g>
+
+    <g transform="translate(95 505)">
+      <path d="M0 0H650L695 40V80L650 120H0Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#layerEdge)" stroke-width="2"/>
+      <text x="30" y="43" class="layerNum">04</text>
+      <text x="86" y="43" class="layerTitle">OBSERVABLE, TESTABLE, MAINTAINABLE</text>
+      <text x="86" y="76" class="layerText">If behavior cannot be inspected or tested, it cannot be trusted.</text>
+    </g>
+
+    <g transform="translate(95 605)">
+      <path d="M0 0H650L695 40V80L650 120H0Z" fill="rgba(2, 6, 23, 0.82)" stroke="url(#layerEdge)" stroke-width="2"/>
+      <text x="30" y="43" class="layerNum">05</text>
+      <text x="86" y="43" class="layerTitle">RESEARCH DESERVES ENGINEERING DISCIPLINE</text>
+      <text x="86" y="76" class="layerText">Research workflows should be versioned, documented, automated, and reviewable.</text>
+    </g>
+  </g>
+
+  <g stroke="url(#trace)" stroke-width="2" stroke-dasharray="14 12" opacity="0.86" filter="url(#glow)">
+    <path d="M790 245H900"/>
+    <path d="M790 345H900"/>
+    <path d="M790 445H900"/>
+    <path d="M790 545H900"/>
+    <path d="M790 645H900"/>
+    <animate attributeName="stroke-dashoffset" from="0" to="-104" dur="8s" repeatCount="indefinite"/>
+  </g>
+
+  <g transform="translate(1015 235)" filter="url(#shadow)">
+    <path d="M68 0H280L348 68V356L280 424H68L0 356V68Z" fill="rgba(2, 6, 23, 0.86)" stroke="url(#layerEdge)" stroke-width="3"/>
+    <path d="M88 52H260L296 88V336L260 372H88L52 336V88Z" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="12 14">
+      <animate attributeName="stroke-dashoffset" from="0" to="-104" dur="14s" repeatCount="indefinite"/>
+    </path>
+    <text x="174" y="88" text-anchor="middle" class="moduleLabel">VERIFICATION MODULE</text>
+    <circle cx="174" cy="176" r="72" fill="none" stroke="#22d3ee" stroke-width="3" stroke-opacity="0.75" stroke-dasharray="28 16">
+      <animateTransform attributeName="transform" type="rotate" from="0 174 176" to="360 174 176" dur="20s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="174" cy="176" r="34" fill="url(#layerEdge)" opacity="0.92">
+      <animate attributeName="r" values="31;37;31" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="174" y="172" text-anchor="middle" class="railText">VERIFY</text>
+    <text x="174" y="286" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="900" fill="#f8fafc">BUILD SYSTEMS</text>
+    <text x="174" y="316" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="650" fill="#94a3b8">that can be repeated,</text>
+    <text x="174" y="339" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="650" fill="#94a3b8">inspected, and improved.</text>
+  </g>
+
+  <g stroke="url(#trace)" stroke-width="2" stroke-dasharray="14 12" opacity="0.7" filter="url(#glow)">
+    <path d="M900 245C958 250 988 270 1015 303"/>
+    <path d="M900 345C950 350 980 350 1015 346"/>
+    <path d="M900 445H1015"/>
+    <path d="M900 545C950 540 980 540 1015 524"/>
+    <path d="M900 645C958 636 988 612 1015 588"/>
+  </g>
+
+  <g transform="translate(485 760)">
+    <rect width="530" height="40" rx="20" fill="rgba(2, 6, 23, 0.82)" stroke="url(#trace)" stroke-width="1.5" stroke-opacity="0.58"/>
+    <text x="28" y="26" class="terminal">&gt; doctrine: repeatable -> observable -> maintainable</text>
+  </g>
+</svg>
