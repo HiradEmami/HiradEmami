@@ -47,14 +47,9 @@
 
 ## Core Domains
 
-| Domain | What I focus on | Related direction |
-| --- | --- | --- |
-| ML Infrastructure | Training pipelines, model serving, reproducibility, experiment systems | Production-grade AI platforms |
-| MLOps | Deployment workflows, monitoring, versioning, evaluation, automation | Reliable ML delivery |
-| Reinforcement Learning | Multi-agent systems, coordination, decision-making, simulation | Agent behavior and control |
-| Robotics & Autonomous Systems | Perception, planning, interaction loops, embodied AI | Systems that act in the world |
-| Distributed Systems | Scalable compute, data movement, orchestration, observability | Infrastructure for AI workloads |
-| Interactive Learning Labs | Visual, hands-on tools for understanding AI and science | Neural Lab, Molecule Lab, Model Forge |
+<p align="center">
+  <img src="../docs/img/ai_core_domains_radar.svg" alt="AI core domains radar map" />
+</p>
 
 ## Labs
 
@@ -66,8 +61,6 @@
 
 ## Engineering Principles
 
-- Systems should be reproducible before they are impressive.
-- Infrastructure matters as much as model quality.
-- Interactive tools are useful when they clarify a concept, not just when they look good.
-- AI systems should be observable, testable, and maintainable.
-- Research workflows benefit from the same engineering discipline as production systems.
+<p align="center">
+  <img src="../docs/img/engineering_principles_blueprint.svg" alt="Engineering principles blueprint for AI systems" />
+</p>
