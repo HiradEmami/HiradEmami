@@ -32,11 +32,11 @@
 ---
 
 <p align="center">
-  <b>I am interested in focused collaboration around AI systems that are useful, inspectable, and engineered well.</b>
+  <b>Collaboration is most interesting to me when the work has a real system behind it: clear constraints, hard technical questions, and enough ambition to be worth engineering properly.</b>
 </p>
 
 <p align="center">
-  The best fit is work connected to ML infrastructure, MLOps, research automation, reinforcement learning, robotics, interactive technical education, or production AI platforms.
+  I am especially interested in AI infrastructure, MLOps, research automation, reinforcement learning, robotics, interactive technical education, and tools that make complex systems easier to understand.
 </p>
 
 <p align="center">
@@ -45,43 +45,91 @@
 
 ---
 
-## Collaboration Areas
+## Collaboration Protocol
 
-| Area | Good fit |
+I like collaborations where the idea can survive contact with implementation. That usually means the project has a concrete problem, a visible technical path, and enough discipline to turn exploration into something usable.
+
+| Signal | What it means |
 | --- | --- |
-| ML Infrastructure | Model serving, training workflows, evaluation systems, platform design |
-| Research Tooling | Paper automation, reproducibility, experiment tracking, benchmark workflows |
-| Reinforcement Learning | Multi-agent coordination, simulation, evaluation, agent behavior |
-| Robotics & Autonomous Systems | Perception, planning, embodied AI, applied autonomy |
-| Interactive Labs | Visual tools for learning ML, neural systems, molecules, and scientific concepts |
-| Open Source Systems | Documentation, architecture, developer experience, technical communication |
+| `BUILD` | There is a real artifact to design, implement, test, or improve. |
+| `RESEARCH` | There is a question worth investigating, not just a vague topic. |
+| `SYSTEMS` | The work involves architecture, reliability, scale, reproducibility, or tooling. |
+| `LEARNING` | The output helps people understand a difficult technical concept more clearly. |
+| `OPEN SOURCE` | The project benefits from public documentation, clean interfaces, and maintainable structure. |
 
-## What Works Well
+## High-Value Collaboration Zones
 
-- Clear problem statement.
-- Real technical constraints.
-- Small first milestone.
-- Shared ownership and direct communication.
-- Preference for maintainable systems over flashy demos.
+### ML Infrastructure & MLOps
 
-## What Is Not A Good Fit
+Model serving, training workflows, evaluation pipelines, experiment tracking, observability, deployment automation, and platform design. I care about the machinery that makes ML usable beyond notebooks.
 
-- Vague "AI idea" pitches with no technical direction.
-- Work that depends on private data without a clear security model.
-- Low-effort requests to build an entire product from scratch.
-- Projects where the only goal is hype, views, or superficial automation.
+### Research Tooling
 
-## How To Reach Out
+Systems that make research workflows less fragile: PaperOps, reproducibility, benchmark automation, literature pipelines, experiment metadata, and clean handoff from idea to implementation.
 
-If you want to collaborate, send a short message with:
+### Reinforcement Learning & Agents
 
-- What you are building.
-- Why it matters.
-- What already exists.
-- What kind of help or collaboration you are looking for.
-- Any repo, demo, paper, diagram, or notes that explain the idea.
+Multi-agent coordination, simulation environments, decision systems, evaluation loops, and agent behavior. I am more interested in measurable behavior than abstract agent hype.
 
-Best channels are listed in the main [README](../README.md#-contact).
+### Robotics & Autonomous Systems
+
+Perception, planning, control loops, embodied AI, and systems that need to operate under real constraints. Good robotics work forces clarity because the world does not accept vague abstractions.
+
+### Interactive Technical Labs
+
+Tools like Neural Lab, Molecule Lab, and Model Forge: visual systems that make complex ideas easier to explore directly. The goal is not decoration; the goal is intuition through interaction.
+
+### Technical Communication & Developer Experience
+
+README systems, diagrams, documentation structure, onboarding flows, and visual interfaces for technical projects. Good engineering is easier to trust when it is easier to inspect.
+
+## What Makes A Strong First Message
+
+The best collaboration message is short, specific, and grounded.
+
+```text
+Subject: Collaboration idea: <short project name>
+
+I am building / exploring:
+<one or two sentences>
+
+The technical problem is:
+<what is hard, unclear, or worth solving>
+
+What exists now:
+<repo, demo, paper, sketch, notes, or current status>
+
+Where I think you might fit:
+<architecture, ML infra, MLOps, RL, documentation, visual systems, review, etc.>
+
+First useful milestone:
+<something small enough to actually start>
+```
+
+If the first milestone is clear, the conversation can become technical quickly. That is usually a good sign.
+
+## Good Fit / Poor Fit
+
+<p align="center">
+  <img src="../docs/img/collaboration_fit_matrix.svg" alt="Good fit and poor fit collaboration comparison matrix" />
+</p>
+
+## Operating Style
+
+<p align="center">
+  <img src="../docs/img/collaboration_operating_style.svg" alt="Operating style matrix for collaboration workflow" />
+</p>
+
+## Contact Vector
+
+If the work connects to AI systems, ML infrastructure, research tooling, RL, robotics, or interactive learning labs, send the idea through one of the channels listed in the main [README](../README.md#-contact).
+
+Useful links:
+
+- [Projects](./PROJECTS.md)
+- [AI Domains](./AI_DOMAIN.md)
+- [Main Website](https://hirademami.github.io/)
+- [GitHub Profile](../README.md)
 
 ---
 
