@@ -49,7 +49,7 @@
 <a href="https://hirademami.github.io/neural-lab/index.html">
   <img width="32%" src="./docs/img/system/neural_lab.svg" alt="Neural Lab" />
 </a>
-<a href="https://hirademami.github.io/molecule-lab/index.html">
+<a href="https://hirademami.github.io/molecules/index.html">
   <img width="32%" src="./docs/img/system/molecule_lab.svg" alt="Molecule Lab" />
 </a>
 <a href="https://hirademami.github.io/model-forge/index.html">
