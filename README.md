@@ -70,16 +70,61 @@ A passionate <b>Senior Full-Stack Software Engineer</b> with <b>6+ years of expe
 
 <p align="center">
   <a href="https://github.com/winnaingsoe6666">
-    <img src="https://github-readme-stats.vercel.app/api?username=winnaingsoe6666&show_icons=true&theme=radical&hide_border=true" alt="Win Naing Soe GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api?username=winnaingsoe6666&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="Win Naing Soe GitHub Stats" />
   </a>
   <a href="https://github.com/winnaingsoe6666">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=winnaingsoe6666&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=winnaingsoe6666&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" />
   </a>
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=winnaingsoe6666&label=PROFILE%20VIEWS&color=36BCF7&style=flat-square" alt="Views" />
 </p>
+
+[![divider_twin_serpant](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/winnaingsoe6666)
+
+### 🚀 Featured Projects
+
+<table align="center" border="0" cellspacing="8" cellpadding="10" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/winnaingsoe6666/ReadLaterAI">📚 ReadLaterAI (KnowVault)</a></h3>
+      <p>Privacy-first personal knowledge management platform. Import Facebook data archives and get AI-powered summaries, full-text search, tags, and categories — all stored locally.</p>
+      <code>Java</code> <code>Spring Boot</code> <code>React</code> <code>Electron</code> <code>Gemini AI</code> <code>SQLite</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/winnaingsoe6666/ShareShelf">🔧 ShareShelf</a></h3>
+      <p>Community-powered tool library platform. Borrow, lend, and share tools within neighborhoods with real-time chat, trust scores, and borrowing workflows.</p>
+      <code>Kotlin</code> <code>Spring Boot</code> <code>Next.js</code> <code>React Native</code> <code>PostgreSQL</code> <code>WebSocket</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/winnaingsoe6666/bagan-vibe">🏛️ Bagan Vibe</a></h3>
+      <p>Interactive 3D web portfolio inspired by Bruno Simon. Explore a Studio Ghibli-styled Bagan temple scene with a player-controlled character to discover portfolio projects.</p>
+      <code>Three.js</code> <code>WebGPU</code> <code>Rapier3D</code> <code>TypeScript</code> <code>Vite</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/winnaingsoe6666/cv-tracker-applier">💼 CareerForge (CV Tracker)</a></h3>
+      <p>All-in-one job tracker SaaS. Resume upload with ATS scoring, job matching, cover letter studio, Kanban pipeline, Chrome extension, and Stripe billing.</p>
+      <code>Next.js</code> <code>Prisma</code> <code>Supabase</code> <code>Stripe</code> <code>Tailwind</code> <code>Chrome Extension</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/winnaingsoe6666/team-05-app">🛒 CrossMart</a></h3>
+      <p>Myanmar's cross-border e-commerce marketplace. Unifies Facebook seller markets into a trustworthy platform with cargo tracking, promotions, and payment integration.</p>
+      <code>Next.js</code> <code>NestJS</code> <code>Prisma</code> <code>PostgreSQL</code> <code>Redis</code> <code>Docker</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/winnaingsoe6666/win-backend-developer">🌐 Win Backend Developer</a></h3>
+      <p>Personal portfolio built with TanStack Start. Features aurora background effects, dark/light/sunset themes, case study routes, and a sitemap.</p>
+      <code>TanStack Start</code> <code>React 19</code> <code>shadcn/ui</code> <code>Radix</code> <code>Tailwind v4</code> <code>TypeScript</code>
+    </td>
+  </tr>
+</table>
+
+> 💡 **Note:** `team-05` is a team coordination repo for the *Vibe Code Tours Cohort 1* course, and `dev-portfolio` is an Angular-based portfolio site — both are included in the repo but not listed above.
 
 [![divider_twin_serpant](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/winnaingsoe6666)
 
