@@ -53,10 +53,14 @@
 
 ## Labs
 
+<p align="center">
+  <a href="./LABS.md"><b>Open dedicated Labs page</b></a>
+</p>
+
 | Lab | Purpose |
 | --- | --- |
 | [Neural Lab](https://hirademami.github.io/neural-lab) | Interactive neural visualization and model intuition. |
-| [Molecule Lab](https://hirademami.github.io/molecule-lab/index.html) | Hands-on molecule building from atoms, bonds, and structures. |
+| [Molecule Lab](https://hirademami.github.io/molecules/index.html) | Hands-on molecule building from atoms, bonds, and structures. |
 | [Model Forge](https://hirademami.github.io/model-forge/index.html) | A guided environment for learning machine learning foundations. |
 
 ## Engineering Principles
