@@ -120,7 +120,7 @@
     <path d="M750 470C920 440 1080 452 1252 478"/>
     <path d="M750 470C625 610 500 675 355 715"/>
     <path d="M750 470C890 620 1020 680 1162 715"/>
-    <animate attributeName="stroke-dashoffset" from="0" to="-136" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="0" to="-136" dur="16s" repeatCount="indefinite"/>
   </g>
 
   <g transform="translate(625 370)" filter="url(#softShadow)">
