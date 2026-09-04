@@ -10,7 +10,7 @@
       <stop offset="38%" stop-color="#3b82f6"/>
       <stop offset="68%" stop-color="#8b5cf6"/>
       <stop offset="100%" stop-color="#22d3ee"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-180 0;180 0;-180 0" dur="6s" repeatCount="indefinite"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-180 0;180 0;-180 0" dur="14s" repeatCount="indefinite"/>
     </linearGradient>
     <radialGradient id="core" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.35"/>
@@ -40,7 +40,7 @@
   <rect width="1200" height="330" rx="30" fill="url(#bg)"/>
   <rect width="1200" height="330" rx="30" fill="url(#grid)"/>
   <circle cx="600" cy="165" r="240" fill="url(#core)">
-    <animate attributeName="r" values="220;260;220" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="228;252;228" dur="11s" repeatCount="indefinite"/>
   </circle>
   <rect x="8" y="8" width="1184" height="314" rx="26" fill="none" stroke="url(#flow)" stroke-width="2" stroke-opacity="0.72" stroke-dasharray="520 96" stroke-linecap="round">
     <animate attributeName="stroke-dashoffset" from="0" to="-616" dur="18s" repeatCount="indefinite"/>
