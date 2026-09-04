@@ -17,7 +17,7 @@ Reports about unrelated projects, generic dependency notices, or automated findi
 
 Please do not open a public issue for security-sensitive reports.
 
-Send a private report through one of the contact channels listed in the README. Include:
+Send a private report through one of the contact channels listed in the root README. Include:
 
 - A clear summary of the issue.
 - The affected file, link, or asset.
@@ -29,7 +29,7 @@ If the report includes sensitive details, keep the initial message brief and ask
 
 ## Link Integrity
 
-This repository uses an automated link checker in `.github/workflows/links.yml`.
+This repository uses an automated link checker in [`workflows/links.yml`](./workflows/links.yml).
 
 The workflow checks Markdown, HTML, and SVG files on pull requests, pushes to `master`, a weekly schedule, and manual dispatch. This helps catch broken profile links, moved GitHub Pages routes, unavailable badges, and remote asset failures.
 
