@@ -60,7 +60,7 @@
   <text x="700" y="150" text-anchor="middle" class="subtitle">Where the project ecosystem is moving next.</text>
 
   <path d="M170 205H1230" stroke="url(#flow)" stroke-width="3" stroke-linecap="round" stroke-dasharray="24 18" filter="url(#glow)">
-    <animate attributeName="stroke-dashoffset" from="0" to="-168" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="0" to="-168" dur="16s" repeatCount="indefinite"/>
   </path>
 
   <g filter="url(#shadow)">
