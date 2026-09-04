@@ -1,0 +1,104 @@
+<svg width="1100" height="320" viewBox="0 0 1100 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Start Here Control Surface</title>
+  <desc id="desc">A README control surface with primary routes to the website, labs, and collaboration page.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1100" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="48%" stop-color="#07111f"/>
+      <stop offset="100%" stop-color="#0b1024"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1100" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="22%" stop-color="#22d3ee" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.76"/>
+      <stop offset="75%" stop-color="#22c55e" stop-opacity="0.78"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-120 0;120 0;-120 0" dur="18s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="route" x1="100" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="48%" r="72%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.2"/>
+      <stop offset="55%" stop-color="#8b5cf6" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-45%" width="160%" height="190%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#38bdf8" stroke-opacity="0.035"/>
+      <circle cx="6" cy="7" r="1" fill="#67e8f9" opacity="0.12"/>
+    </pattern>
+    <style>
+      .eyebrow{font:800 12px 'Segoe UI',Arial,sans-serif;letter-spacing:4px;fill:#67e8f9}
+      .titleText{font:900 42px 'Segoe UI',Arial,sans-serif;fill:#f8fafc;letter-spacing:0}
+      .subtitle{font:650 15px 'Segoe UI',Arial,sans-serif;fill:#94a3b8}
+      .buttonTitle{font:900 19px 'Segoe UI',Arial,sans-serif;fill:#f8fafc}
+      .buttonMeta{font:800 9px 'Segoe UI',Arial,sans-serif;letter-spacing:2.4px;fill:#67e8f9}
+      .buttonText{font:650 11px 'Segoe UI',Arial,sans-serif;fill:#cbd5e1}
+      .terminal{font:800 12px 'Cascadia Mono',Consolas,monospace;fill:#bbf7d0}
+    </style>
+  </defs>
+
+  <rect width="1100" height="320" rx="28" fill="url(#bg)"/>
+  <rect width="1100" height="320" rx="28" fill="url(#grid)"/>
+  <rect x="16" y="16" width="1068" height="288" rx="24" fill="none" stroke="url(#edge)" stroke-width="2" stroke-opacity="0.72" stroke-dasharray="410 145" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="0" to="-555" dur="26s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="32" y="32" width="1036" height="256" rx="18" fill="url(#coreGlow)" opacity="0.9">
+    <animate attributeName="opacity" values="0.72;0.92;0.72" dur="12s" repeatCount="indefinite"/>
+  </rect>
+
+  <g transform="translate(70 62)">
+    <text x="0" y="0" class="eyebrow">START HERE</text>
+    <text x="0" y="48" class="titleText">README CONTROL SURFACE</text>
+    <text x="0" y="80" class="subtitle">First route into the profile system: public website, interactive labs, and collaboration path.</text>
+  </g>
+
+  <g transform="translate(746 54)">
+    <rect x="0" y="0" width="282" height="76" rx="18" fill="#020617" fill-opacity="0.62" stroke="#1e3a8a" stroke-opacity="0.72"/>
+    <text x="22" y="30" class="terminal">&gt; HIRAD SYSTEM ONLINE</text>
+    <text x="22" y="54" class="terminal">&gt; ROUTES: 03 ACTIVE</text>
+  </g>
+
+  <path d="M126 210H974" stroke="url(#route)" stroke-width="3" stroke-linecap="round" stroke-dasharray="42 24" opacity="0.68" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="0" to="-132" dur="20s" repeatCount="indefinite"/>
+  </path>
+
+  <g transform="translate(86 178)">
+    <rect x="0" y="0" width="286" height="86" rx="18" fill="#020817" fill-opacity="0.86" stroke="#22d3ee" stroke-width="1.6"/>
+    <circle cx="34" cy="43" r="13" fill="#22d3ee" opacity="0.95" filter="url(#glow)">
+      <animate attributeName="r" values="12;14;12" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <text x="64" y="31" class="buttonMeta">PUBLIC PORTAL</text>
+    <text x="64" y="56" class="buttonTitle">Website</text>
+    <text x="174" y="56" class="buttonText">portfolio</text>
+  </g>
+
+  <g transform="translate(407 178)">
+    <rect x="0" y="0" width="286" height="86" rx="18" fill="#020817" fill-opacity="0.86" stroke="#a78bfa" stroke-width="1.6"/>
+    <circle cx="34" cy="43" r="13" fill="#a78bfa" opacity="0.95" filter="url(#glow)">
+      <animate attributeName="r" values="12;14;12" dur="10s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <text x="64" y="31" class="buttonMeta">INTERACTIVE SYSTEMS</text>
+    <text x="64" y="56" class="buttonTitle">Labs</text>
+    <text x="130" y="56" class="buttonText">interactive systems</text>
+  </g>
+
+  <g transform="translate(728 178)">
+    <rect x="0" y="0" width="286" height="86" rx="18" fill="#020817" fill-opacity="0.86" stroke="#22c55e" stroke-width="1.6"/>
+    <circle cx="34" cy="43" r="13" fill="#22c55e" opacity="0.95" filter="url(#glow)">
+      <animate attributeName="r" values="12;14;12" dur="11s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="64" y="31" class="buttonMeta">CONTACT VECTOR</text>
+    <text x="64" y="56" class="buttonTitle">Collaboration</text>
+    <text x="220" y="56" class="buttonText">fit</text>
+  </g>
+</svg>
