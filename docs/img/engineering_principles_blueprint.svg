@@ -104,7 +104,7 @@
 
   <g filter="url(#glow)">
     <path d="M900 235V650" stroke="url(#trace)" stroke-width="4" stroke-linecap="round" stroke-dasharray="26 18">
-      <animate attributeName="stroke-dashoffset" from="0" to="-176" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="0" to="-176" dur="16s" repeatCount="indefinite"/>
     </path>
     <circle cx="900" cy="245" r="8" fill="#22d3ee"/>
     <circle cx="900" cy="345" r="8" fill="#8b5cf6"/>
@@ -156,7 +156,7 @@
     <path d="M790 445H900"/>
     <path d="M790 545H900"/>
     <path d="M790 645H900"/>
-    <animate attributeName="stroke-dashoffset" from="0" to="-104" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="0" to="-104" dur="14s" repeatCount="indefinite"/>
   </g>
 
   <g transform="translate(1015 235)" filter="url(#shadow)">
@@ -169,7 +169,7 @@
       <animateTransform attributeName="transform" type="rotate" from="0 174 176" to="360 174 176" dur="20s" repeatCount="indefinite"/>
     </circle>
     <circle cx="174" cy="176" r="34" fill="url(#layerEdge)" opacity="0.92">
-      <animate attributeName="r" values="31;37;31" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="32;36;32" dur="8s" repeatCount="indefinite"/>
     </circle>
     <text x="174" y="172" text-anchor="middle" class="railText">VERIFY</text>
     <text x="174" y="286" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="900" fill="#f8fafc">BUILD SYSTEMS</text>
