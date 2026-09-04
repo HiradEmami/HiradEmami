@@ -15,6 +15,7 @@ Please:
 - Give feedback that is specific, actionable, and grounded in evidence.
 - Assume good intent, but ask clarifying questions when something is unclear.
 - Respect boundaries around private work, unpublished research, personal information, and security-sensitive details.
+- Report suspicious, malicious, or broken links responsibly instead of amplifying them in public threads.
 
 ## Unacceptable Behavior
 
@@ -36,3 +37,4 @@ I may edit, hide, delete, or lock comments, issues, discussions, or pull request
 
 If you see behavior that should be addressed, contact me through the channels listed in the README.
 
+For security-sensitive link issues, exposed secrets, or suspicious external assets, use the process in `SECURITY.md` rather than opening a public issue.
