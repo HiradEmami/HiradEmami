@@ -38,11 +38,29 @@
   <a href="https://hirademami.github.io/model-forge/index.html"><b>Model Forge</b></a>
 </p>
 
+## Launch Hub
+
+The labs are the interactive side of this profile: small technical environments for exploring systems directly instead of only reading about them.
+
+| Lab | Status | Value |
+| --- | --- | --- |
+| [Neural Lab](https://hirademami.github.io/neural-lab/index.html) | Live / evolving | Explore neural-network behavior through visual interaction and model intuition. |
+| [Molecule Lab](https://hirademami.github.io/molecules/index.html) | Prototype | Build molecules from atoms and bonds to make structure, composition, and constraints easier to inspect. |
+| [Model Forge](https://hirademami.github.io/model-forge/index.html) | Planned / experimental | Learn core machine-learning foundations through guided, visual, hands-on concepts. |
+
 ## Lab Mission
 
 <p align="center">
   <img src="../assets/svg/system/labs_mission_pipeline.svg" alt="Lab mission pipeline from direct control to interactive systems" />
 </p>
+
+## What Each Lab Should Prove
+
+| Lab | It should help visitors understand |
+| --- | --- |
+| Neural Lab | How model structure, signals, and learning behavior connect. |
+| Molecule Lab | How atoms, bonds, and spatial structures produce molecules. |
+| Model Forge | How ML concepts fit together before production implementation. |
 
 ## Related Pages
 
