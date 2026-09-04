@@ -1,0 +1,3 @@
+# GitHub handles mailto links as contact actions, and external mail validation
+# can produce noisy results unrelated to the repository content.
+^mailto:
