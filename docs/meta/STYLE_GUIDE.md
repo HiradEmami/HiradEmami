@@ -52,7 +52,7 @@ Every major image embedded in Markdown needs meaningful alt text.
 Good alt text names the function of the visual:
 
 ```html
-<img src="./img/system/profile_architecture.svg" alt="Profile architecture map from README to website, projects, labs, AI domains, and collaboration" />
+<img src="../assets/svg/system/profile_architecture.svg" alt="Profile architecture map from README to website, projects, labs, AI domains, and collaboration" />
 ```
 
 Avoid generic alt text such as `image`, `banner`, `cool svg`, or repeated filenames.
