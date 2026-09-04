@@ -32,6 +32,11 @@
 ---
 
 <p align="center">
+  <img width="82%" src="../docs/img/system/launch_console.svg" alt="Launch console showing Hirad System online, active labs, and collaboration status" />
+</p>
+
+
+<p align="center">
   <b>Collaboration is most interesting to me when the work has a real system behind it: clear constraints, hard technical questions, and enough ambition to be worth engineering properly.</b>
 </p>
 
@@ -128,34 +133,6 @@ Useful links:
 
 - [Projects](./PROJECTS.md)
 - [AI Domains](./AI_DOMAIN.md)
+- [Labs](./LABS.md)
 - [Main Website](https://hirademami.github.io/)
 - [GitHub Profile](../README.md)
-
----
-
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                84 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   07.17 % 
-🌆 Daytime                215 commits         █████░░░░░░░░░░░░░░░░░░░░   18.34 % 
-🌃 Evening                665 commits         ██████████████░░░░░░░░░░░   56.74 % 
-🌙 Night                  208 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.75 % 
-```
-📅 **I'm Most Productive on Saturday** 
-
-```text
-Monday                   187 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.96 % 
-Tuesday                  172 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.68 % 
-Wednesday                198 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.89 % 
-Thursday                 153 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.05 % 
-Friday                   93 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   07.94 % 
-Saturday                 233 commits         █████░░░░░░░░░░░░░░░░░░░░   19.88 % 
-Sunday                   136 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.60 % 
-```
-
----
-
-# 🐍 Contribution Journey
-<p align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
-</p>
