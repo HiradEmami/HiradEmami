@@ -60,7 +60,7 @@
   <text x="700" y="153" text-anchor="middle" class="subtitle">Choose the entry point based on what you care about most.</text>
 
   <path d="M220 280H1180" stroke="url(#flow)" stroke-width="3" stroke-linecap="round" stroke-dasharray="26 18" filter="url(#glow)">
-    <animate attributeName="stroke-dashoffset" from="0" to="-176" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="0" to="-176" dur="16s" repeatCount="indefinite"/>
   </path>
 
   <g filter="url(#shadow)">
