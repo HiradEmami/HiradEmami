@@ -14,7 +14,7 @@ Useful contributions include:
 - Reporting broken external assets or third-party README widgets.
 - Proposing small improvements to profile documentation.
 
-For collaboration on machine learning infrastructure, MLOps, research tooling, reinforcement learning, robotics, or distributed AI systems, please open an issue or contact me through the links in the README.
+For collaboration on machine learning infrastructure, MLOps, research tooling, reinforcement learning, robotics, or distributed AI systems, please open an issue or contact me through the links in the root README.
 
 ## Before Opening a Pull Request
 
@@ -25,7 +25,7 @@ Please keep changes focused and easy to review.
 - Keep generated assets, SVG changes, and Markdown changes scoped to the specific improvement.
 - Avoid adding heavy external dependencies or new third-party services unless there is a clear reason.
 - Do not include secrets, private information, unpublished material, or confidential project details.
-- Follow the SVG motion guidance in `docs/MOTION_SYSTEM.md` when adding or changing animated assets.
+- Follow the SVG motion guidance in [`../docs/meta/MOTION_SYSTEM.md`](../docs/meta/MOTION_SYSTEM.md) when adding or changing animated assets.
 
 ## Pull Request Expectations
 
@@ -63,4 +63,4 @@ When opening an issue, include:
 
 ## Security Reports
 
-Please do not report security issues publicly. Use the process in `SECURITY.md`.
+Please do not report security issues publicly. Use the process in [`SECURITY.md`](./SECURITY.md).
