@@ -1,0 +1,66 @@
+name: Check Links
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - "**/*.html"
+      - "**/*.svg"
+      - ".github/workflows/links.yml"
+      - ".lycheeignore"
+  push:
+    branches:
+      - master
+    paths:
+      - "**/*.md"
+      - "**/*.html"
+      - "**/*.svg"
+      - ".github/workflows/links.yml"
+      - ".lycheeignore"
+  schedule:
+    - cron: "18 7 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  link-check:
+    name: Markdown and Asset Links
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Restore lychee cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: lychee-${{ github.sha }}
+          restore-keys: |
+            lychee-
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --root-dir "${{ github.workspace }}"
+            --cache
+            --max-cache-age 1d
+            --max-retries 3
+            --retry-wait-time 2
+            --timeout 20
+            --accept 200..=299,301,302,307,308,403,429
+            --verbose
+            --no-progress
+            './**/*.md'
+            './**/*.html'
+            './**/*.svg'
+          fail: true
+          failIfEmpty: true
+          format: markdown
+          jobSummary: true
+          output: lychee/out.md
+          token: ${{ github.token }}
+
