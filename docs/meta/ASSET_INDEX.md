@@ -6,6 +6,7 @@ This index tracks the major SVG assets used by the profile system and what each 
 
 | Asset | Used for |
 | --- | --- |
+| `docs/assets/svg/system/start_here_control_surface.svg` | README start-here control surface under the badge row. |
 | `docs/assets/svg/pages/system_access_title.svg` | README system access section title. |
 | `docs/assets/svg/system/portal_main.svg` | Main website portal card. |
 | `docs/assets/svg/system/neural_lab.svg` | Neural Lab card. |
@@ -62,4 +63,5 @@ This index tracks the major SVG assets used by the profile system and what each 
 
 - Follow [Style Guide](./STYLE_GUIDE.md) before adding new visual assets.
 - Follow [Motion System](./MOTION_SYSTEM.md) when editing animation.
+- Review [Visual Audit](./VISUAL_AUDIT.md) before promoting an SVG into the main README.
 - Add new major SVGs here when they become part of README or docs navigation.
