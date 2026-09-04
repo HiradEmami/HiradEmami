@@ -1,30 +1,30 @@
 <p align="center">
-  <img src="../docs/img/collab_system_header.svg" width="100%" alt="Collaboration system header" />
+  <img src="../assets/svg/pages/collab_system_header.svg" width="100%" alt="Collaboration system header" />
 </p>
 
 
 
 <p align="center">
-  <a href="../README.md">
-    <img src="../docs/img/navbar/home.svg" width="220px" alt="Home navigation" />
+  <a href="../../README.md">
+    <img src="../assets/svg/navigation/home.svg" width="220px" alt="Home navigation" />
   </a>
   <a href="./PROJECTS.md">
-    <img src="../docs/img/navbar/projects.svg" width="220px" alt="Projects navigation" />
+    <img src="../assets/svg/navigation/projects.svg" width="220px" alt="Projects navigation" />
   </a>
   <a href="./AI_DOMAIN.md">
-    <img src="../docs/img/navbar/ai_domain.svg" width="220px" alt="AI domains navigation" />
+    <img src="../assets/svg/navigation/ai_domain.svg" width="220px" alt="AI domains navigation" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://hirademami.github.io/">
-    <img src="../docs/img/navbar/website.svg" width="220px" alt="Personal website navigation" />
+    <img src="../assets/svg/navigation/website.svg" width="220px" alt="Personal website navigation" />
   </a>
   <a href="https://hirademami.github.io/pages/blog.html">
-    <img src="../docs/img/navbar/blogs.svg" width="220px" alt="Blog navigation" />
+    <img src="../assets/svg/navigation/blogs.svg" width="220px" alt="Blog navigation" />
   </a>
   <a href="./COLLAB.md">
-    <img src="../docs/img/navbar/collaboration.svg" width="220px" alt="Collaboration navigation" />
+    <img src="../assets/svg/navigation/collaboration.svg" width="220px" alt="Collaboration navigation" />
   </a>
 </p>
 
@@ -32,7 +32,7 @@
 ---
 
 <p align="center">
-  <img width="82%" src="../docs/img/system/launch_console.svg" alt="Launch console showing Hirad System online, active labs, and collaboration status" />
+  <img width="82%" src="../assets/svg/system/launch_console.svg" alt="Launch console showing Hirad System online, active labs, and collaboration status" />
 </p>
 
 
@@ -45,7 +45,7 @@
 </p>
 
 <p align="center">
-  <img src="../docs/img/collaboration_content.svg" alt="Collaboration matrix for AI systems, research tooling, and MLOps work" />
+  <img src="../assets/svg/pages/collaboration_content.svg" alt="Collaboration matrix for AI systems, research tooling, and MLOps work" />
 </p>
 
 ---
@@ -116,18 +116,18 @@ If the first milestone is clear, the conversation can become technical quickly. 
 ## Good Fit / Poor Fit
 
 <p align="center">
-  <img src="../docs/img/collaboration_fit_matrix.svg" alt="Good fit and poor fit collaboration comparison matrix" />
+  <img src="../assets/svg/pages/collaboration_fit_matrix.svg" alt="Good fit and poor fit collaboration comparison matrix" />
 </p>
 
 ## Operating Style
 
 <p align="center">
-  <img src="../docs/img/collaboration_operating_style.svg" alt="Operating style matrix for collaboration workflow" />
+  <img src="../assets/svg/pages/collaboration_operating_style.svg" alt="Operating style matrix for collaboration workflow" />
 </p>
 
 ## Contact Vector
 
-If the work connects to AI systems, ML infrastructure, research tooling, RL, robotics, or interactive learning labs, send the idea through one of the channels listed in the main [README](../README.md#-contact).
+If the work connects to AI systems, ML infrastructure, research tooling, RL, robotics, or interactive learning labs, send the idea through one of the channels listed in the main [README](../../README.md#-contact).
 
 Useful links:
 
@@ -135,4 +135,4 @@ Useful links:
 - [AI Domains](./AI_DOMAIN.md)
 - [Labs](./LABS.md)
 - [Main Website](https://hirademami.github.io/)
-- [GitHub Profile](../README.md)
+- [GitHub Profile](../../README.md)
