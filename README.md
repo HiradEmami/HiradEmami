@@ -19,6 +19,21 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/HiradEmami/HiradEmami/actions/workflows/links.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/HiradEmami/HiradEmami/links.yml?branch=master&label=links&style=flat-square&color=22d3ee" alt="Link checker workflow status" />
+  </a>
+  <a href="https://hirademami.github.io/">
+    <img src="https://img.shields.io/badge/GitHub%20Pages-live-22c55e?style=flat-square&logo=githubpages" alt="GitHub Pages live site" />
+  </a>
+  <a href="https://github.com/HiradEmami/HiradEmami">
+    <img src="https://img.shields.io/badge/profile%20repo-system%20README-a78bfa?style=flat-square&logo=github" alt="Profile repository badge" />
+  </a>
+  <a href="./docs/COLLAB.md">
+    <img src="https://img.shields.io/badge/open%20to-collaboration-f59e0b?style=flat-square" alt="Open to collaboration" />
+  </a>
+</p>
+
+<p align="center">
   <img
     src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1200&color=36BCF7&center=true&vCenter=true&width=900&lines=Lead+Machine+Learning+Engineer;Designing+Scalable+ML+Platforms;Building+ML+Infrastructure;Distributed+Systems+%7C+MLOps+%7C+Production+AI"
     alt="Typing SVG"
@@ -58,11 +73,31 @@
 
 </p>
 
+<p align="center">
+  <a href="./docs/LABS.md">
+    <img width="34%" src="./docs/img/system/explore_labs_button.svg" alt="Explore Labs" />
+  </a>
+</p>
+
 
 [![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_cycle_mirrored.svg)](https://github.com/hiradEmami)
 
 <p align="center">
   <img src="./docs/img/hirad_core.svg" width="100%" alt="System core panel" />
+</p>
+
+<p align="center">
+  <img width="92%" src="./docs/img/system/profile_architecture.svg" alt="Profile architecture map from README to website, projects, labs, AI domains, and collaboration" />
+</p>
+
+<p align="center">
+  <sub>
+    Maintained with <a href="./.github/workflows/links.yml">automated link checks</a>,
+    <a href="./SECURITY.md">security reporting</a>,
+    <a href="./docs/STYLE_GUIDE.md">style guidance</a>,
+    <a href="./docs/MOTION_SYSTEM.md">motion rules</a>,
+    and an <a href="./docs/ASSET_INDEX.md">asset index</a>.
+  </sub>
 </p>
 
 
@@ -237,8 +272,13 @@ Star ⭐ the repos if they helped you!
 
 <p align="center">
   <a href="./CODE_OF_CONDUCT.md">Code of Conduct</a> ·
-  <a href="./CONTRIBUTING.md">Collaboration</a> ·
-  <a href="./SECURITY.md">Security</a>
+  <a href="./CONTRIBUTING.md">Contributing</a> ·
+  <a href="./SECURITY.md">Security</a> ·
+  <a href="./docs/README.md">Docs</a> ·
+  <a href="./docs/COLLAB.md">Collaboration</a> ·
+  <a href="./docs/ROADMAP.md">Roadmap</a> ·
+  <a href="./docs/STYLE_GUIDE.md">Style Guide</a> ·
+  <a href="./docs/ASSET_INDEX.md">Asset Index</a>
 </p>
 
 
