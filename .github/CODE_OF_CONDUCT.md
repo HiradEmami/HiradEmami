@@ -35,6 +35,6 @@ This code of conduct applies to interactions in this repository, including issue
 
 I may edit, hide, delete, or lock comments, issues, discussions, or pull requests that violate this code of conduct. Repeated or severe violations may result in blocking or reporting through GitHub.
 
-If you see behavior that should be addressed, contact me through the channels listed in the README.
+If you see behavior that should be addressed, contact me through the channels listed in the root README.
 
-For security-sensitive link issues, exposed secrets, or suspicious external assets, use the process in `SECURITY.md` rather than opening a public issue.
+For security-sensitive link issues, exposed secrets, or suspicious external assets, use the process in [`SECURITY.md`](./SECURITY.md) rather than opening a public issue.
