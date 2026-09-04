@@ -28,7 +28,7 @@
   <a href="https://github.com/HiradEmami/HiradEmami">
     <img src="https://img.shields.io/badge/profile%20repo-system%20README-a78bfa?style=flat-square&logo=github" alt="Profile repository badge" />
   </a>
-  <a href="./docs/COLLAB.md">
+  <a href="./docs/pages/COLLAB.md">
     <img src="https://img.shields.io/badge/open%20to-collaboration-f59e0b?style=flat-square" alt="Open to collaboration" />
   </a>
 </p>
@@ -48,13 +48,13 @@
 
 <!-- Title -->
 <p align="center">
-  <img src="./docs/img/system_access_title.svg" width="100%" alt="System access section title" />
+  <img src="./docs/assets/svg/pages/system_access_title.svg" width="100%" alt="System access section title" />
 </p>
 
 <p align="center">
 
 <a href="https://hirademami.github.io/">
-  <img width="82%" src="./docs/img/system/portal_main.svg" alt="Hirad System portal" />
+  <img width="82%" src="./docs/assets/svg/system/portal_main.svg" alt="Hirad System portal" />
 </a>
 
 </p>
@@ -62,20 +62,20 @@
 <p align="center">
 
 <a href="https://hirademami.github.io/neural-lab/index.html">
-  <img width="32%" src="./docs/img/system/neural_lab.svg" alt="Neural Lab" />
+  <img width="32%" src="./docs/assets/svg/system/neural_lab.svg" alt="Neural Lab" />
 </a>
 <a href="https://hirademami.github.io/molecules/index.html">
-  <img width="32%" src="./docs/img/system/molecule_lab.svg" alt="Molecule Lab" />
+  <img width="32%" src="./docs/assets/svg/system/molecule_lab.svg" alt="Molecule Lab" />
 </a>
 <a href="https://hirademami.github.io/model-forge/index.html">
-  <img width="32%" src="./docs/img/system/model_forge.svg" alt="Model Forge" />
+  <img width="32%" src="./docs/assets/svg/system/model_forge.svg" alt="Model Forge" />
 </a>
 
 </p>
 
 <p align="center">
-  <a href="./docs/LABS.md">
-    <img width="34%" src="./docs/img/system/explore_labs_button.svg" alt="Explore Labs" />
+  <a href="./docs/pages/LABS.md">
+    <img width="34%" src="./docs/assets/svg/system/explore_labs_button.svg" alt="Explore Labs" />
   </a>
 </p>
 
@@ -83,20 +83,20 @@
 [![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_cycle_mirrored.svg)](https://github.com/hiradEmami)
 
 <p align="center">
-  <img src="./docs/img/hirad_core.svg" width="100%" alt="System core panel" />
+  <img src="./docs/assets/svg/pages/hirad_core.svg" width="100%" alt="System core panel" />
 </p>
 
 <p align="center">
-  <img width="92%" src="./docs/img/system/profile_architecture.svg" alt="Profile architecture map from README to website, projects, labs, AI domains, and collaboration" />
+  <img width="92%" src="./docs/assets/svg/system/profile_architecture.svg" alt="Profile architecture map from README to website, projects, labs, AI domains, and collaboration" />
 </p>
 
 <p align="center">
   <sub>
     Maintained with <a href="./.github/workflows/links.yml">automated link checks</a>,
-    <a href="./SECURITY.md">security reporting</a>,
-    <a href="./docs/STYLE_GUIDE.md">style guidance</a>,
-    <a href="./docs/MOTION_SYSTEM.md">motion rules</a>,
-    and an <a href="./docs/ASSET_INDEX.md">asset index</a>.
+    <a href="./.github/SECURITY.md">security reporting</a>,
+    <a href="./docs/meta/STYLE_GUIDE.md">style guidance</a>,
+    <a href="./docs/meta/MOTION_SYSTEM.md">motion rules</a>,
+    and an <a href="./docs/meta/ASSET_INDEX.md">asset index</a>.
   </sub>
 </p>
 
@@ -162,8 +162,8 @@
 <br>
 
 <div style="width:220px;">
-  <a href="docs/PROJECTS.md">
-    <img src="docs/img/tech_projects_panel.svg" width="220" alt="Projects navigation panel">
+  <a href="docs/pages/PROJECTS.md">
+    <img src="docs/assets/svg/pages/tech_projects_panel.svg" width="220" alt="Projects navigation panel">
   </a>
 </div>
 
@@ -176,8 +176,8 @@
 <br>
 
 <div style="width:220px;">
-    <a href="docs/AI_DOMAIN.md">
-        <img src="docs/img/ai_domains.svg" width="220" alt="AI domains navigation panel">
+    <a href="docs/pages/AI_DOMAIN.md">
+        <img src="docs/assets/svg/pages/ai_domains.svg" width="220" alt="AI domains navigation panel">
     </a>
 </div>
 
@@ -230,8 +230,8 @@ I’m open to collaborating on:
 
 <!-- MIDDLE: PANEL -->
 <td width="34%" align="center" valign="middle">
-    <a href="docs/COLLAB.md">
-        <img src="docs/img/collaboration_panel.svg" width="200px" alt="Collaboration navigation panel" />
+    <a href="docs/pages/COLLAB.md">
+        <img src="docs/assets/svg/pages/collaboration_panel.svg" width="200px" alt="Collaboration navigation panel" />
     </a>
 </td>
 
@@ -271,20 +271,20 @@ Star ⭐ the repos if they helped you!
 </p>
 
 <p align="center">
-  <a href="./CODE_OF_CONDUCT.md">Code of Conduct</a> ·
-  <a href="./CONTRIBUTING.md">Contributing</a> ·
-  <a href="./SECURITY.md">Security</a> ·
+  <a href="./.github/CODE_OF_CONDUCT.md">Code of Conduct</a> ·
+  <a href="./.github/CONTRIBUTING.md">Contributing</a> ·
+  <a href="./.github/SECURITY.md">Security</a> ·
   <a href="./docs/README.md">Docs</a> ·
-  <a href="./docs/COLLAB.md">Collaboration</a> ·
-  <a href="./docs/ROADMAP.md">Roadmap</a> ·
-  <a href="./docs/STYLE_GUIDE.md">Style Guide</a> ·
-  <a href="./docs/ASSET_INDEX.md">Asset Index</a>
+  <a href="./docs/pages/COLLAB.md">Collaboration</a> ·
+  <a href="./docs/meta/ROADMAP.md">Roadmap</a> ·
+  <a href="./docs/meta/STYLE_GUIDE.md">Style Guide</a> ·
+  <a href="./docs/meta/ASSET_INDEX.md">Asset Index</a>
 </p>
 
 
 
 <p align="center">
-    <a href="docs/hidden/easter_egg.md">
+    <a href="docs/easter-eggs/easter_egg.md">
         <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_heartbeat_node.svg" width="20px" alt="Hidden easter egg link">
     </a>
 </p>
