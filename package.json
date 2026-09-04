@@ -1,0 +1,15 @@
+{
+  "name": "hirademami-profile",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Quality checks for the HiradEmami GitHub profile repository.",
+  "scripts": {
+    "check:alt": "node scripts/check-image-alt-text.mjs",
+    "check:local": "node scripts/check-local-links.mjs",
+    "check:svg": "node scripts/check-svg-assets.mjs",
+    "check": "npm run check:local && npm run check:svg && npm run check:alt"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
