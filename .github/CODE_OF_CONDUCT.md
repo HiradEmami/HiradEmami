@@ -1,4 +1,5 @@
-# Code of Conduct
+[![code_of_conduct_white](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/file_headers/code_of_conduct_white.svg)](https://github.com/HiradEmami/readme-ux-kit)
+[![divider_twin_collapsing_lines](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/lines/divider_twin_collapsing_lines.svg)](https://github.com/HiradEmami/readme-ux-kit)
 
 ## Purpose
 

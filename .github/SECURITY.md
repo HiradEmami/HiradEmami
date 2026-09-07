@@ -1,4 +1,5 @@
-# Security Policy
+[![security_white](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/file_headers/security_white.svg)](https://github.com/HiradEmami/readme-ux-kit)
+[![divider_pulse_wave](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_pulse_wave.svg)](https://github.com/HiradEmami/readme-ux-kit)
 
 ## Scope
 
