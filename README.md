@@ -19,9 +19,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/HiradEmami/HiradEmami/actions/workflows/links.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/HiradEmami/HiradEmami/links.yml?branch=master&label=links&style=flat-square&color=22d3ee" alt="Link checker workflow status" />
-  </a>
   <a href="https://hirademami.github.io/">
     <img src="https://img.shields.io/badge/GitHub%20Pages-live-22c55e?style=flat-square&logo=githubpages" alt="GitHub Pages live site" />
   </a>
