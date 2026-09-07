@@ -88,10 +88,6 @@
   <img src="./docs/assets/svg/pages/hirad_core.svg" width="100%" alt="System core panel" />
 </p>
 
-<p align="center">
-  <img width="92%" src="./docs/assets/svg/system/profile_architecture.svg" alt="Profile architecture map from README to website, projects, labs, AI domains, and collaboration" />
-</p>
-
 
 [![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_data_capsul.svg)](https://github.com/hiradEmami)
 
