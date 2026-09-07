@@ -1,4 +1,5 @@
-# Collaboration Guide
+[![contributing_white](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/file_headers/contributing_white.svg)](https://github.com/HiradEmami/readme-ux-kit)
+[![divider_twin_line_waves](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/lines/divider_twin_line_waves.svg)](https://github.com/HiradEmami/readme-ux-kit)
 
 Thanks for your interest in collaborating.
 

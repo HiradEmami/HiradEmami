@@ -97,10 +97,6 @@
 <h2 align="center">📊 Activity</h2>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=HiradEmami&theme=react-dark" alt="GitHub contribution activity graph" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=HiradEmami&theme=radical" alt="GitHub contribution streak" />
 </p>
 
