@@ -27,7 +27,7 @@ Major visuals are the SVGs used as navigation, headers, lab cards, project cards
 | `docs/assets/svg/system/molecule_lab.svg` | Lab route | Keep, paired with the other lab cards. |
 | `docs/assets/svg/system/model_forge.svg` | Lab route | Keep, paired with the other lab cards. |
 | `docs/assets/svg/system/explore_labs_button.svg` | Dedicated labs CTA | Keep. It replaces plain text with a focused route. |
-| `docs/assets/svg/pages/hirad_core.svg` | Identity/system panel | Keep. It carries the profile positioning. |
+| `docs/assets/svg/pages/core_header.svg` and the three `core_*.svg` cards | Identity/system panel | Keep. It carries the profile positioning, split into a header and three cards so it stays readable on phones. |
 | `docs/assets/svg/system/profile_architecture.svg` | System map | Keep below the core panel, not before the lab routes. |
 | `docs/assets/svg/pages/tech_projects_panel.svg` | Projects route | Keep as navigation, not as a large hero. |
 | `docs/assets/svg/pages/ai_domains.svg` | AI domain route | Keep as navigation, not as a large hero. |

@@ -28,6 +28,10 @@
     </style>
   </defs>
 
+  <!-- backdrop: same colour as GitHub's dark canvas, so it disappears in dark mode
+       and keeps the light ink readable on light themes -->
+  <rect width="1000" height="120" rx="14" fill="#0d1117"/>
+
   <!-- lines -->
   <line x1="0" y1="60" x2="400" y2="60" stroke="#1e293b" stroke-width="2"/>
   <line x1="600" y1="60" x2="1000" y2="60" stroke="#1e293b" stroke-width="2"/>

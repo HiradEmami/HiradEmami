@@ -1,0 +1,56 @@
+<svg width="1100" height="190" viewBox="0 0 1100 190" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Start Here Control Surface</title>
+  <desc id="desc">Header of the README control surface. The route buttons below it link to the website, labs, and collaboration page.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1100" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="48%" stop-color="#07111f"/>
+      <stop offset="100%" stop-color="#0b1024"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1100" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="22%" stop-color="#22d3ee" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.76"/>
+      <stop offset="75%" stop-color="#22c55e" stop-opacity="0.78"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="48%" r="72%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.2"/>
+      <stop offset="55%" stop-color="#8b5cf6" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#38bdf8" stroke-opacity="0.035"/>
+      <circle cx="6" cy="7" r="1" fill="#67e8f9" opacity="0.12"/>
+    </pattern>
+    <style>
+      .eyebrow{font:800 12px 'Segoe UI',Arial,sans-serif;letter-spacing:4px;fill:#67e8f9}
+      .titleText{font:900 42px 'Segoe UI',Arial,sans-serif;fill:#f8fafc;letter-spacing:0}
+      .subtitle{font:650 15px 'Segoe UI',Arial,sans-serif;fill:#94a3b8}
+      .terminal{font:800 12px 'Cascadia Mono',Consolas,monospace;fill:#bbf7d0}
+      /* Motion is CSS so it can be switched off for visitors who ask for reduced motion. */
+      .frame{animation:frame 26s linear infinite}
+      .core{animation:core 12s linear infinite}
+      @keyframes frame{to{stroke-dashoffset:-555}}
+      @keyframes core{0%,100%{opacity:.72}50%{opacity:.92}}
+      @media (prefers-reduced-motion:reduce){.frame,.core{animation:none}}
+    </style>
+  </defs>
+
+  <rect width="1100" height="190" rx="28" fill="url(#bg)"/>
+  <rect width="1100" height="190" rx="28" fill="url(#grid)"/>
+  <rect class="frame" x="16" y="16" width="1068" height="158" rx="24" fill="none" stroke="url(#edge)" stroke-width="2" stroke-opacity="0.72" stroke-dasharray="410 145" stroke-linecap="round"/>
+  <rect class="core" x="32" y="32" width="1036" height="126" rx="18" fill="url(#coreGlow)" opacity="0.9"/>
+
+  <g transform="translate(70 62)">
+    <text x="0" y="0" class="eyebrow">START HERE</text>
+    <text x="0" y="48" class="titleText">README CONTROL SURFACE</text>
+    <text x="0" y="80" class="subtitle">First route into the profile system: public website, interactive labs, and collaboration path.</text>
+  </g>
+
+  <g transform="translate(746 54)">
+    <rect x="0" y="0" width="282" height="76" rx="18" fill="#020617" fill-opacity="0.62" stroke="#1e3a8a" stroke-opacity="0.72"/>
+    <text x="22" y="30" class="terminal">&gt; HIRAD SYSTEM ONLINE</text>
+    <text x="22" y="54" class="terminal">&gt; ROUTES: 03 ACTIVE</text>
+  </g>
+</svg>

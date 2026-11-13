@@ -1,0 +1,66 @@
+<svg width="600" height="144" viewBox="0 0 600 144" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">System Core</title>
+  <desc id="desc">Header of the system core section: runtime capabilities, cognitive stack, and engineering doctrine. The three cards below it carry the detail.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0b1220"/>
+    </linearGradient>
+    <linearGradient id="lineFlow" x1="0" y1="0" x2="600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="22%" stop-color="#22d3ee" stop-opacity="0.85"/>
+      <stop offset="52%" stop-color="#8b5cf6" stop-opacity="0.9"/>
+      <stop offset="82%" stop-color="#22d3ee" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.24"/>
+      <stop offset="52%" stop-color="#8b5cf6" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#38bdf8" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .title{font:700 22px 'Segoe UI',Arial,sans-serif;fill:#e2e8f0;letter-spacing:1px}
+      .subtitle{font:500 12px 'Segoe UI',Arial,sans-serif;fill:#94a3b8;letter-spacing:1px}
+      .innerLine{stroke:url(#lineFlow);stroke-width:1.8}
+      /* Motion is CSS so it can be switched off for visitors who ask for reduced motion. */
+      .ring,.dot,.halo{transform-box:fill-box;transform-origin:center}
+      .ring{animation:ring 14s linear infinite}
+      .dot{animation:dot 3s linear infinite}
+      .halo{animation:halo 7s linear infinite}
+      @keyframes ring{to{transform:rotate(360deg)}}
+      @keyframes dot{0%,100%{transform:scale(.889)}50%{transform:scale(1.111)}}
+      @keyframes halo{0%,100%{transform:scale(.857)}50%{transform:scale(1.107)}}
+      @media (prefers-reduced-motion:reduce){.ring,.dot,.halo{animation:none}}
+    </style>
+  </defs>
+
+  <rect width="600" height="144" rx="18" fill="url(#bg)"/>
+  <rect width="600" height="144" rx="18" fill="url(#grid)"/>
+  <circle class="halo" cx="300" cy="74" r="140" fill="url(#coreGlow)"/>
+
+  <line x1="30" y1="52" x2="255" y2="52" class="innerLine"/>
+  <line x1="345" y1="52" x2="570" y2="52" class="innerLine"/>
+
+  <g transform="translate(300,52)" filter="url(#glowCyan)">
+    <circle r="25" fill="none" stroke="#1e293b" stroke-width="2"/>
+    <circle class="ring" r="18" fill="none" stroke="#22d3ee" stroke-width="3" stroke-dasharray="22 10"/>
+    <circle class="dot" r="9" fill="#22d3ee"/>
+    <line x1="-32" y1="0" x2="-22" y2="0" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/>
+    <line x1="22" y1="0" x2="32" y2="0" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="-32" x2="0" y2="-22" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="22" x2="0" y2="32" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <text x="300" y="103" text-anchor="middle" class="title">SYSTEM CORE</text>
+  <text x="300" y="126" text-anchor="middle" class="subtitle">runtime capabilities • cognitive stack • engineering doctrine</text>
+</svg>

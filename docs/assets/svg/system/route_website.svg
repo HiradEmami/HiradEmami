@@ -1,0 +1,28 @@
+<svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Website route</title>
+  <desc id="desc">Control surface button that opens the public portfolio website.</desc>
+  <defs>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .buttonTitle{font:900 19px 'Segoe UI',Arial,sans-serif;fill:#f8fafc}
+      .buttonMeta{font:800 9px 'Segoe UI',Arial,sans-serif;letter-spacing:2.4px;fill:#67e8f9}
+      .buttonText{font:650 11px 'Segoe UI',Arial,sans-serif;fill:#cbd5e1}
+      /* Motion is CSS so it can be switched off for visitors who ask for reduced motion. */
+      .node{transform-box:fill-box;transform-origin:center;animation:node 9s linear infinite}
+      @keyframes node{0%,100%{transform:scale(.923)}50%{transform:scale(1.077)}}
+      @media (prefers-reduced-motion:reduce){.node{animation:none}}
+    </style>
+  </defs>
+
+  <rect x="7" y="7" width="286" height="86" rx="18" fill="#030a1a" stroke="#22d3ee" stroke-width="1.6"/>
+  <circle class="node" cx="41" cy="50" r="13" fill="#22d3ee" opacity="0.95" filter="url(#glow)"/>
+  <text x="71" y="38" class="buttonMeta">PUBLIC PORTAL</text>
+  <text x="71" y="63" class="buttonTitle">Website</text>
+  <text x="181" y="63" class="buttonText">portfolio</text>
+</svg>
