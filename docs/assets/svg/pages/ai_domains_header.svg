@@ -11,13 +11,7 @@
 
     <!-- Grid -->
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0 L0 0 0 40" stroke="#38BDF8" stroke-opacity="0.06">
-        <animateTransform attributeName="transform"
-          type="translate"
-          values="0 0;40 40;0 0"
-          dur="18s"
-          repeatCount="indefinite"/>
-      </path>
+      <path d="M40 0 L0 0 0 40" stroke="#38BDF8" stroke-opacity="0.06" class="drift-1"/>
     </pattern>
 
     <!-- Flow gradient -->
@@ -31,6 +25,7 @@
         dur="6s"
         repeatCount="indefinite"/>
     </linearGradient>
+    <linearGradient id="flowGradStill" href="#flowGrad" gradientTransform="translate(0 0)"/>
 
     <!-- Text -->
     <linearGradient id="textGrad">
@@ -44,6 +39,28 @@
       <feGaussianBlur stdDeviation="6"/>
     </filter>
 
+
+    <style>
+      /* Motion. CSS-driven so it stops under prefers-reduced-motion: docs/meta/MOTION_SYSTEM.md */
+      @keyframes drift-1 { 0%, 100% { transform: translate(0px, 0px); } 50% { transform: translate(40px, 40px); } }
+      .drift-1 { animation: drift-1 18s linear infinite; }
+      @keyframes spin-1 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .spin-1 { animation: spin-1 12s linear infinite; }
+      @keyframes pulse-1 { 0%, 100% { r: 3px; } 50% { r: 6px; } }
+      .pulse-1 { animation: pulse-1 2s linear infinite; }
+      @keyframes pulse-2 { 0%, 100% { r: 3px; } 50% { r: 6px; } }
+      .pulse-2 { animation: pulse-2 2.5s linear infinite; }
+      @keyframes scan-1 { 0%, 100% { y: 0px; } 50% { y: 320px; } }
+      .scan-1 { animation: scan-1 8s linear infinite; }
+      @keyframes fade-1 { 0%, 100% { opacity: 0.85; } 50% { opacity: 1; } }
+      .fade-1 { animation: fade-1 4s linear infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+        /* spin-1 replaces the group's transform attribute; rest it where the animation draws it */
+        .spin-1 { transform: rotate(0deg); }
+        [stroke="url(#flowGrad)"] { stroke: url(#flowGradStill); }
+      }
+    </style>
   </defs>
 
   <!-- Background -->
@@ -55,32 +72,18 @@
   <path d="M100 200 Q800 260 1500 200" stroke="url(#flowGrad)" stroke-width="2" filter="url(#glow)"/>
 
   <!-- Central latent core -->
-  <g transform="translate(800,160)" filter="url(#glow)">
+  <g transform="translate(800,160)" filter="url(#glow)" class="spin-1">
     <circle r="20" fill="#22D3EE" opacity="0.7"/>
     <circle r="40" stroke="#8B5CF6" fill="none" stroke-width="2" opacity="0.6"/>
-
-    <!-- rotation -->
-    <animateTransform attributeName="transform"
-      type="rotate"
-      from="0"
-      to="360"
-      dur="12s"
-      repeatCount="indefinite"/>
   </g>
 
   <!-- Pulsing nodes -->
-  <circle cx="300" cy="120" r="4" fill="#22D3EE">
-    <animate attributeName="r" values="3;6;3" dur="2s" repeatCount="indefinite"/>
-  </circle>
+  <circle cx="300" cy="120" r="4" fill="#22D3EE" class="pulse-1"/>
 
-  <circle cx="1300" cy="200" r="4" fill="#A78BFA">
-    <animate attributeName="r" values="3;6;3" dur="2.5s" repeatCount="indefinite"/>
-  </circle>
+  <circle cx="1300" cy="200" r="4" fill="#A78BFA" class="pulse-2"/>
 
   <!-- Scanning line -->
-  <rect x="0" y="0" width="1600" height="4" fill="#22D3EE" opacity="0.15">
-    <animate attributeName="y" values="0;320;0" dur="8s" repeatCount="indefinite"/>
-  </rect>
+  <rect x="0" y="0" width="1600" height="4" fill="#22D3EE" opacity="0.15" class="scan-1"/>
 
   <!-- Subtitle -->
   <text x="800" y="120"
@@ -98,13 +101,9 @@
         font-size="64"
         font-weight="800"
         letter-spacing="5"
-        fill="url(#textGrad)">
+        fill="url(#textGrad)"
+        class="fade-1">
     AI DOMAINS
-
-    <animate attributeName="opacity"
-      values="0.85;1;0.85"
-      dur="4s"
-      repeatCount="indefinite"/>
   </text>
 
 </svg>

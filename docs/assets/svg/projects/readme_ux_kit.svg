@@ -5,13 +5,21 @@
       <stop offset="50%" stop-color="#e046d9"/>
       <stop offset="100%" stop-color="#f838b5"/>
     </linearGradient>
+
+    <style>
+      /* Motion. CSS-driven so it stops under prefers-reduced-motion: docs/meta/MOTION_SYSTEM.md */
+      @keyframes dash-1 { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -516px; } }
+      .dash-1 { animation: dash-1 18s linear infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+      }
+    </style>
   </defs>
 
   <rect x="1" y="1" width="898" height="88" rx="14"
         fill="#020617" stroke="url(#g5)" stroke-width="2" stroke-opacity="0.72"
-        stroke-dasharray="420 96" stroke-linecap="round">
-    <animate attributeName="stroke-dashoffset" from="0" to="-516" dur="18s" repeatCount="indefinite"/>
-  </rect>
+        stroke-dasharray="420 96" stroke-linecap="round"
+        class="dash-1"/>
 
   <text x="20" y="32" fill="#e2e8f0" font-size="20" font-family="monospace">
     🎨 Readme UX Kit

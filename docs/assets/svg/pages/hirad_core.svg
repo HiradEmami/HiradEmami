@@ -26,6 +26,7 @@
       <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
       <animateTransform attributeName="gradientTransform" type="translate" values="-120 0;120 0;-120 0" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
+    <linearGradient id="lineFlowStill" href="#lineFlow" gradientTransform="translate(0 0)"/>
 
     <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.24"/>
@@ -34,15 +35,20 @@
     </radialGradient>
 
     <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0H0V34" fill="none" stroke="#38bdf8" stroke-opacity="0.045" stroke-width="1">
-        <animateTransform attributeName="transform" type="translate" values="0 0;34 34;0 0" dur="26s" repeatCount="indefinite"/>
-      </path>
+      <path d="M34 0H0V34" fill="none" stroke="#38bdf8" stroke-opacity="0.045" stroke-width="1" class="drift-1"/>
     </pattern>
 
     <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="4" result="b">
         <animate attributeName="stdDeviation" values="3.5;5;3.5" dur="4s" repeatCount="indefinite"/>
       </feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowCyanStill" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
       <feMerge>
         <feMergeNode in="b"/>
         <feMergeNode in="SourceGraphic"/>
@@ -96,15 +102,34 @@
         fill: none;
         stroke-linecap: round;
       }
+
+      /* Motion. CSS-driven so it stops under prefers-reduced-motion: docs/meta/MOTION_SYSTEM.md */
+      @keyframes drift-1 { 0%, 100% { transform: translate(0px, 0px); } 50% { transform: translate(34px, 34px); } }
+      .drift-1 { animation: drift-1 26s linear infinite; }
+      @keyframes pulse-1 { 0%, 100% { r: 120px; } 50% { r: 155px; } }
+      .pulse-1 { animation: pulse-1 7s linear infinite; }
+      @keyframes spin-1 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .spin-1 { animation: spin-1 14s linear infinite; }
+      @keyframes pulse-2 { 0%, 100% { r: 8px; } 50% { r: 10px; } }
+      .pulse-2 { animation: pulse-2 3s linear infinite; }
+      @keyframes dash-1 { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -119px; } }
+      .dash-1 { animation: dash-1 7s linear infinite; }
+      @keyframes dash-2 { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -119px; } }
+      .dash-2 { animation: dash-2 7.5s linear infinite; }
+      @keyframes dash-3 { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -119px; } }
+      .dash-3 { animation: dash-3 8s linear infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+        .innerLine { stroke: url(#lineFlowStill); }
+        [filter="url(#glowCyan)"] { filter: url(#glowCyanStill); }
+      }
     </style>
   </defs>
 
   <!-- background -->
   <rect x="0" y="0" width="1200" height="430" fill="url(#bg)"/>
   <rect x="0" y="0" width="1200" height="430" fill="url(#grid)"/>
-  <circle cx="600" cy="74" r="140" fill="url(#coreGlow)">
-    <animate attributeName="r" values="120;155;120" dur="7s" repeatCount="indefinite"/>
-  </circle>
+  <circle cx="600" cy="74" r="140" fill="url(#coreGlow)" class="pulse-1"/>
 
   <!-- top label -->
   <line x1="70" y1="52" x2="455" y2="52" class="innerLine"/>
@@ -112,12 +137,8 @@
 
   <g transform="translate(600,52)" filter="url(#glowCyan)">
     <circle r="25" fill="none" stroke="#1e293b" stroke-width="2"/>
-    <circle r="18" fill="none" stroke="#22d3ee" stroke-width="3" stroke-dasharray="22 10">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="9" fill="#22d3ee">
-      <animate attributeName="r" values="8;10;8" dur="3s" repeatCount="indefinite"/>
-    </circle>
+    <circle r="18" fill="none" stroke="#22d3ee" stroke-width="3" stroke-dasharray="22 10" class="spin-1"/>
+    <circle r="9" fill="#22d3ee" class="pulse-2"/>
     <line x1="-32" y1="0" x2="-22" y2="0" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/>
     <line x1="22" y1="0" x2="32" y2="0" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/>
     <line x1="0" y1="-32" x2="0" y2="-22" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/>
@@ -135,15 +156,9 @@
   </g>
 
   <!-- accents -->
-  <path d="M85 178 H180" class="accent" stroke-dasharray="95 24">
-    <animate attributeName="stroke-dashoffset" from="0" to="-119" dur="7s" repeatCount="indefinite"/>
-  </path>
-  <path d="M455 178 H550" class="accent" stroke-dasharray="95 24">
-    <animate attributeName="stroke-dashoffset" from="0" to="-119" dur="7.5s" repeatCount="indefinite"/>
-  </path>
-  <path d="M825 178 H920" class="accent" stroke-dasharray="95 24">
-    <animate attributeName="stroke-dashoffset" from="0" to="-119" dur="8s" repeatCount="indefinite"/>
-  </path>
+  <path d="M85 178 H180" class="accent dash-1" stroke-dasharray="95 24"/>
+  <path d="M455 178 H550" class="accent dash-2" stroke-dasharray="95 24"/>
+  <path d="M825 178 H920" class="accent dash-3" stroke-dasharray="95 24"/>
 
   <!-- panel 1 -->
   <text x="95" y="210" class="section">BUILD SYSTEMS</text>

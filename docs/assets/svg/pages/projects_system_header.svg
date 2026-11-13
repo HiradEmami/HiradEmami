@@ -60,6 +60,18 @@
         stroke: #1e293b;
         stroke-width: 2;
       }
+
+      /* Motion. CSS-driven so it stops under prefers-reduced-motion: docs/meta/MOTION_SYSTEM.md */
+      @keyframes pulse-1 { 0%, 100% { r: 65px; } 50% { r: 80px; } }
+      .pulse-1 { animation: pulse-1 5s linear infinite; }
+      @keyframes spin-1 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .spin-1 { animation: spin-1 20s linear infinite; }
+      @keyframes spin-2 { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+      .spin-2 { animation: spin-2 28s linear infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+        .signal-dot { display: none; }
+      }
     </style>
 
   </defs>
@@ -70,25 +82,19 @@
 
   <!-- Central core -->
   <g transform="translate(600 150)">
-    <circle r="70" fill="url(#coreGrad)" filter="url(#glow)">
-      <animate attributeName="r" values="65;80;65" dur="5s" repeatCount="indefinite"/>
-    </circle>
+    <circle r="70" fill="url(#coreGrad)" filter="url(#glow)" class="pulse-1"/>
     <circle r="30" fill="#ffffff" opacity="0.95"/>
   </g>
 
   <!-- Orbit rings -->
   <g transform="translate(600 150)" opacity="0.6">
     <circle r="110" fill="none" stroke="#22d3ee" stroke-opacity="0.2" stroke-width="2"
-            stroke-dasharray="8 16">
-      <animateTransform attributeName="transform" type="rotate"
-        from="0" to="360" dur="20s" repeatCount="indefinite"/>
-    </circle>
+            stroke-dasharray="8 16"
+            class="spin-1"/>
 
     <circle r="140" fill="none" stroke="#8b5cf6" stroke-opacity="0.2" stroke-width="2"
-            stroke-dasharray="6 18">
-      <animateTransform attributeName="transform" type="rotate"
-        from="360" to="0" dur="28s" repeatCount="indefinite"/>
-    </circle>
+            stroke-dasharray="6 18"
+            class="spin-2"/>
   </g>
 
   <!-- Side lines -->
@@ -102,12 +108,12 @@
   </g>
 
   <!-- Animated signal -->
-  <circle r="4" fill="#ffffff">
+  <circle r="4" fill="#ffffff" class="signal-dot">
     <animateMotion dur="3s" repeatCount="indefinite"
       path="M460,150 C520,140 560,140 600,150"/>
   </circle>
 
-  <circle r="4" fill="#67e8f9">
+  <circle r="4" fill="#67e8f9" class="signal-dot">
     <animateMotion dur="3.5s" repeatCount="indefinite"
       path="M600,150 C640,160 680,160 740,150"/>
   </circle>
