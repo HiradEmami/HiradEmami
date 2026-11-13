@@ -19,21 +19,30 @@
       .title { font:700 36px 'Segoe UI'; fill:#f8fafc; letter-spacing:2px; }
       .subtitle { font:500 16px 'Segoe UI'; fill:#94a3b8; }
       .cta { font:600 14px 'Segoe UI'; fill:#22d3ee; letter-spacing:2px; }
+
+      /* Motion. CSS-driven so it stops under prefers-reduced-motion: docs/meta/MOTION_SYSTEM.md */
+      @keyframes pulse-1 { 0%, 100% { r: 28px; opacity: 0.6; } 50% { r: 34px; opacity: 0.9; } }
+      .pulse-1 { animation: pulse-1 3s linear infinite; }
+      @keyframes dash-1 { from { stroke-dashoffset: 0; } to { stroke-dashoffset: 60px; } }
+      .dash-1 { animation: dash-1 2.5s linear infinite; }
+      @keyframes pulse-2 { 0%, 100% { r: 60px; opacity: 0.2; } 50% { r: 85px; opacity: 0.35; } }
+      .pulse-2 { animation: pulse-2 4s linear infinite; }
+      @keyframes spin-1 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .spin-1 { animation: spin-1 12s linear infinite; }
+      @keyframes spin-2 { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+      .spin-2 { animation: spin-2 18s linear infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+      }
     </style>
   </defs>
 
   <rect width="500" height="650" fill="url(#bg)"/>
 
   <!-- energy sources -->
-  <circle cx="120" cy="260" r="30" fill="#22d3ee" opacity="0.7" filter="url(#glow)">
-    <animate attributeName="r" values="28;34;28" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;0.9;0.6" dur="3s" repeatCount="indefinite"/>
-  </circle>
+  <circle cx="120" cy="260" r="30" fill="#22d3ee" opacity="0.7" filter="url(#glow)" class="pulse-1"/>
 
-  <circle cx="380" cy="260" r="30" fill="#8b5cf6" opacity="0.7" filter="url(#glow)">
-    <animate attributeName="r" values="28;34;28" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;0.9;0.6" dur="3s" repeatCount="indefinite"/>
-  </circle>
+  <circle cx="380" cy="260" r="30" fill="#8b5cf6" opacity="0.7" filter="url(#glow)" class="pulse-1"/>
 
   <!-- flowing energy paths -->
   <path d="M120 260 Q250 180 250 260"
@@ -41,59 +50,36 @@
         stroke-opacity="0.4"
         stroke-width="2"
         stroke-dasharray="6 10"
-        fill="none">
-    <animate attributeName="stroke-dashoffset"
-             values="0;60"
-             dur="2.5s"
-             repeatCount="indefinite"/>
-  </path>
+        fill="none"
+        class="dash-1"/>
 
   <path d="M380 260 Q250 340 250 260"
         stroke="#8b5cf6"
         stroke-opacity="0.4"
         stroke-width="2"
         stroke-dasharray="6 10"
-        fill="none">
-    <animate attributeName="stroke-dashoffset"
-             values="0;60"
-             dur="2.5s"
-             repeatCount="indefinite"/>
-  </path>
+        fill="none"
+        class="dash-1"/>
 
   <!-- forming core -->
   <g transform="translate(250,260)">
-    <circle r="70" fill="url(#energy)" opacity="0.25" filter="url(#glow)">
-      <animate attributeName="r" values="60;85;60" dur="4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.2;0.35;0.2" dur="4s" repeatCount="indefinite"/>
-    </circle>
+    <circle r="70" fill="url(#energy)" opacity="0.25" filter="url(#glow)" class="pulse-2"/>
 
     <!-- rotating rings -->
-    <g>
+    <g class="spin-1">
       <circle r="90"
               fill="none"
               stroke="#67e8f9"
               stroke-opacity="0.25"
               stroke-dasharray="40 20"/>
-      <animateTransform attributeName="transform"
-                        type="rotate"
-                        from="0"
-                        to="360"
-                        dur="12s"
-                        repeatCount="indefinite"/>
     </g>
 
-    <g>
+    <g class="spin-2">
       <circle r="110"
               fill="none"
               stroke="#8b5cf6"
               stroke-opacity="0.2"
               stroke-dasharray="60 30"/>
-      <animateTransform attributeName="transform"
-                        type="rotate"
-                        from="360"
-                        to="0"
-                        dur="18s"
-                        repeatCount="indefinite"/>
     </g>
   </g>
 
