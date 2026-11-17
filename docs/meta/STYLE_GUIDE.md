@@ -62,7 +62,9 @@ Small decorative icons may use minimal alt text when the surrounding link alread
 ## Spacing
 
 - Prefer `width="82%"` to `width="100%"` for hero cards that need breathing room.
-- Use `32%` for three-card rows and `45%` for two-card rows.
+- On the main README, size card and button rows in pixels (`260` for three-card rows, `240` for the control surface buttons) so they wrap on phones instead of shrinking until the text is unreadable.
+- Docs pages still use `45%` for two-card rows.
+- Do not put navigation inside a multi-column table; table columns cannot wrap, so the last ones end up off-screen on phones.
 - Avoid placing multiple large SVGs back-to-back without a divider or short purpose shift.
 - If a visual contains a route map, reserve a top header band and a bottom footer band.
 

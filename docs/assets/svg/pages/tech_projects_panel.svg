@@ -31,6 +31,13 @@
         fill: #22d3ee;
         letter-spacing: 2px;
       }
+
+      /* Motion. CSS-driven so it stops under prefers-reduced-motion: docs/meta/MOTION_SYSTEM.md */
+      @keyframes pulse-1 { 0%, 100% { r: 105px; } 50% { r: 125px; } }
+      .pulse-1 { animation: pulse-1 4s linear infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+      }
     </style>
   </defs>
 
@@ -39,9 +46,7 @@
 
   <!-- core -->
   <g transform="translate(250,260)">
-    <circle r="110" fill="url(#coreGrad)" filter="url(#glow)">
-      <animate attributeName="r" values="105;125;105" dur="4s" repeatCount="indefinite"/>
-    </circle>
+    <circle r="110" fill="url(#coreGrad)" filter="url(#glow)" class="pulse-1"/>
     <circle r="45" fill="#ffffff" opacity="0.95"/>
   </g>
 

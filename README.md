@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hirad%20Emamialagha&fontSize=70&animation=twinkling" alt="Hirad Emamialagha profile header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hirad%20Emamialagha&fontSize=70&animation=twinkling&stroke=0f172a&strokeWidth=2" alt="Hirad Emamialagha profile header" />
 </p>
 
 <!-- Title -->
@@ -32,18 +32,14 @@
 
 
 <p align="center">
-  <img src="./docs/assets/svg/system/start_here_control_surface.svg" width="92%" alt="Start Here control surface linking the README to the website, labs, and collaboration path" />
+  <img src="./docs/assets/svg/system/start_here_header.svg" width="92%" alt="Start Here: README control surface with routes to the website, labs, and collaboration path" />
+  <br>
+  <a href="https://hirademami.github.io/"><img src="./docs/assets/svg/system/route_website.svg" width="240" alt="Open the website" /></a>
+  <a href="./docs/pages/LABS.md"><img src="./docs/assets/svg/system/route_labs.svg" width="240" alt="Open the Labs page" /></a>
+  <a href="./docs/pages/COLLAB.md"><img src="./docs/assets/svg/system/route_collaboration.svg" width="240" alt="Open the Collaboration page" /></a>
 </p>
 
-<p align="center">
-  <a href="https://hirademami.github.io/"><b>Website</b></a>
-  &nbsp;|&nbsp;
-  <a href="./docs/pages/LABS.md"><b>Labs</b></a>
-  &nbsp;|&nbsp;
-  <a href="./docs/pages/COLLAB.md"><b>Collaboration</b></a>
-</p>
-
-[![divider_arc_reactor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_cycle.svg)](https://github.com/hiradEmami)
+[![Section divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_cycle.svg)](https://github.com/hiradEmami)
 
 <!-- Title -->
 <p align="center">
@@ -61,117 +57,84 @@
 <p align="center">
 
 <a href="https://hirademami.github.io/neural-lab/index.html">
-  <img width="32%" src="./docs/assets/svg/system/neural_lab.svg" alt="Neural Lab" />
+  <img width="260" src="./docs/assets/svg/system/neural_lab.svg" alt="Neural Lab" />
 </a>
 <a href="https://hirademami.github.io/molecules/index.html">
-  <img width="32%" src="./docs/assets/svg/system/molecule_lab.svg" alt="Molecule Lab" />
+  <img width="260" src="./docs/assets/svg/system/molecule_lab.svg" alt="Molecule Lab" />
 </a>
 <a href="https://hirademami.github.io/model-forge/index.html">
-  <img width="32%" src="./docs/assets/svg/system/model_forge.svg" alt="Model Forge" />
+  <img width="260" src="./docs/assets/svg/system/model_forge.svg" alt="Model Forge" />
 </a>
 
 </p>
 
 <p align="center">
   <a href="./docs/pages/LABS.md">
-    <img width="34%" src="./docs/assets/svg/system/explore_labs_button.svg" alt="Explore Labs" />
+    <img width="283" src="./docs/assets/svg/system/explore_labs_button.svg" alt="Explore Labs" />
   </a>
 </p>
 
 
-[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_cycle_mirrored.svg)](https://github.com/hiradEmami)
+[![Section divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_cycle_mirrored.svg)](https://github.com/hiradEmami)
 
 <p align="center">
-  <img src="./docs/assets/svg/pages/hirad_core.svg" width="100%" alt="System core panel" />
+  <img src="./docs/assets/svg/pages/core_header.svg" width="600" alt="System core: runtime capabilities, cognitive stack, engineering doctrine" />
+  <br>
+  <img src="./docs/assets/svg/pages/core_build_systems.svg" width="260" alt="Build systems: scalable ML platforms, distributed training pipelines, reproducible experimentation, production-grade ML services" />
+  <img src="./docs/assets/svg/pages/core_interests.svg" width="260" alt="Interests: generative AI and foundation models, reinforcement learning systems, robotics and autonomous agents, scalable AI infrastructure" />
+  <img src="./docs/assets/svg/pages/core_philosophy.svg" width="260" alt="Philosophy: systems over models, reproducibility is non-negotiable, if it does not scale it does not exist" />
 </p>
 
 
-[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_data_capsul.svg)](https://github.com/hiradEmami)
+[![Section divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_data_capsul.svg)](https://github.com/hiradEmami)
 
 
 # 🛠 Technologies, Projects, and Domains
 
-<table border="0" cellspacing="10" cellpadding="0">
-<tr>
-
-<!-- LEFT: TOOLS -->
-<td width="420" valign="top" align="center">
-
-<h3>🛠 Technologies</h3>
-<br>
-
 <table align="center" cellspacing="0" cellpadding="6">
   <tr>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="32" alt="Python"/></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="32" alt="PyTorch"/></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="32" alt="TensorFlow"/></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="32" alt="AWS"/></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" height="32" alt="Postman"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="28" alt="Python"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="28" alt="PyTorch"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="28" alt="TensorFlow"/></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/amazonwebservices/amazonwebservices-plain.svg" height="28" alt="AWS"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" height="28" alt="Postman"/></td>
   </tr>
   <tr>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="32" alt="Docker"/></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="32" alt="Kubernetes"/></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg" width="32" alt="Terraform"/></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original.svg" width="32" alt="Apache Kafka"/></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" width="32" alt="Redis"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="28" alt="Docker"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="28" alt="Kubernetes"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg" width="28" alt="Terraform"/></td>
+    <td align="center"><img src="https://cdn.simpleicons.org/apachekafka/768390" width="28" alt="Apache Kafka"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" width="28" alt="Redis"/></td>
   </tr>
   <tr>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachespark/apachespark-original.svg" width="32" alt="Apache Spark"/></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="32" alt="Git"/></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="32" alt="Linux"/></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="32" alt="Java"/></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="32" alt="Microsoft SQL Server"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachespark/apachespark-original.svg" width="28" alt="Apache Spark"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="28" alt="Git"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="28" alt="Linux"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="28" alt="Java"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="28" alt="Microsoft SQL Server"/></td>
   </tr>
   <tr>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" width="32" alt="Kotlin"/></td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="32" alt="FastAPI"/></td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" width="32" alt="Grafana"/></td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" width="32" alt="Apache Airflow"/></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="32" alt="PostgreSQL"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" width="28" alt="Kotlin"/></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="28" alt="FastAPI"/></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" width="28" alt="Grafana"/></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" width="28" alt="Apache Airflow"/></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="28" alt="PostgreSQL"/></td>
   </tr>
   <tr>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="32" alt="scikit-learn"/></td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" width="32" alt="Prometheus"/></td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg" width="32" alt="Elasticsearch"/></td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg" width="32" alt="RabbitMQ"/></td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="32" alt="Nginx"/></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="28" alt="scikit-learn"/></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" width="28" alt="Prometheus"/></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg" width="28" alt="Elasticsearch"/></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg" width="28" alt="RabbitMQ"/></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="28" alt="Nginx"/></td>
   </tr>
 </table>
 
-</td>
+<p align="center">
+  <a href="docs/pages/PROJECTS.md"><img src="docs/assets/svg/pages/tech_projects_panel.svg" width="220" alt="Projects navigation panel"></a>
+  <a href="docs/pages/AI_DOMAIN.md"><img src="docs/assets/svg/pages/ai_domains.svg" width="220" alt="AI domains navigation panel"></a>
+</p>
 
-<!-- PROJECTS -->
-<td width="260" valign="top" align="center">
-
-<h3>🧪 Projects</h3>
-<br>
-
-<div style="width:220px;">
-  <a href="docs/pages/PROJECTS.md">
-    <img src="docs/assets/svg/pages/tech_projects_panel.svg" width="220" alt="Projects navigation panel">
-  </a>
-</div>
-
-</td>
-
-<!-- AI DOMAINS -->
-<td width="260" valign="top" align="center">
-
-<h3>🧠 AI Domains</h3>
-<br>
-
-<div style="width:220px;">
-    <a href="docs/pages/AI_DOMAIN.md">
-        <img src="docs/assets/svg/pages/ai_domains.svg" width="220" alt="AI domains navigation panel">
-    </a>
-</div>
-
-</td>
-
-</tr>
-</table>
-
-[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg)](https://github.com/hiradEmami)
+[![Section divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg)](https://github.com/hiradEmami)
 
 ### 📊 Vital Statistics
 
@@ -189,16 +152,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Code%20Time-3817%20hrs%2020%20mins-blue?style=flat" alt="Views" />
+  <img src="https://img.shields.io/badge/Code%20Time-3817%20hrs%2020%20mins-blue?style=flat" alt="Code time" />
 </p>
 
-[![divider_twin_serpant](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/hiradEmami)
-
-<table width="100%" border="0" cellspacing="10" cellpadding="0">
-<tr>
-
-<!-- LEFT: COLLAB -->
-<td width="33%" valign="top">
+[![Section divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/hiradEmami)
 
 <h2>🤝 Collaboration</h2>
 
@@ -211,42 +168,21 @@ I’m open to collaborating on:
   <li>Large-scale AI platforms</li>
 </ul>
 
-</td>
-
-<!-- MIDDLE: PANEL -->
-<td width="34%" align="center" valign="middle">
-    <a href="docs/pages/COLLAB.md">
-        <img src="docs/assets/svg/pages/collaboration_panel.svg" width="200px" alt="Collaboration navigation panel" />
-    </a>
-</td>
-
-<!-- RIGHT: CONTACT -->
-<td width="33%" valign="top" align="center">
+<p align="center">
+  <a href="docs/pages/COLLAB.md"><img src="docs/assets/svg/pages/collaboration_panel.svg" width="200" alt="Collaboration navigation panel" /></a>
+</p>
 
 <h2>📫 Contact</h2>
 
-<br>
+<p align="center">
+  <a href="https://hirademami.github.io/"><img src="https://img.shields.io/badge/Personal%20Website-hirademami.github.io-36BCF7?style=for-the-badge&logo=google-chrome" alt="Personal website link"></a>
+  <br><br>
+  <a href="mailto:hirad.alagha@outlook.com"><img src="https://img.shields.io/badge/email-hirad.alagha@outlook.com-red?style=for-the-badge&logo=gmail" alt="Email contact link"></a>
+  <br><br>
+  <a href="https://www.linkedin.com/in/hirad-alagha/"><img src="https://img.shields.io/badge/linkedin-hirad--alagha-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn profile link"></a>
+</p>
 
-<a href="https://hirademami.github.io/">
-  <img src="https://img.shields.io/badge/Personal%20Website-hirademami.github.io-36BCF7?style=for-the-badge&logo=google-chrome" alt="Personal website link">
-</a>
-<br><br>
-
-<a href="mailto:hirad.alagha@outlook.com">
-  <img src="https://img.shields.io/badge/email-hirad.alagha@outlook.com-red?style=for-the-badge&logo=gmail" alt="Email contact link">
-</a>
-<br><br>
-
-<a href="https://www.linkedin.com/in/hirad-alagha/">
-  <img src="https://img.shields.io/badge/linkedin-hirad--alagha-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn profile link">
-</a>
-
-</td>
-
-</tr>
-</table>
-
-[![divider_twin_serpant](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/hiradEmami)
+[![Section divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/hiradEmami)
 
 <p align="center">
 ⚡ Building scalable AI systems and machine learning infrastructure

@@ -42,10 +42,37 @@
       </feTurbulence>
       <feDisplacementMap in="SourceGraphic" scale="8"/>
     </filter>
+    <filter id="warpStill">
+      <feTurbulence baseFrequency="0.01" numOctaves="2" seed="3"/>
+      <feDisplacementMap in="SourceGraphic" scale="8"/>
+    </filter>
 
     <style>
       .label { font: 600 12px 'Segoe UI'; fill:#e2e8f0; }
       .title { font:700 26px 'Segoe UI'; fill:#e2e8f0; letter-spacing:2px;}
+
+      /* Motion. CSS-driven so it stops under prefers-reduced-motion: docs/meta/MOTION_SYSTEM.md */
+      @keyframes pulse-1 { 0%, 100% { r: 180px; } 50% { r: 220px; } }
+      .pulse-1 { animation: pulse-1 8s linear infinite; }
+      @keyframes pulse-2 { 0%, 100% { r: 130px; } 50% { r: 170px; } }
+      .pulse-2 { animation: pulse-2 6s linear infinite; }
+      @keyframes spin-1 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .spin-1 { animation: spin-1 30s linear infinite; }
+      @keyframes spin-2 { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+      .spin-2 { animation: spin-2 24s linear infinite; }
+      @keyframes pulse-3 { 0%, 100% { r: 70px; } 50% { r: 95px; } }
+      .pulse-3 { animation: pulse-3 4s linear infinite; }
+      @keyframes fade-1 { 0%, 100% { opacity: 0.1; } 50% { opacity: 1; } }
+      .fade-1 { animation: fade-1 5s linear infinite; }
+      @keyframes fade-2 { 0%, 100% { opacity: 0.1; } 50% { opacity: 1; } }
+      .fade-2 { animation: fade-2 6s linear infinite; }
+      @keyframes fade-3 { 0%, 100% { opacity: 0.1; } 50% { opacity: 1; } }
+      .fade-3 { animation: fade-3 4s linear infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+        .signal-dot { display: none; }
+        [filter="url(#warp)"] { filter: url(#warpStill); }
+      }
     </style>
 
   </defs>
@@ -55,25 +82,17 @@
 
   <!-- ambient field -->
   <g filter="url(#bigGlow)" opacity="0.5">
-    <circle cx="250" cy="320" r="200" fill="#22d3ee" opacity="0.05">
-      <animate attributeName="r" values="180;220;180" dur="8s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="250" cy="320" r="150" fill="#8b5cf6" opacity="0.06">
-      <animate attributeName="r" values="130;170;130" dur="6s" repeatCount="indefinite"/>
-    </circle>
+    <circle cx="250" cy="320" r="200" fill="#22d3ee" opacity="0.05" class="pulse-1"/>
+    <circle cx="250" cy="320" r="150" fill="#8b5cf6" opacity="0.06" class="pulse-2"/>
   </g>
 
   <!-- main system -->
   <g transform="translate(250 320)" filter="url(#warp)">
 
     <!-- rotating field -->
-    <ellipse rx="200" ry="120" fill="none" stroke="#22d3ee" stroke-opacity="0.2" stroke-dasharray="6 18">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="30s" repeatCount="indefinite"/>
-    </ellipse>
+    <ellipse rx="200" ry="120" fill="none" stroke="#22d3ee" stroke-opacity="0.2" stroke-dasharray="6 18" class="spin-1"/>
 
-    <ellipse rx="120" ry="210" fill="none" stroke="#8b5cf6" stroke-opacity="0.2" stroke-dasharray="4 20">
-      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="24s" repeatCount="indefinite"/>
-    </ellipse>
+    <ellipse rx="120" ry="210" fill="none" stroke="#8b5cf6" stroke-opacity="0.2" stroke-dasharray="4 20" class="spin-2"/>
 
     <!-- neural-style mesh -->
     <g stroke="url(#link)" stroke-width="2.2" stroke-linecap="round">
@@ -87,26 +106,24 @@
     </g>
 
     <!-- signal streams -->
-    <circle r="3" fill="#ffffff">
+    <circle r="3" fill="#ffffff" class="signal-dot">
       <animateMotion dur="2.4s" repeatCount="indefinite"
         path="M0,0 C0,-80 0,-140 0,-200"/>
     </circle>
 
-    <circle r="3" fill="#67e8f9">
+    <circle r="3" fill="#67e8f9" class="signal-dot">
       <animateMotion dur="3s" repeatCount="indefinite"
         path="M0,0 C60,-20 100,-40 140,-70"/>
     </circle>
 
-    <circle r="3" fill="#c4b5fd">
+    <circle r="3" fill="#c4b5fd" class="signal-dot">
       <animateMotion dur="2.8s" repeatCount="indefinite"
         path="M0,0 C80,50 120,80 160,120"/>
     </circle>
 
     <!-- core -->
     <g filter="url(#glow)">
-      <circle r="80" fill="url(#core)">
-        <animate attributeName="r" values="70;95;70" dur="4s" repeatCount="indefinite"/>
-      </circle>
+      <circle r="80" fill="url(#core)" class="pulse-3"/>
       <circle r="30" fill="#ffffff"/>
     </g>
 
@@ -124,15 +141,9 @@
 
   <!-- background particles -->
   <g opacity="0.6" filter="url(#glow)">
-    <circle cx="80" cy="200" r="2">
-      <animate attributeName="opacity" values="0.1;1;0.1" dur="5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="420" cy="240" r="2.5" fill="#67e8f9">
-      <animate attributeName="opacity" values="0.1;1;0.1" dur="6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="400" cy="580" r="2" fill="#c4b5fd">
-      <animate attributeName="opacity" values="0.1;1;0.1" dur="4s" repeatCount="indefinite"/>
-    </circle>
+    <circle cx="80" cy="200" r="2" class="fade-1"/>
+    <circle cx="420" cy="240" r="2.5" fill="#67e8f9" class="fade-2"/>
+    <circle cx="400" cy="580" r="2" fill="#c4b5fd" class="fade-3"/>
   </g>
 
   <!-- labels -->

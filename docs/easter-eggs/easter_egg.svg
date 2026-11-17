@@ -59,6 +59,63 @@
       svg:hover .hidden-text {
         opacity: 0.6;
       }
+
+      /* Motion. CSS-driven so it stops under prefers-reduced-motion: docs/meta/MOTION_SYSTEM.md */
+      @keyframes fade-1 { 0%, 100% { opacity: 0.1; } 50% { opacity: 1; } }
+      .fade-1 { animation: fade-1 4.2s linear infinite; }
+      @keyframes fade-2 { 0%, 100% { opacity: 0.1; } 50% { opacity: 1; } }
+      .fade-2 { animation: fade-2 5.7s linear infinite; }
+      @keyframes fade-3 { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+      .fade-3 { animation: fade-3 3.1s linear infinite; }
+      @keyframes fade-4 { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+      .fade-4 { animation: fade-4 4.9s linear infinite; }
+      @keyframes fade-5 { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+      .fade-5 { animation: fade-5 3.7s linear infinite; }
+      @keyframes fade-6 { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+      .fade-6 { animation: fade-6 5.3s linear infinite; }
+      @keyframes fade-7 { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+      .fade-7 { animation: fade-7 4.1s linear infinite; }
+      @keyframes fade-8 { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+      .fade-8 { animation: fade-8 6.1s linear infinite; }
+      @keyframes fade-9 { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+      .fade-9 { animation: fade-9 3.9s linear infinite; }
+      @keyframes fade-10 { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+      .fade-10 { animation: fade-10 5.1s linear infinite; }
+      @keyframes fade-11 { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+      .fade-11 { animation: fade-11 4.7s linear infinite; }
+      @keyframes fade-12 { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+      .fade-12 { animation: fade-12 6.5s linear infinite; }
+      @keyframes fade-13 { 0%, 100% { opacity: 0; } 50% { opacity: 0.6; } }
+      .fade-13 { animation: fade-13 7.1s linear infinite; }
+      @keyframes fade-14 { 0%, 100% { opacity: 0; } 50% { opacity: 0.7; } }
+      .fade-14 { animation: fade-14 8.3s linear infinite; }
+      @keyframes fade-15 { 0%, 100% { opacity: 0; } 50% { opacity: 0.6; } }
+      .fade-15 { animation: fade-15 9.1s linear infinite; }
+      @keyframes fade-16 { 0%, 100% { opacity: 0; } 50% { opacity: 0.7; } }
+      .fade-16 { animation: fade-16 7.7s linear infinite; }
+      @keyframes spin-1 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .spin-1 { animation: spin-1 20s linear infinite; }
+      @keyframes spin-2 { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+      .spin-2 { animation: spin-2 15s linear infinite; }
+      @keyframes pulse-1 { 0%, 100% { ry: 460px; } 50% { ry: 500px; } }
+      .pulse-1 { animation: pulse-1 3s linear infinite; }
+      @keyframes spin-3 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .spin-3 { animation: spin-3 12s linear infinite; }
+      @keyframes spin-4 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .spin-4 { animation: spin-4 14s linear infinite; }
+      @keyframes spin-5 { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+      .spin-5 { animation: spin-5 10s linear infinite; }
+      @keyframes spin-6 { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+      .spin-6 { animation: spin-6 8s linear infinite; }
+      @keyframes spin-7 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .spin-7 { animation: spin-7 18s linear infinite; }
+      @keyframes fade-17 { 0%, 100% { opacity: 0.5; } 50% { opacity: 0.8; } }
+      .fade-17 { animation: fade-17 6s linear infinite; }
+      @keyframes fade-18 { 0%, 100% { opacity: 0.4; } 50% { opacity: 0.7; } }
+      .fade-18 { animation: fade-18 7s linear infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+      }
     </style>
   </defs>
 
@@ -72,118 +129,74 @@
   </text>
 
   <g filter="url(#neonGlow)">
-    <circle cx="210" cy="200" r="3" fill="#ffffff" opacity="0.8">
-      <animate attributeName="opacity" values="0.1;1;0.1" dur="4.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="850" cy="250" r="4" fill="#67e8f9" opacity="0.8">
-      <animate attributeName="opacity" values="0.1;1;0.1" dur="5.7s" repeatCount="indefinite"/>
-    </circle>
+    <circle cx="210" cy="200" r="3" fill="#ffffff" opacity="0.8" class="fade-1"/>
+    <circle cx="850" cy="250" r="4" fill="#67e8f9" opacity="0.8" class="fade-2"/>
 
     <g fill="#ffffff">
-      <circle cx="100" cy="100" r="1.5">
-        <animate attributeName="opacity" values="0;1;0" dur="3.1s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="900" cy="100" r="2">
-        <animate attributeName="opacity" values="0;1;0" dur="4.9s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="100" cy="900" r="1.8">
-        <animate attributeName="opacity" values="0;1;0" dur="3.7s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="512" cy="150" r="2.5">
-        <animate attributeName="opacity" values="0;1;0" dur="5.3s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="150" cy="512" r="1.5">
-        <animate attributeName="opacity" values="0;1;0" dur="4.1s" repeatCount="indefinite"/>
-      </circle>
+      <circle cx="100" cy="100" r="1.5" class="fade-3"/>
+      <circle cx="900" cy="100" r="2" class="fade-4"/>
+      <circle cx="100" cy="900" r="1.8" class="fade-5"/>
+      <circle cx="512" cy="150" r="2.5" class="fade-6"/>
+      <circle cx="150" cy="512" r="1.5" class="fade-7"/>
     </g>
 
     <g fill="#22d3ee">
-      <circle cx="800" cy="150" r="2">
-        <animate attributeName="opacity" values="0;1;0" dur="6.1s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="200" cy="800" r="1.5">
-        <animate attributeName="opacity" values="0;1;0" dur="3.9s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="900" cy="800" r="2.2">
-        <animate attributeName="opacity" values="0;1;0" dur="5.1s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="600" cy="900" r="1.8">
-        <animate attributeName="opacity" values="0;1;0" dur="4.7s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="50" cy="400" r="2">
-        <animate attributeName="opacity" values="0;1;0" dur="6.5s" repeatCount="indefinite"/>
-      </circle>
+      <circle cx="800" cy="150" r="2" class="fade-8"/>
+      <circle cx="200" cy="800" r="1.5" class="fade-9"/>
+      <circle cx="900" cy="800" r="2.2" class="fade-10"/>
+      <circle cx="600" cy="900" r="1.8" class="fade-11"/>
+      <circle cx="50" cy="400" r="2" class="fade-12"/>
     </g>
 
     <g fill="#a78bfa">
-      <circle cx="350" cy="100" r="1.2">
-        <animate attributeName="opacity" values="0;0.6;0" dur="7.1s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="700" cy="200" r="1.5">
-        <animate attributeName="opacity" values="0;0.7;0" dur="8.3s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="150" cy="700" r="1.2">
-        <animate attributeName="opacity" values="0;0.6;0" dur="9.1s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="850" cy="600" r="1.5">
-        <animate attributeName="opacity" values="0;0.7;0" dur="7.7s" repeatCount="indefinite"/>
-      </circle>
+      <circle cx="350" cy="100" r="1.2" class="fade-13"/>
+      <circle cx="700" cy="200" r="1.5" class="fade-14"/>
+      <circle cx="150" cy="700" r="1.2" class="fade-15"/>
+      <circle cx="850" cy="600" r="1.5" class="fade-16"/>
     </g>
   </g>
 
   <g transform="translate(512 512) scale(0.8) rotate(15)">
-    <ellipse cx="0" cy="0" rx="45" ry="400" fill="none" stroke="url(#violetBackbone)" stroke-width="6" filter="url(#neonGlow)">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite"/>
-    </ellipse>
+    <ellipse cx="0" cy="0" rx="45" ry="400" fill="none" stroke="url(#violetBackbone)" stroke-width="6" filter="url(#neonGlow)" class="spin-1"/>
 
-    <ellipse cx="0" cy="0" rx="35" ry="380" fill="none" stroke="#22d3ee" stroke-width="3" stroke-dasharray="10 30" opacity="0.6">
-      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="15s" repeatCount="indefinite"/>
-    </ellipse>
+    <ellipse cx="0" cy="0" rx="35" ry="380" fill="none" stroke="#22d3ee" stroke-width="3" stroke-dasharray="10 30" opacity="0.6" class="spin-2"/>
 
     <g filter="url(#neonGlow)">
       <g>
-        <ellipse cx="0" cy="0" rx="6" ry="480" fill="url(#jetGrad)" opacity="0.6" filter="url(#neonGlow)">
-          <animate attributeName="ry" values="460;500;460" dur="3s" repeatCount="indefinite"/>
-        </ellipse>
+        <ellipse cx="0" cy="0" rx="6" ry="480" fill="url(#jetGrad)" opacity="0.6" filter="url(#neonGlow)" class="pulse-1"/>
         <circle cx="0" cy="0" r="22" fill="#ffffff" filter="url(#neonGlow)"/>
         <circle cx="0" cy="0" r="10" fill="#67e8f9"/>
         <circle cx="0" cy="0" r="5" fill="#ffffff"/>
       </g>
 
-      <g>
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
+      <g class="spin-3">
         <path d="M 0,-280 Q 80,-270 0,-260" stroke="url(#trailYellow)" stroke-width="1.5" stroke-dasharray="10 10" fill="none" opacity="0.4"/>
         <circle cx="0" cy="-280" r="14" fill="#fbbf24"/>
         <circle cx="0" cy="-280" r="4" fill="#ffffff"/>
       </g>
 
-      <g>
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+      <g class="spin-4">
         <path d="M 0,-140 Q -70,-130 0,-120" stroke="url(#trailViolet)" stroke-width="2" stroke-dasharray="8 12" fill="none" opacity="0.4"/>
         <circle cx="0" cy="-140" r="12" fill="#8b5cf6"/>
         <circle cx="0" cy="-140" r="4" fill="#ffffff"/>
       </g>
 
-      <g>
-        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="10s" repeatCount="indefinite"/>
+      <g class="spin-5">
         <path d="M 0,-200 Q 50,-195 0,-190" stroke="url(#trailCyan)" stroke-width="1.2" stroke-dasharray="12 8" fill="none" opacity="0.5"/>
         <circle cx="0" cy="-200" r="8" fill="#22d3ee"/>
       </g>
 
-      <g>
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite"/>
+      <g class="spin-1">
         <path d="M 0,220 Q 60,230 0,240" stroke="url(#trailViolet)" stroke-width="2.2" stroke-dasharray="10 10" fill="none" opacity="0.4"/>
         <circle cx="0" cy="220" r="10" fill="#a78bfa"/>
       </g>
 
-      <g>
-        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="8s" repeatCount="indefinite"/>
+      <g class="spin-6">
         <path d="M 0,80 Q -40,85 0,90" stroke="#ffffff" stroke-width="1" stroke-dasharray="10 10" fill="none" opacity="0.5"/>
         <circle cx="0" cy="80" r="6" fill="#ffffff"/>
       </g>
 
-      <g>
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+      <g class="spin-7">
         <path d="M 0,280 Q -80,270 0,260" stroke="url(#trailYellow)" stroke-width="2.5" stroke-dasharray="8 12" fill="none" opacity="0.4"/>
         <circle cx="0" cy="280" r="14" fill="#fde047"/>
         <circle cx="0" cy="280" r="4" fill="#ffffff"/>
@@ -214,19 +227,11 @@
             font-size="14"
             fill="#e2e8f0">
 
-        <tspan x="0" dy="0">
-          <animate attributeName="opacity"
-                   values="0.5;0.8;0.5"
-                   dur="6s"
-                   repeatCount="indefinite"/>
+        <tspan x="0" dy="0" class="fade-17">
           H eavens  I ntersect
         </tspan>
 
-        <tspan x="0" dy="25">
-          <animate attributeName="opacity"
-                   values="0.4;0.7;0.4"
-                   dur="7s"
-                   repeatCount="indefinite"/>
+        <tspan x="0" dy="25" class="fade-18">
           R ealities  A lign  D ivine
         </tspan>
 

@@ -68,6 +68,10 @@
       </feTurbulence>
       <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" xChannelSelector="R" yChannelSelector="B"/>
     </filter>
+    <filter id="warpStill" x="-40%" y="-40%" width="180%" height="180%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.008 0.012" numOctaves="2" seed="11" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" xChannelSelector="R" yChannelSelector="B"/>
+    </filter>
 
     <g id="cyanNode">
       <circle r="26" fill="url(#nodeOuter)" filter="url(#softGlow)"/>
@@ -92,36 +96,101 @@
     <g id="signalDotC">
       <circle r="4" fill="#c4b5fd" filter="url(#softGlow)"/>
     </g>
+
+    <style>
+      /* Motion. CSS-driven so it stops under prefers-reduced-motion: docs/meta/MOTION_SYSTEM.md */
+      @keyframes pulse-1 { 0%, 100% { r: 300px; } 50% { r: 340px; } }
+      .pulse-1 { animation: pulse-1 8s linear infinite; }
+      @keyframes pulse-2 { 0%, 100% { r: 230px; } 50% { r: 270px; } }
+      .pulse-2 { animation: pulse-2 6s linear infinite; }
+      @keyframes pulse-3 { 0%, 100% { rx: 360px; ry: 165px; } 50% { rx: 410px; ry: 190px; } }
+      .pulse-3 { animation: pulse-3 10s linear infinite; }
+      @keyframes spin-1 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .spin-1 { animation: spin-1 30s linear infinite; }
+      @keyframes spin-2 { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+      .spin-2 { animation: spin-2 21s linear infinite; }
+      @keyframes spin-3 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .spin-3 { animation: spin-3 40s linear infinite; }
+      @keyframes pulse-4 { 0%, 100% { r: 32px; } 50% { r: 42px; } }
+      .pulse-4 { animation: pulse-4 4.8s linear infinite; }
+      @keyframes pulse-5 { 0%, 100% { r: 30px; } 50% { r: 40px; } }
+      .pulse-5 { animation: pulse-5 5.3s linear infinite; }
+      @keyframes pulse-6 { 0%, 100% { r: 34px; } 50% { r: 46px; } }
+      .pulse-6 { animation: pulse-6 4.1s linear infinite; }
+      @keyframes pulse-7 { 0%, 100% { r: 30px; } 50% { r: 40px; } }
+      .pulse-7 { animation: pulse-7 5.1s linear infinite; }
+      @keyframes pulse-8 { 0%, 100% { r: 32px; } 50% { r: 43px; } }
+      .pulse-8 { animation: pulse-8 4.6s linear infinite; }
+      @keyframes pulse-9 { 0%, 100% { r: 28px; } 50% { r: 38px; } }
+      .pulse-9 { animation: pulse-9 4.4s linear infinite; }
+      @keyframes pulse-10 { 0%, 100% { r: 30px; } 50% { r: 40px; } }
+      .pulse-10 { animation: pulse-10 3.9s linear infinite; }
+      @keyframes pulse-11 { 0%, 100% { r: 34px; } 50% { r: 46px; } }
+      .pulse-11 { animation: pulse-11 3.2s linear infinite; }
+      @keyframes pulse-12 { 0%, 100% { r: 30px; } 50% { r: 41px; } }
+      .pulse-12 { animation: pulse-12 4.8s linear infinite; }
+      @keyframes pulse-13 { 0%, 100% { r: 28px; } 50% { r: 38px; } }
+      .pulse-13 { animation: pulse-13 5.4s linear infinite; }
+      @keyframes pulse-14 { 0%, 100% { r: 29px; } 50% { r: 39px; } }
+      .pulse-14 { animation: pulse-14 4.7s linear infinite; }
+      @keyframes pulse-15 { 0%, 100% { r: 38px; } 50% { r: 50px; } }
+      .pulse-15 { animation: pulse-15 3.5s linear infinite; }
+      @keyframes pulse-16 { 0%, 100% { r: 28px; } 50% { r: 39px; } }
+      .pulse-16 { animation: pulse-16 5s linear infinite; }
+      @keyframes pulse-17 { 0%, 100% { r: 88px; } 50% { r: 102px; } }
+      .pulse-17 { animation: pulse-17 4.4s linear infinite; }
+      @keyframes spin-4 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .spin-4 { animation: spin-4 12s linear infinite; }
+      @keyframes spin-5 { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+      .spin-5 { animation: spin-5 18s linear infinite; }
+      @keyframes spin-6 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .spin-6 { animation: spin-6 24s linear infinite; }
+      @keyframes fade-1 { 0%, 100% { opacity: 0.1; } 50% { opacity: 0.8; } }
+      .fade-1 { animation: fade-1 4.8s linear infinite; }
+      @keyframes fade-2 { 0%, 100% { opacity: 0.15; } 50% { opacity: 1; } }
+      .fade-2 { animation: fade-2 5.6s linear infinite; }
+      @keyframes fade-3 { 0%, 100% { opacity: 0.1; } 50% { opacity: 0.9; } }
+      .fade-3 { animation: fade-3 4.2s linear infinite; }
+      @keyframes fade-4 { 0%, 100% { opacity: 0.1; } 50% { opacity: 0.7; } }
+      .fade-4 { animation: fade-4 6.2s linear infinite; }
+      @keyframes dash-1 { from { stroke-dashoffset: 1200px; } to { stroke-dashoffset: 0; } }
+      .dash-1 { animation: dash-1 4s linear infinite; }
+      @keyframes scan-1 { 0%, 100% { y: -60px; } 50% { y: 60px; } }
+      .scan-1 { animation: scan-1 4.5s linear infinite; }
+      @keyframes pulse-18 { 0%, 100% { r: 2px; } 50% { r: 5px; } }
+      .pulse-18 { animation: pulse-18 2s linear infinite; }
+      @keyframes pulse-19 { 0%, 100% { r: 2px; } 50% { r: 5px; } }
+      .pulse-19 { animation: pulse-19 2.5s linear infinite; }
+      @keyframes fade-5 { 0%, 100% { opacity: 0.03; } 50% { opacity: 0.08; } }
+      .fade-5 { animation: fade-5 5s linear infinite; }
+      @keyframes jitter-1 { 0%, 50%, 100% { transform: translate(0, 0); } 25% { transform: translate(0, 2px); } 75% { transform: translate(0, -2px); } }
+      .jitter-1 { animation: jitter-1 0.35s linear infinite; }
+      @keyframes fade-6 { 0%, 100% { opacity: 0.8; } 50% { opacity: 1; } }
+      .fade-6 { animation: fade-6 3s linear infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+        .signal-dot { display: none; }
+        [filter="url(#warp)"] { filter: url(#warpStill); }
+        [stroke="url(#mlBorderGrad)"] { stroke: url(#mlBorderGradStill); }
+      }
+    </style>
   </defs>
 
   <rect width="1024" height="1024" fill="url(#bgGrad)"/>
 
   <!-- ambient cognition field -->
   <g filter="url(#bigGlow)" opacity="0.55">
-    <circle cx="512" cy="512" r="320" fill="#22d3ee" opacity="0.05">
-      <animate attributeName="r" values="300;340;300" dur="8s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="512" cy="512" r="250" fill="#8b5cf6" opacity="0.06">
-      <animate attributeName="r" values="230;270;230" dur="6s" repeatCount="indefinite"/>
-    </circle>
-    <ellipse cx="512" cy="512" rx="390" ry="180" fill="#67e8f9" opacity="0.03">
-      <animate attributeName="rx" values="360;410;360" dur="10s" repeatCount="indefinite"/>
-      <animate attributeName="ry" values="165;190;165" dur="10s" repeatCount="indefinite"/>
-    </ellipse>
+    <circle cx="512" cy="512" r="320" fill="#22d3ee" opacity="0.05" class="pulse-1"/>
+    <circle cx="512" cy="512" r="250" fill="#8b5cf6" opacity="0.06" class="pulse-2"/>
+    <ellipse cx="512" cy="512" rx="390" ry="180" fill="#67e8f9" opacity="0.03" class="pulse-3"/>
   </g>
 
   <!-- rotating cognition rings -->
   <g transform="translate(512 512)" opacity="0.7">
     <circle r="360" fill="none" stroke="#1e293b" stroke-width="2"/>
-    <circle r="320" fill="none" stroke="#22d3ee" stroke-opacity="0.18" stroke-width="3" stroke-dasharray="10 18">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="30s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="275" fill="none" stroke="#8b5cf6" stroke-opacity="0.2" stroke-width="2" stroke-dasharray="8 24">
-      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="21s" repeatCount="indefinite"/>
-    </circle>
-    <ellipse rx="220" ry="380" fill="none" stroke="#67e8f9" stroke-opacity="0.08" stroke-width="2" stroke-dasharray="4 20">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite"/>
-    </ellipse>
+    <circle r="320" fill="none" stroke="#22d3ee" stroke-opacity="0.18" stroke-width="3" stroke-dasharray="10 18" class="spin-1"/>
+    <circle r="275" fill="none" stroke="#8b5cf6" stroke-opacity="0.2" stroke-width="2" stroke-dasharray="8 24" class="spin-2"/>
+    <ellipse rx="220" ry="380" fill="none" stroke="#67e8f9" stroke-opacity="0.08" stroke-width="2" stroke-dasharray="4 20" class="spin-3"/>
   </g>
 
   <!-- connection lattice -->
@@ -171,33 +240,23 @@
   <g>
     <g transform="translate(210 260)">
       <use href="#cyanNode"/>
-      <circle r="38" fill="none" stroke="#22d3ee" stroke-opacity="0.18" stroke-width="3">
-        <animate attributeName="r" values="32;42;32" dur="4.8s" repeatCount="indefinite"/>
-      </circle>
+      <circle r="38" fill="none" stroke="#22d3ee" stroke-opacity="0.18" stroke-width="3" class="pulse-4"/>
     </g>
     <g transform="translate(210 390)">
       <use href="#cyanNode"/>
-      <circle r="36" fill="none" stroke="#22d3ee" stroke-opacity="0.16" stroke-width="3">
-        <animate attributeName="r" values="30;40;30" dur="5.3s" repeatCount="indefinite"/>
-      </circle>
+      <circle r="36" fill="none" stroke="#22d3ee" stroke-opacity="0.16" stroke-width="3" class="pulse-5"/>
     </g>
     <g transform="translate(210 520)">
       <use href="#cyanNode"/>
-      <circle r="40" fill="none" stroke="#22d3ee" stroke-opacity="0.22" stroke-width="3">
-        <animate attributeName="r" values="34;46;34" dur="4.1s" repeatCount="indefinite"/>
-      </circle>
+      <circle r="40" fill="none" stroke="#22d3ee" stroke-opacity="0.22" stroke-width="3" class="pulse-6"/>
     </g>
     <g transform="translate(210 650)">
       <use href="#cyanNode"/>
-      <circle r="36" fill="none" stroke="#22d3ee" stroke-opacity="0.16" stroke-width="3">
-        <animate attributeName="r" values="30;40;30" dur="5.1s" repeatCount="indefinite"/>
-      </circle>
+      <circle r="36" fill="none" stroke="#22d3ee" stroke-opacity="0.16" stroke-width="3" class="pulse-7"/>
     </g>
     <g transform="translate(210 780)">
       <use href="#cyanNode"/>
-      <circle r="38" fill="none" stroke="#22d3ee" stroke-opacity="0.18" stroke-width="3">
-        <animate attributeName="r" values="32;43;32" dur="4.6s" repeatCount="indefinite"/>
-      </circle>
+      <circle r="38" fill="none" stroke="#22d3ee" stroke-opacity="0.18" stroke-width="3" class="pulse-8"/>
     </g>
   </g>
 
@@ -205,33 +264,23 @@
   <g>
     <g transform="translate(390 210)">
       <use href="#violetNode"/>
-      <circle r="34" fill="none" stroke="#8b5cf6" stroke-opacity="0.18" stroke-width="3">
-        <animate attributeName="r" values="28;38;28" dur="4.4s" repeatCount="indefinite"/>
-      </circle>
+      <circle r="34" fill="none" stroke="#8b5cf6" stroke-opacity="0.18" stroke-width="3" class="pulse-9"/>
     </g>
     <g transform="translate(390 360)">
       <use href="#violetNode"/>
-      <circle r="36" fill="none" stroke="#8b5cf6" stroke-opacity="0.2" stroke-width="3">
-        <animate attributeName="r" values="30;40;30" dur="3.9s" repeatCount="indefinite"/>
-      </circle>
+      <circle r="36" fill="none" stroke="#8b5cf6" stroke-opacity="0.2" stroke-width="3" class="pulse-10"/>
     </g>
     <g transform="translate(390 515)">
       <use href="#violetNode"/>
-      <circle r="40" fill="none" stroke="#c4b5fd" stroke-opacity="0.28" stroke-width="4">
-        <animate attributeName="r" values="34;46;34" dur="3.2s" repeatCount="indefinite"/>
-      </circle>
+      <circle r="40" fill="none" stroke="#c4b5fd" stroke-opacity="0.28" stroke-width="4" class="pulse-11"/>
     </g>
     <g transform="translate(390 675)">
       <use href="#violetNode"/>
-      <circle r="36" fill="none" stroke="#8b5cf6" stroke-opacity="0.2" stroke-width="3">
-        <animate attributeName="r" values="30;41;30" dur="4.8s" repeatCount="indefinite"/>
-      </circle>
+      <circle r="36" fill="none" stroke="#8b5cf6" stroke-opacity="0.2" stroke-width="3" class="pulse-12"/>
     </g>
     <g transform="translate(390 820)">
       <use href="#violetNode"/>
-      <circle r="34" fill="none" stroke="#8b5cf6" stroke-opacity="0.16" stroke-width="3">
-        <animate attributeName="r" values="28;38;28" dur="5.4s" repeatCount="indefinite"/>
-      </circle>
+      <circle r="34" fill="none" stroke="#8b5cf6" stroke-opacity="0.16" stroke-width="3" class="pulse-13"/>
     </g>
   </g>
 
@@ -239,88 +288,76 @@
   <g>
     <g transform="translate(540 280)">
       <use href="#violetNode"/>
-      <circle r="34" fill="none" stroke="#67e8f9" stroke-opacity="0.15" stroke-width="3">
-        <animate attributeName="r" values="29;39;29" dur="4.7s" repeatCount="indefinite"/>
-      </circle>
+      <circle r="34" fill="none" stroke="#67e8f9" stroke-opacity="0.15" stroke-width="3" class="pulse-14"/>
     </g>
     <g transform="translate(540 470)">
       <use href="#violetNode"/>
-      <circle r="44" fill="none" stroke="#ffffff" stroke-opacity="0.24" stroke-width="4">
-        <animate attributeName="r" values="38;50;38" dur="3.5s" repeatCount="indefinite"/>
-      </circle>
+      <circle r="44" fill="none" stroke="#ffffff" stroke-opacity="0.24" stroke-width="4" class="pulse-15"/>
     </g>
     <g transform="translate(540 665)">
       <use href="#violetNode"/>
-      <circle r="34" fill="none" stroke="#67e8f9" stroke-opacity="0.15" stroke-width="3">
-        <animate attributeName="r" values="28;39;28" dur="5s" repeatCount="indefinite"/>
-      </circle>
+      <circle r="34" fill="none" stroke="#67e8f9" stroke-opacity="0.15" stroke-width="3" class="pulse-16"/>
     </g>
   </g>
 
   <!-- output singularity -->
   <g transform="translate(730 512)">
-    <circle r="96" fill="url(#coreGrad)" filter="url(#bigGlow)">
-      <animate attributeName="r" values="88;102;88" dur="4.4s" repeatCount="indefinite"/>
-    </circle>
+    <circle r="96" fill="url(#coreGrad)" filter="url(#bigGlow)" class="pulse-17"/>
     <circle r="58" fill="#ffffff" opacity="0.94"/>
     <ellipse cx="-18" cy="-16" rx="24" ry="16" fill="#ffffff" opacity="0.45"/>
-    <circle r="132" fill="none" stroke="#c4b5fd" stroke-opacity="0.25" stroke-width="4" stroke-dasharray="12 14">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="158" fill="none" stroke="#22d3ee" stroke-opacity="0.14" stroke-width="3" stroke-dasharray="4 18">
-      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="18s" repeatCount="indefinite"/>
-    </circle>
+    <circle r="132" fill="none" stroke="#c4b5fd" stroke-opacity="0.25" stroke-width="4" stroke-dasharray="12 14" class="spin-4"/>
+    <circle r="158" fill="none" stroke="#22d3ee" stroke-opacity="0.14" stroke-width="3" stroke-dasharray="4 18" class="spin-5"/>
   </g>
 
   <!-- signal packets -->
   <g>
-    <use href="#signalDotA">
+    <use href="#signalDotA" class="signal-dot">
       <animateMotion dur="2.7s" repeatCount="indefinite"
         path="M210,260 C260,245 325,225 390,210"/>
     </use>
-    <use href="#signalDotB">
+    <use href="#signalDotB" class="signal-dot">
       <animateMotion dur="3.1s" repeatCount="indefinite"
         path="M210,390 C260,375 325,365 390,360"/>
     </use>
-    <use href="#signalDotC">
+    <use href="#signalDotC" class="signal-dot">
       <animateMotion dur="2.5s" repeatCount="indefinite"
         path="M210,520 C270,520 330,515 390,515"/>
     </use>
-    <use href="#signalDotB">
+    <use href="#signalDotB" class="signal-dot">
       <animateMotion dur="3.0s" repeatCount="indefinite"
         path="M210,650 C275,630 330,615 390,675"/>
     </use>
-    <use href="#signalDotA">
+    <use href="#signalDotA" class="signal-dot">
       <animateMotion dur="2.8s" repeatCount="indefinite"
         path="M210,780 C275,760 330,785 390,820"/>
     </use>
 
-    <use href="#signalDotC">
+    <use href="#signalDotC" class="signal-dot">
       <animateMotion dur="2.6s" repeatCount="indefinite"
         path="M390,210 C440,230 490,255 540,280"/>
     </use>
-    <use href="#signalDotA">
+    <use href="#signalDotA" class="signal-dot">
       <animateMotion dur="2.3s" repeatCount="indefinite"
         path="M390,360 C442,405 485,440 540,470"/>
     </use>
-    <use href="#signalDotB">
+    <use href="#signalDotB" class="signal-dot">
       <animateMotion dur="2.7s" repeatCount="indefinite"
         path="M390,515 C442,515 490,515 540,470"/>
     </use>
-    <use href="#signalDotC">
+    <use href="#signalDotC" class="signal-dot">
       <animateMotion dur="2.9s" repeatCount="indefinite"
         path="M390,675 C442,645 485,655 540,665"/>
     </use>
 
-    <use href="#signalDotA">
+    <use href="#signalDotA" class="signal-dot">
       <animateMotion dur="2.0s" repeatCount="indefinite"
         path="M540,280 C600,345 655,430 730,512"/>
     </use>
-    <use href="#signalDotB">
+    <use href="#signalDotB" class="signal-dot">
       <animateMotion dur="1.8s" repeatCount="indefinite"
         path="M540,470 C605,488 665,500 730,512"/>
     </use>
-    <use href="#signalDotC">
+    <use href="#signalDotC" class="signal-dot">
       <animateMotion dur="2.1s" repeatCount="indefinite"
         path="M540,665 C610,615 665,560 730,512"/>
     </use>
@@ -328,8 +365,7 @@
 
   <!-- decorative shard markers -->
   <g transform="translate(512 512)" opacity="0.7" filter="url(#softGlow)">
-    <g>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
+    <g class="spin-6">
       <path d="M0 -410 L14 -385 L0 -360 L-14 -385 Z" fill="#dff7ff"/>
       <path d="M355 -145 L378 -130 L360 -108 L338 -122 Z" fill="#67e8f9"/>
       <path d="M382 112 L406 126 L390 151 L366 136 Z" fill="#c4b5fd"/>
@@ -342,18 +378,10 @@
 
   <!-- tiny background sparks -->
   <g opacity="0.6" filter="url(#softGlow)">
-    <circle cx="146" cy="198" r="2" fill="#ffffff">
-      <animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.8s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="884" cy="212" r="3" fill="#67e8f9">
-      <animate attributeName="opacity" values="0.15;1;0.15" dur="5.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="812" cy="842" r="2.4" fill="#c4b5fd">
-      <animate attributeName="opacity" values="0.1;0.9;0.1" dur="4.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="184" cy="846" r="2" fill="#ffffff">
-      <animate attributeName="opacity" values="0.1;0.7;0.1" dur="6.2s" repeatCount="indefinite"/>
-    </circle>
+    <circle cx="146" cy="198" r="2" fill="#ffffff" class="fade-1"/>
+    <circle cx="884" cy="212" r="3" fill="#67e8f9" class="fade-2"/>
+    <circle cx="812" cy="842" r="2.4" fill="#c4b5fd" class="fade-3"/>
+    <circle cx="184" cy="846" r="2" fill="#ffffff" class="fade-4"/>
   </g>
      <!-- ========================= -->
     <!-- ML LAB PORTAL (BOX SYSTEM) -->
@@ -372,6 +400,7 @@
           dur="5s"
           repeatCount="indefinite"/>
       </linearGradient>
+      <linearGradient id="mlBorderGradStill" href="#mlBorderGrad" gradientTransform="translate(0 0)"/>
 
       <!-- text gradient -->
       <linearGradient id="mlTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -400,39 +429,22 @@
             stroke-width="2"
             stroke-dasharray="1200"
             stroke-dashoffset="1200"
-            filter="url(#mlGlow)">
-        <animate attributeName="stroke-dashoffset"
-          values="1200;0"
-          dur="4s"
-          repeatCount="indefinite"/>
-      </rect>
+            filter="url(#mlGlow)"
+            class="dash-1"/>
 
       <!-- inner scan line -->
-      <rect x="-240" y="-60" width="480" height="4" fill="#22d3ee" opacity="0.15">
-        <animate attributeName="y"
-          values="-60;60;-60"
-          dur="4.5s"
-          repeatCount="indefinite"/>
-      </rect>
+      <rect x="-240" y="-60" width="480" height="4" fill="#22d3ee" opacity="0.15" class="scan-1"/>
 
       <!-- corner pulse dots -->
-      <circle cx="-240" cy="-60" r="3" fill="#22d3ee">
-        <animate attributeName="r" values="2;5;2" dur="2s" repeatCount="indefinite"/>
-      </circle>
+      <circle cx="-240" cy="-60" r="3" fill="#22d3ee" class="pulse-18"/>
 
-      <circle cx="240" cy="60" r="3" fill="#8b5cf6">
-        <animate attributeName="r" values="2;5;2" dur="2.5s" repeatCount="indefinite"/>
-      </circle>
+      <circle cx="240" cy="60" r="3" fill="#8b5cf6" class="pulse-19"/>
 
       <!-- background glow plate -->
       <rect x="-200" y="-40" width="400" height="80"
             fill="#22d3ee"
-            opacity="0.04">
-        <animate attributeName="opacity"
-          values="0.03;0.08;0.03"
-          dur="5s"
-          repeatCount="indefinite"/>
-      </rect>
+            opacity="0.04"
+            class="fade-5"/>
 
       <!-- glitch layer -->
       <text y="6"
@@ -440,12 +452,9 @@
             font-weight="700"
             letter-spacing="5"
             fill="#22d3ee"
-            opacity="0.12">
+            opacity="0.12"
+            class="jitter-1">
         ENTER ML LAB
-        <animate attributeName="y"
-          values="6;8;6;4;6"
-          dur="0.35s"
-          repeatCount="indefinite"/>
       </text>
 
       <!-- main text -->
@@ -454,13 +463,9 @@
             font-weight="800"
             letter-spacing="5"
             fill="url(#mlTextGrad)"
-            filter="url(#mlGlow)">
+            filter="url(#mlGlow)"
+            class="fade-6">
         ENTER ML LAB
-
-        <animate attributeName="opacity"
-          values="0.8;1;0.8"
-          dur="3s"
-          repeatCount="indefinite"/>
       </text>
 
     </g>

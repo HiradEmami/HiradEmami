@@ -6,7 +6,11 @@ This index tracks the major SVG assets used by the profile system and what each 
 
 | Asset | Used for |
 | --- | --- |
-| `docs/assets/svg/system/start_here_control_surface.svg` | README start-here control surface under the badge row. |
+| `docs/assets/svg/system/start_here_header.svg` | README start-here control surface header under the badge row. |
+| `docs/assets/svg/system/route_website.svg` | Control surface button linking to the website. |
+| `docs/assets/svg/system/route_labs.svg` | Control surface button linking to the Labs page. |
+| `docs/assets/svg/system/route_collaboration.svg` | Control surface button linking to the Collaboration page. |
+| `docs/assets/svg/system/start_here_control_surface.svg` | Earlier single-image control surface. No longer embedded in the README. |
 | `docs/assets/svg/pages/system_access_title.svg` | README system access section title. |
 | `docs/assets/svg/system/portal_main.svg` | Main website portal card. |
 | `docs/assets/svg/system/neural_lab.svg` | Neural Lab card. |
@@ -36,7 +40,11 @@ This index tracks the major SVG assets used by the profile system and what each 
 
 | Asset | Used for |
 | --- | --- |
-| `docs/assets/svg/pages/hirad_core.svg` | README core identity panel. |
+| `docs/assets/svg/pages/core_header.svg` | README core identity header. |
+| `docs/assets/svg/pages/core_build_systems.svg` | README core card: build systems. |
+| `docs/assets/svg/pages/core_interests.svg` | README core card: interests. |
+| `docs/assets/svg/pages/core_philosophy.svg` | README core card: philosophy. |
+| `docs/assets/svg/pages/hirad_core.svg` | Earlier single-image core panel. No longer embedded in the README. |
 | `docs/assets/svg/pages/tech_projects_panel.svg` | README projects navigation card. |
 | `docs/assets/svg/pages/ai_domains.svg` | README AI domains navigation card. |
 | `docs/assets/svg/pages/collaboration_panel.svg` | README collaboration navigation card. |

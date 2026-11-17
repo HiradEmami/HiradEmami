@@ -25,8 +25,23 @@
         fill: #64748b;
         letter-spacing: 2px;
       }
+
+      /* Motion. CSS-driven so it stops under prefers-reduced-motion: docs/meta/MOTION_SYSTEM.md */
+      @keyframes dash-1 { from { stroke-dashoffset: 1520px; } to { stroke-dashoffset: 0; } }
+      .dash-1 { animation: dash-1 3s linear infinite; }
+      @keyframes spin-1 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .spin-1 { transform-origin: 500px 60px; animation: spin-1 6s linear infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+        /* spin-1 replaces the group's transform attribute; rest it on a frame of that orbit (off-canvas) */
+        .spin-1 { transform: rotate(90deg); }
+      }
     </style>
   </defs>
+
+  <!-- backdrop: same colour as GitHub's dark canvas, so it disappears in dark mode
+       and keeps the light ink readable on light themes -->
+  <rect width="1000" height="120" rx="14" fill="#0d1117"/>
 
   <!-- lines -->
   <line x1="0" y1="60" x2="400" y2="60" stroke="#1e293b" stroke-width="2"/>
@@ -35,23 +50,13 @@
   <!-- animated energy -->
   <line x1="0" y1="60" x2="1000" y2="60"
         stroke="url(#grad)" stroke-width="2"
-        stroke-dasharray="120 1400">
-    <animate attributeName="stroke-dashoffset"
-             values="1520;0"
-             dur="3s"
-             repeatCount="indefinite"/>
-  </line>
+        stroke-dasharray="120 1400"
+        class="dash-1"/>
 
   <!-- center node -->
-  <g transform="translate(500,60)" filter="url(#glow)">
+  <g transform="translate(500,60)" filter="url(#glow)" class="spin-1">
     <circle r="14" fill="none" stroke="#22d3ee" stroke-width="2"/>
     <circle r="6" fill="#22d3ee"/>
-    <animateTransform attributeName="transform"
-                      type="rotate"
-                      from="0 500 60"
-                      to="360 500 60"
-                      dur="6s"
-                      repeatCount="indefinite"/>
   </g>
 
   <!-- text -->
